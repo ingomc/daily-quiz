@@ -18,6 +18,7 @@
   --blob-a: #ffe3a3;
   --blob-b: #ffd0e2;
   --blob-c: #cfeeff;
+  --chip-mix: 26%;
 
   --radius: 22px;
   --border: 2.5px solid var(--outline);
@@ -48,6 +49,7 @@
     --blob-a: #3a2c63;
     --blob-b: #472a55;
     --blob-c: #22365e;
+    --chip-mix: 42%;
   }
 }
 
@@ -219,12 +221,12 @@ h2 {
   --cat: var(--primary);
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   align-self: flex-start;
   padding: 5px 12px;
   border: 2px solid var(--outline);
   border-radius: 999px;
-  background: color-mix(in srgb, var(--cat) 26%, var(--card));
+  background: color-mix(in srgb, var(--cat) var(--chip-mix), var(--card));
   font-size: 0.85rem;
   font-weight: 700;
 }
