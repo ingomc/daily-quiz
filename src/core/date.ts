@@ -1,6 +1,3 @@
-/** First day of the question schedule. */
-export const EPOCH = '2026-01-01';
-
 const DAY_MS = 86_400_000;
 
 /** Local calendar day as YYYY-MM-DD. */
@@ -23,11 +20,6 @@ function toDayCount(key: string): number {
 
 export function diffDays(from: string, to: string): number {
   return toDayCount(to) - toDayCount(from);
-}
-
-/** Days since EPOCH (0 on the epoch day). */
-export function dayNumber(key: string): number {
-  return diffDays(EPOCH, key);
 }
 
 export function addDays(key: string, days: number): string {

@@ -1,3 +1,4 @@
+import { lastAttempts } from '../core/daily';
 import { categoryOf, POOL } from '../data/questions';
 import { answer, isFinished } from '../game';
 import type { Round } from '../types';
@@ -35,6 +36,7 @@ export function renderQuestion(app: App): HTMLElement {
   const order = round.answerOrders[index]!;
   const category = categoryOf(question.category);
   const last = index === round.questionIds.length - 1;
+  const isReview = lastAttempts(app.data.history, round.date).get(id)?.correct === false;
 
   const feedback = h('div', { class: 'feedback', 'aria-live': 'polite' });
   const progressSlot = h('div', null, progress(round, index));
@@ -104,10 +106,17 @@ export function renderQuestion(app: App): HTMLElement {
     ),
     h(
       'p',
-      { class: 'chip', 'data-category': category.id },
-      h('span', { 'aria-hidden': 'true' }, category.emoji),
-      ' ',
-      category.name,
+      { class: 'chips' },
+      h(
+        'span',
+        { class: 'chip', 'data-category': category.id },
+        h('span', { 'aria-hidden': 'true' }, category.emoji),
+        ' ',
+        category.name,
+      ),
+      isReview
+        ? h('span', { class: 'chip chip-review' }, h('span', { 'aria-hidden': 'true' }, '🔁'), ' Wiederholung')
+        : null,
     ),
     h('h1', { class: 'q-text', tabindex: '-1' }, question.question),
     h('div', { class: 'answers' }, ...buttons),

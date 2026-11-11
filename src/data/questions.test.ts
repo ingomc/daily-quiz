@@ -3,10 +3,11 @@ import { CATEGORIES, QUESTIONS } from './questions';
 
 describe('question pool', () => {
   it('has enough questions in every category', () => {
-    expect(QUESTIONS.length).toBeGreaterThanOrEqual(300);
+    expect(CATEGORIES).toHaveLength(14);
+    expect(QUESTIONS.length).toBeGreaterThanOrEqual(1400);
     for (const category of CATEGORIES) {
       const count = QUESTIONS.filter((q) => q.category === category.id).length;
-      expect(count, category.id).toBeGreaterThanOrEqual(20);
+      expect(count, category.id).toBeGreaterThanOrEqual(100);
     }
   });
 

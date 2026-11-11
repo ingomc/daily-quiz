@@ -17,6 +17,10 @@ export const CATEGORIES: readonly Category[] = [
   { id: 'f1', name: 'Formel 1', emoji: '🏎️' },
   { id: 'startrek', name: 'Star Trek', emoji: '🖖' },
   { id: 'tech', name: 'Technik', emoji: '💻' },
+  { id: 'film', name: 'Film & Serien', emoji: '🎬' },
+  { id: 'nature', name: 'Natur & Tiere', emoji: '🦊' },
+  { id: 'food', name: 'Essen & Trinken', emoji: '🍝' },
+  { id: 'society', name: 'Politik & Wirtschaft', emoji: '⚖️' },
 ];
 
 const FALLBACK: Category = { id: 'other', name: 'Sonstiges', emoji: '❓' };

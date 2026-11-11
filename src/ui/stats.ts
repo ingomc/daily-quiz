@@ -53,6 +53,13 @@ export function renderStats(app: App): HTMLElement {
             tile(String(stats.daysPlayed), 'Gespielte Tage'),
             tile(`${percent(stats.totalCorrect, stats.totalAnswered)} %`, 'Trefferquote'),
           ),
+          h(
+            'p',
+            { class: 'muted' },
+            stats.openReviews === 0
+              ? 'Keine offenen Wiederholungen.'
+              : `Offene Wiederholungen: ${stats.openReviews} (kommen frühestens nach 7 Tagen wieder, höchstens 3 pro Tag)`,
+          ),
           h('h2', null, 'Letzte 14 Tage'),
           h('ol', { class: 'card bars' }, ...bars),
           h('h2', null, 'Nach Thema'),

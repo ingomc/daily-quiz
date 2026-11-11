@@ -1,4 +1,4 @@
-import { ANSWER_COUNT, QUESTIONS_PER_DAY, pickDaily } from './core/daily';
+import { ANSWER_COUNT, QUESTIONS_PER_DAY, pickRound } from './core/daily';
 import type { Question, Round, SaveData } from './types';
 
 export type Pool = ReadonlyMap<string, Question>;
@@ -15,7 +15,12 @@ function roundFitsPool(round: Round, pool: Pool): boolean {
  * Returns state with a usable round for today: keeps today's round (running or
  * finished), otherwise draws a new one. Rounds from other days are dropped.
  */
-export function ensureRound(data: SaveData, pool: Pool, today: string): SaveData {
+export function ensureRound(
+  data: SaveData,
+  pool: Pool,
+  today: string,
+  rand: () => number = Math.random,
+): SaveData {
   const current = data.current;
   if (current && current.date === today && roundFitsPool(current, pool)) {
     return data;
@@ -24,7 +29,7 @@ export function ensureRound(data: SaveData, pool: Pool, today: string): SaveData
     // Played today, but the review data is gone or stale: nothing to resume.
     return current ? { ...data, current: null } : data;
   }
-  const pick = pickDaily([...pool.keys()], today);
+  const pick = pickRound([...pool.keys()], data.history, today, rand);
   return { ...data, current: { date: today, ...pick, picks: [] } };
 }
 

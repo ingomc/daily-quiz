@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import type { History } from '../types';
-import { pickDaily } from './daily';
-import { addDays, dateKey, dayNumber, diffDays, EPOCH } from './date';
-import { hashString, mulberry32, shuffle } from './rng';
+import { pickRound } from './daily';
+import { addDays, dateKey, diffDays } from './date';
+import { mulberry32, shuffle } from './rng';
 import { computeStats, currentStreak, longestStreak } from './stats';
 
 describe('rng', () => {
@@ -20,7 +20,7 @@ describe('rng', () => {
 
   it('shuffles without losing or changing items', () => {
     const items = [1, 2, 3, 4, 5, 6, 7, 8];
-    const out = shuffle(items, mulberry32(hashString('x')));
+    const out = shuffle(items, mulberry32(5));
     expect(out).not.toBe(items);
     expect([...out].sort()).toEqual(items);
     expect(items).toEqual([1, 2, 3, 4, 5, 6, 7, 8]);
@@ -34,8 +34,7 @@ describe('date', () => {
   });
 
   it('counts days across month, year and DST boundaries', () => {
-    expect(dayNumber(EPOCH)).toBe(0);
-    expect(dayNumber('2026-01-02')).toBe(1);
+    expect(diffDays('2026-01-01', '2026-01-02')).toBe(1);
     expect(diffDays('2026-03-28', '2026-03-30')).toBe(2);
     expect(diffDays('2026-10-24', '2026-10-26')).toBe(2);
     expect(addDays('2026-12-31', 1)).toBe('2027-01-01');
@@ -43,44 +42,113 @@ describe('date', () => {
   });
 });
 
-describe('pickDaily', () => {
+describe('pickRound', () => {
   const ids = Array.from({ length: 57 }, (_, i) => `q-${String(i).padStart(3, '0')}`);
+  const today = '2026-11-11';
+  const seeded = (seed: number) => mulberry32(seed);
+  const played = (entries: Record<string, [id: string, correct: boolean][]>): History =>
+    Object.fromEntries(
+      Object.entries(entries).map(([date, list]) => [
+        date,
+        {
+          score: list.filter(([, c]) => c).length,
+          results: list.map(([id, correct]) => ({ id, category: 'x', correct })),
+        },
+      ]),
+    );
 
   it('returns ten distinct questions with valid answer orders', () => {
-    const pick = pickDaily(ids, '2026-11-11');
+    const pick = pickRound(ids, {}, today, seeded(1));
     expect(pick.questionIds).toHaveLength(10);
     expect(new Set(pick.questionIds).size).toBe(10);
+    expect(pick.answerOrders).toHaveLength(10);
     for (const order of pick.answerOrders) {
       expect([...order].sort()).toEqual([0, 1, 2, 3]);
     }
   });
 
-  it('is deterministic and independent of input order', () => {
-    const reversed = [...ids].reverse();
-    expect(pickDaily(reversed, '2026-11-11')).toEqual(pickDaily(ids, '2026-11-11'));
+  it('is random: same source repeats, different sources differ', () => {
+    expect(pickRound(ids, {}, today, seeded(7))).toEqual(pickRound(ids, {}, today, seeded(7)));
+    expect(pickRound(ids, {}, today, seeded(7)).questionIds).not.toEqual(
+      pickRound(ids, {}, today, seeded(8)).questionIds,
+    );
+    expect(pickRound(ids, {}, today).questionIds).toHaveLength(10);
   });
 
-  it('does not repeat a question within a cycle', () => {
-    // 57 questions -> 5 days per cycle; epoch day starts a cycle.
+  it('never repeats a seen question while unseen ones remain', () => {
+    let history: History = {};
     const seen = new Set<string>();
     for (let day = 0; day < 5; day++) {
-      for (const id of pickDaily(ids, addDays(EPOCH, day)).questionIds) {
+      const date = addDays('2026-01-01', day);
+      const pick = pickRound(ids, history, date, seeded(day));
+      for (const id of pick.questionIds) {
         expect(seen.has(id)).toBe(false);
         seen.add(id);
       }
+      history = { ...history, ...played({ [date]: pick.questionIds.map((id) => [id, true]) }) };
     }
     expect(seen.size).toBe(50);
   });
 
-  it('reshuffles for the next cycle and handles days before the epoch', () => {
-    const first = pickDaily(ids, EPOCH).questionIds;
-    const nextCycle = pickDaily(ids, addDays(EPOCH, 5)).questionIds;
-    expect(nextCycle).not.toEqual(first);
-    expect(pickDaily(ids, addDays(EPOCH, -1)).questionIds).toHaveLength(10);
+  it('brings a missed question back after seven days, not earlier', () => {
+    const history = played({ '2026-11-04': [['q-000', false]] });
+    for (let offset = 1; offset <= 6; offset++) {
+      const pick = pickRound(ids, history, addDays('2026-11-04', offset), seeded(offset));
+      expect(pick.questionIds).not.toContain('q-000');
+    }
+    for (let seed = 0; seed < 20; seed++) {
+      expect(pickRound(ids, history, today, seeded(seed)).questionIds).toContain('q-000');
+    }
+  });
+
+  it('caps reviews at three per round and takes the oldest first', () => {
+    const history = played({
+      '2026-10-01': [['q-001', false]],
+      '2026-10-02': [['q-002', false]],
+      '2026-10-03': [['q-003', false]],
+      '2026-10-04': [['q-004', false]],
+      '2026-10-05': [['q-005', false]],
+    });
+    const pick = pickRound(ids, history, today, seeded(3)).questionIds;
+    const reviews = pick.filter((id) => ['q-001', 'q-002', 'q-003', 'q-004', 'q-005'].includes(id));
+    expect(reviews.sort()).toEqual(['q-001', 'q-002', 'q-003']);
+  });
+
+  it('treats a question as learned once the review was answered correctly', () => {
+    const history = played({
+      '2026-10-01': [['q-000', false]],
+      '2026-10-20': [['q-000', true]],
+    });
+    expect(pickRound(ids, history, today, seeded(1)).questionIds).not.toContain('q-000');
+  });
+
+  it('waits another seven days after a failed review', () => {
+    const history = played({
+      '2026-10-01': [['q-000', false]],
+      '2026-11-08': [['q-000', false]],
+    });
+    expect(pickRound(ids, history, today, seeded(1)).questionIds).not.toContain('q-000');
+    expect(pickRound(ids, history, '2026-11-15', seeded(1)).questionIds).toContain('q-000');
+  });
+
+  it('ignores a round already recorded for today', () => {
+    const history = played({ [today]: ids.slice(0, 10).map((id) => [id, true]) });
+    expect(pickRound(ids, history, today, seeded(2))).toEqual(pickRound(ids, {}, today, seeded(2)));
+  });
+
+  it('falls back to the longest-unseen questions when the pool is used up', () => {
+    const small = ids.slice(0, 12);
+    const history = played({
+      '2026-11-01': small.slice(0, 6).map((id) => [id, true]),
+      '2026-11-09': small.slice(6, 12).map((id) => [id, true]),
+    });
+    const pick = pickRound(small, history, today, seeded(4)).questionIds;
+    expect(new Set(pick).size).toBe(10);
+    for (const id of small.slice(0, 6)) expect(pick).toContain(id);
   });
 
   it('rejects a pool that is too small', () => {
-    expect(() => pickDaily(ids.slice(0, 9), EPOCH)).toThrow();
+    expect(() => pickRound(ids.slice(0, 9), {}, today)).toThrow();
   });
 });
 
@@ -131,6 +199,8 @@ describe('stats', () => {
       f1: { correct: 8, total: 10 },
       tech: { correct: 2, total: 10 },
     });
+    // Same ten ids on both days; the later day (3 correct) decides.
+    expect(stats.openReviews).toBe(7);
     expect(stats.recentDays).toHaveLength(14);
     expect(stats.recentDays.at(-1)).toEqual({ date: '2026-11-11', score: 3 });
     expect(stats.recentDays.at(-2)).toEqual({ date: '2026-11-10', score: 7 });

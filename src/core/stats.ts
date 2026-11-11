@@ -1,4 +1,5 @@
 import type { History } from '../types';
+import { lastAttempts } from './daily';
 import { addDays, diffDays } from './date';
 
 export interface Stats {
@@ -10,6 +11,8 @@ export interface Stats {
   /** Oldest first; score is null for days without a finished round. */
   recentDays: { date: string; score: number | null }[];
   byCategory: Record<string, { correct: number; total: number }>;
+  /** Questions whose most recent attempt was wrong. */
+  openReviews: number;
 }
 
 export const RECENT_DAYS = 14;
@@ -65,5 +68,6 @@ export function computeStats(history: History, today: string): Stats {
     totalAnswered,
     recentDays,
     byCategory,
+    openReviews: [...lastAttempts(history).values()].filter((a) => !a.correct).length,
   };
 }

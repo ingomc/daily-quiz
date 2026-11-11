@@ -241,6 +241,20 @@ h2 {
 [data-category='f1'] { --cat: #e8363b; }
 [data-category='startrek'] { --cat: #18a8e0; }
 [data-category='tech'] { --cat: #7fbf2f; }
+[data-category='film'] { --cat: #d9468f; }
+[data-category='nature'] { --cat: #2e9e5b; }
+[data-category='food'] { --cat: #f2b01e; }
+[data-category='society'] { --cat: #6c7ae0; }
+
+.chip-review {
+  --cat: var(--sun);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
 
 .notice {
   padding: 12px 16px;

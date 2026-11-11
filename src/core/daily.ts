@@ -1,8 +1,12 @@
-import { dayNumber } from './date';
-import { hashString, mulberry32, shuffle } from './rng';
+import type { History } from '../types';
+import { diffDays } from './date';
+import { shuffle } from './rng';
 
 export const QUESTIONS_PER_DAY = 10;
 export const ANSWER_COUNT = 4;
+/** A missed question comes back no sooner than this many days later. */
+export const REVIEW_AFTER_DAYS = 7;
+export const MAX_REVIEWS_PER_DAY = 3;
 
 export interface DailyPick {
   questionIds: string[];
@@ -10,25 +14,68 @@ export interface DailyPick {
   answerOrders: number[][];
 }
 
+export interface Attempt {
+  /** Day of the most recent attempt. */
+  date: string;
+  correct: boolean;
+}
+
+/** Most recent attempt per question; days before `before` only, if given. */
+export function lastAttempts(history: History, before?: string): Map<string, Attempt> {
+  const latest = new Map<string, Attempt>();
+  for (const date of Object.keys(history).sort()) {
+    if (before !== undefined && date >= before) break;
+    for (const result of history[date]!.results) {
+      latest.set(result.id, { date, correct: result.correct });
+    }
+  }
+  return latest;
+}
+
+/** Longest-unseen first; ties in random order. */
+function oldestFirst(ids: string[], attempts: Map<string, Attempt>, rand: () => number): string[] {
+  return shuffle(ids, rand).sort((a, b) =>
+    attempts.get(a)!.date.localeCompare(attempts.get(b)!.date),
+  );
+}
+
 /**
- * Picks the day's questions without any stored state. The pool is played in
- * cycles: each cycle is its own seeded shuffle of all ids, and each day takes
- * the next window of ten, so no question repeats within a cycle.
+ * Draws a round from the player's history: due reviews first (missed at least
+ * REVIEW_AFTER_DAYS ago, capped), then unseen questions at random, then the
+ * ones not seen for the longest time. The result is shuffled.
  */
-export function pickDaily(ids: readonly string[], date: string): DailyPick {
-  const sorted = [...ids].sort();
-  const daysPerCycle = Math.floor(sorted.length / QUESTIONS_PER_DAY);
-  if (daysPerCycle < 1) {
+export function pickRound(
+  ids: readonly string[],
+  history: History,
+  today: string,
+  rand: () => number = Math.random,
+): DailyPick {
+  if (ids.length < QUESTIONS_PER_DAY) {
     throw new Error(`Pool needs at least ${QUESTIONS_PER_DAY} questions`);
   }
-  const day = dayNumber(date);
-  const cycle = Math.floor(day / daysPerCycle);
-  const slot = ((day % daysPerCycle) + daysPerCycle) % daysPerCycle;
-  const order = shuffle(sorted, mulberry32(hashString(`cycle:${cycle}`)));
-  const questionIds = order.slice(slot * QUESTIONS_PER_DAY, (slot + 1) * QUESTIONS_PER_DAY);
+  const attempts = lastAttempts(history, today);
+  const unseen: string[] = [];
+  const due: string[] = [];
+  const known: string[] = [];
+  const waiting: string[] = [];
+  for (const id of [...ids].sort()) {
+    const attempt = attempts.get(id);
+    if (!attempt) unseen.push(id);
+    else if (attempt.correct) known.push(id);
+    else if (diffDays(attempt.date, today) >= REVIEW_AFTER_DAYS) due.push(id);
+    else waiting.push(id);
+  }
+
+  const reviews = oldestFirst(due, attempts, rand).slice(0, MAX_REVIEWS_PER_DAY);
+  const candidates = [
+    ...reviews,
+    ...shuffle(unseen, rand),
+    ...oldestFirst(known, attempts, rand),
+    // Only when everything else is used up: reviews beyond the cap, then early ones.
+    ...oldestFirst(due, attempts, rand).filter((id) => !reviews.includes(id)),
+    ...oldestFirst(waiting, attempts, rand),
+  ];
+  const questionIds = shuffle(candidates.slice(0, QUESTIONS_PER_DAY), rand);
   const base = Array.from({ length: ANSWER_COUNT }, (_, i) => i);
-  const answerOrders = questionIds.map((id) =>
-    shuffle(base, mulberry32(hashString(`${date}:${id}`))),
-  );
-  return { questionIds, answerOrders };
+  return { questionIds, answerOrders: questionIds.map(() => shuffle(base, rand)) };
 }
