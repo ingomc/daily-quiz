@@ -1,7 +1,7 @@
 # Status
 
 **Feature:** `daily-quiz`
-**Aktuelle Phase:** 4 — Implementierung
+**Aktuelle Phase:** 6 — Delivery (dokumentiert, Deployment wartet auf Hosting-Entscheidung)
 
 | Phase | Stand |
 |---|---|
@@ -9,20 +9,22 @@
 | 1 Strategie | abgeschlossen |
 | 2 Design | abgeschlossen (ADR-001) |
 | 3 Planung | abgeschlossen |
-| 4 Implementierung | läuft |
-| 5 Verifikation | offen |
-| 6 Delivery | offen |
+| 4 Implementierung | abgeschlossen |
+| 5 Verifikation | abgeschlossen (31/31 Tests, Browser-Durchlauf, Security ohne Blocker) |
+| 6 Delivery | Betrieb dokumentiert; noch nicht deployt |
 
 ## Aufgaben
-- [ ] 1 Projektgerüst
-- [ ] 2 Fragenpool
-- [ ] 3 core/* + Tests
-- [ ] 4 storage, game + Tests
-- [ ] 5 Pool-Loader + Validierung
-- [ ] 6 UI
-- [ ] 7 PWA
-- [ ] 8 Verifikation
-- [ ] 9 Delivery-Doku
+- [x] 1 Projektgerüst
+- [x] 2 Fragenpool (400)
+- [x] 3 core/* + Tests
+- [x] 4 storage, game + Tests
+- [x] 5 Pool-Loader + Validierung
+- [x] 6 UI
+- [x] 7 PWA
+- [x] 8 Verifikation
+- [x] 9 Delivery-Doku
 
-## Blocker
-keine
+## Offen
+- Hosting wählen und deployen (inkl. Security-Header)
+- Test auf echtem Gerät, Screenreader
+- Inhaltliche Stichprobe der Fragen (Liste im QA-Report)

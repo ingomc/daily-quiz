@@ -1,8 +1,9 @@
 # Handoff
 
-**Von:** EM + Senior Engineer → **An:** SDE (Phase 4)
+**Stand:** App fertig gebaut und lokal verifiziert, nicht deployt.
 
-- Spec: `.10x/specs/2026-11-11-daily-quiz-design.md`, ADR-001 in `.10x/adrs/`.
-- Aufgabenliste und Reihenfolge: `.10x/decisions/engineering-manager/daily-quiz.md`.
-- Umsetzungshinweise und knifflige Stellen: `.10x/decisions/senior-engineer/daily-quiz.md`.
-- Offen: Hosting-Ziel (Phase 6).
+- Runbook: `.10x/decisions/sre/daily-quiz.md`
+- Deployment-Hinweise: `.10x/decisions/devops/daily-quiz.md`
+- QA-Report und Security-Review: `.10x/reviews/`
+- Dashboards/Eskalation: entfällt (kein Server, Einzelnutzer)
+- Nächster Schritt: Nutzer entscheidet das Hosting; danach CI/CD und Security-Header einrichten.
