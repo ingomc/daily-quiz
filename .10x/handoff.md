@@ -1,9 +1,9 @@
 # Handoff
 
-**Stand:** App fertig gebaut und lokal verifiziert, nicht deployt.
+**Stand:** Live unter https://ingomc.github.io/daily-quiz/ (Repository `ingomc/daily-quiz`, öffentlich).
 
+- Deployment: Push auf `main` → GitHub Actions → Pages. Details: `.10x/decisions/devops/daily-quiz.md`
 - Runbook: `.10x/decisions/sre/daily-quiz.md`
-- Deployment-Hinweise: `.10x/decisions/devops/daily-quiz.md`
 - QA-Report und Security-Review: `.10x/reviews/`
-- Dashboards/Eskalation: entfällt (kein Server, Einzelnutzer)
-- Nächster Schritt: Nutzer entscheidet das Hosting; danach CI/CD und Security-Header einrichten.
+- Dashboards/Eskalation: entfällt (kein Server, Einzelnutzer); Deploy-Status unter „Actions“ im Repository.
+- Offen: Test auf echtem Gerät, inhaltliche Stichprobe der Fragen, Actions-Versionen aktualisieren.

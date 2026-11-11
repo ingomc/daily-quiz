@@ -1,7 +1,7 @@
 # Status
 
 **Feature:** `daily-quiz`
-**Aktuelle Phase:** 6 — Delivery (dokumentiert, Deployment wartet auf Hosting-Entscheidung)
+**Aktuelle Phase:** 6 — Delivery abgeschlossen (live auf GitHub Pages)
 
 | Phase | Stand |
 |---|---|
@@ -11,7 +11,7 @@
 | 3 Planung | abgeschlossen |
 | 4 Implementierung | abgeschlossen |
 | 5 Verifikation | abgeschlossen (31/31 Tests, Browser-Durchlauf, Security ohne Blocker) |
-| 6 Delivery | Betrieb dokumentiert; noch nicht deployt |
+| 6 Delivery | abgeschlossen — https://ingomc.github.io/daily-quiz/ |
 
 ## Aufgaben
 - [x] 1 Projektgerüst
@@ -25,6 +25,6 @@
 - [x] 9 Delivery-Doku
 
 ## Offen
-- Hosting wählen und deployen (inkl. Security-Header)
+- Actions-Versionen im Deploy-Workflow aktualisieren (Node-20-Deprecation)
 - Test auf echtem Gerät, Screenreader
 - Inhaltliche Stichprobe der Fragen (Liste im QA-Report)
