@@ -28,3 +28,12 @@
 - Actions-Versionen im Deploy-Workflow aktualisieren (Node-20-Deprecation)
 - Test auf echtem Gerät, Screenreader
 - Inhaltliche Stichprobe der Fragen (Liste im QA-Report)
+
+## Feature `review-and-pool-expansion` (2026-11-11)
+- [x] Spec-Nachtrag + ADR-002
+- [x] Zufällige, historienbasierte Auswahl mit Wiederholung (7 Tage, max. 3 pro Runde)
+- [x] 1000 neue Fragen per Codex (Pool 1400, 14 Kategorien)
+- [x] Verifikation: 36/36 Tests, Browser-Durchlauf
+- [x] Deployment über Push auf `main`
+
+Offen: inhaltliche Prüfung der Fragen nur als Stichprobe; Test auf echtem Gerät.

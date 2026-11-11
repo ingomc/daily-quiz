@@ -478,5 +478,714 @@
     ],
     "correct": 2,
     "explanation": "Nach Waterloo verbannten die Briten Napoleon auf die abgelegene Atlantikinsel St. Helena."
+  },
+  {
+    "id": "history-041",
+    "question": "Wer leitete 1922 die Entdeckung des Grabes von Tutanchamun?",
+    "answers": [
+      "Heinrich Schliemann",
+      "Arthur Evans",
+      "Jean-François Champollion",
+      "Howard Carter"
+    ],
+    "correct": 3,
+    "explanation": "Carter und sein Grabungsteam fanden das Grab im Tal der Könige. Es war mit zahlreichen Grabbeigaben erhalten geblieben."
+  },
+  {
+    "id": "history-042",
+    "question": "Für welchen Herrscher wurde die 1974 entdeckte Terrakottaarmee angefertigt?",
+    "answers": [
+      "Qin Shihuangdi",
+      "Han Wudi",
+      "Tang Taizong",
+      "Kaiser Yongle"
+    ],
+    "correct": 0,
+    "explanation": "Die Figuren gehören zur Grabanlage des Qin-Herrschers in der Nähe von Xi’an."
+  },
+  {
+    "id": "history-043",
+    "question": "In welcher Epoche lebte die Gletschermumie Ötzi?",
+    "answers": [
+      "Kupferzeit",
+      "Eisenzeit",
+      "Völkerwanderungszeit",
+      "Frühes Mittelalter"
+    ],
+    "correct": 0,
+    "explanation": "Ötzi lebte im vierten Jahrtausend vor Christus. Seine Mumie und Ausrüstung geben Einblicke in das Leben der Kupferzeit."
+  },
+  {
+    "id": "history-044",
+    "question": "Welches Volk führte Attila im 5. Jahrhundert an?",
+    "answers": [
+      "Die Franken",
+      "Die Langobarden",
+      "Die Hunnen",
+      "Die Vandalen"
+    ],
+    "correct": 2,
+    "explanation": "Attila herrschte über die Hunnen und führte Feldzüge gegen das Römische Reich."
+  },
+  {
+    "id": "history-045",
+    "question": "Wer führte von 73 bis 71 v. Chr. einen großen Sklavenaufstand gegen Rom an?",
+    "answers": [
+      "Vercingetorix",
+      "Spartacus",
+      "Arminius",
+      "Mithridates VI."
+    ],
+    "correct": 1,
+    "explanation": "Spartacus war ein Gladiator, der mit anderen Gefangenen aus einer Gladiatorenschule in Capua entkam."
+  },
+  {
+    "id": "history-046",
+    "question": "Welche Königin der Icener führte um 60 n. Chr. einen Aufstand gegen Rom an?",
+    "answers": [
+      "Zenobia",
+      "Artemisia I.",
+      "Kleopatra VII.",
+      "Boudicca"
+    ],
+    "correct": 3,
+    "explanation": "Boudiccas Aufständische griffen mehrere römische Städte in Britannien an, darunter Londinium."
+  },
+  {
+    "id": "history-047",
+    "question": "Welcher Feldherr überquerte 218 v. Chr. mit seinem Heer die Alpen, um Rom anzugreifen?",
+    "answers": [
+      "Hannibal",
+      "Scipio Africanus",
+      "Pyrrhos",
+      "Vercingetorix"
+    ],
+    "correct": 0,
+    "explanation": "Hannibal führte sein karthagisches Heer auf dem Landweg nach Italien und überraschte damit die Römer."
+  },
+  {
+    "id": "history-048",
+    "question": "Welcher persische König führte 480 v. Chr. den Feldzug gegen Griechenland an?",
+    "answers": [
+      "Kyros II.",
+      "Kambyses II.",
+      "Dareios I.",
+      "Xerxes I."
+    ],
+    "correct": 3,
+    "explanation": "Unter Xerxes kämpfte das persische Heer an den Thermopylen. Seine Flotte erlitt anschließend bei Salamis eine Niederlage."
+  },
+  {
+    "id": "history-049",
+    "question": "Welche Herrscherin von Palmyra stellte sich im 3. Jahrhundert gegen die römische Herrschaft?",
+    "answers": [
+      "Hatschepsut",
+      "Artemisia II.",
+      "Zenobia",
+      "Nofretete"
+    ],
+    "correct": 2,
+    "explanation": "Zenobia dehnte ihre Macht über Teile des römischen Ostens aus. Kaiser Aurelian besiegte ihre Truppen 272."
+  },
+  {
+    "id": "history-050",
+    "question": "Zu welcher römischen Kaiserdynastie gehörten Vespasian, Titus und Domitian?",
+    "answers": [
+      "Flavier",
+      "Julisch-claudische Dynastie",
+      "Severer",
+      "Antoninen"
+    ],
+    "correct": 0,
+    "explanation": "Vespasian und seine beiden Söhne Titus und Domitian bildeten die flavische Kaiserdynastie."
+  },
+  {"id":"history-051","question":"Welcher Kultur wird das frühmittelalterliche Schiffsgrab von Sutton Hoo zugeordnet?","answers":["Der byzantinischen","Der awarischen","Der langobardischen","Der angelsächsischen"],"correct":3,"explanation":"Das Schiffsgrab stammt aus dem 7. Jahrhundert. Seine Beigaben bezeugen die weitreichenden Kontakte der angelsächsischen Elite."},
+  {
+    "id": "history-052",
+    "question": "Welche Seefahrer hinterließen um das Jahr 1000 die Siedlungsspuren von L’Anse aux Meadows auf Neufundland?",
+    "answers": [
+      "Nordische Seefahrer",
+      "Phönizische Seefahrer",
+      "Portugiesische Seefahrer",
+      "Chinesische Seefahrer"
+    ],
+    "correct": 0,
+    "explanation": "Die archäologischen Funde belegen die Anwesenheit von Nordleuten in Nordamerika lange vor der Neuzeit."
+  },
+  {
+    "id": "history-053",
+    "question": "Wer gewann 1066 die Schlacht bei Hastings?",
+    "answers": [
+      "Wilhelm der Eroberer",
+      "Harald Godwinson",
+      "Richard Löwenherz",
+      "Alfred der Große"
+    ],
+    "correct": 0,
+    "explanation": "Wilhelms normannisches Heer besiegte König Harald. Der Sieg leitete die normannische Eroberung Englands ein."
+  },
+  {
+    "id": "history-054",
+    "question": "Welche französische Kämpferin half 1429, die Belagerung von Orléans zu beenden?",
+    "answers": [
+      "Eleonore von Aquitanien",
+      "Katharina von Medici",
+      "Jeanne d’Arc",
+      "Maria Stuart"
+    ],
+    "correct": 2,
+    "explanation": "Jeanne d’Arc wurde durch ihren Einsatz im Hundertjährigen Krieg bekannt. Der Erfolg bei Orléans stärkte die französische Seite."
+  },
+  {
+    "id": "history-055",
+    "question": "Welcher muslimische Herrscher eroberte Jerusalem 1187 von den Kreuzfahrern zurück?",
+    "answers": [
+      "Süleyman der Prächtige",
+      "Saladin",
+      "Mehmed II.",
+      "Timur"
+    ],
+    "correct": 1,
+    "explanation": "Saladin besiegte zuvor das Kreuzfahrerheer bei Hattin und nahm anschließend Jerusalem ein."
+  },
+  {
+    "id": "history-056",
+    "question": "Welche beiden englischen Adelshäuser standen sich in den Rosenkriegen gegenüber?",
+    "answers": [
+      "Tudor und Stuart",
+      "Plantagenet und Windsor",
+      "Hannover und Bourbon",
+      "Lancaster und York"
+    ],
+    "correct": 3,
+    "explanation": "Die rivalisierenden Häuser Lancaster und York kämpften im 15. Jahrhundert um den englischen Thron."
+  },
+  {
+    "id": "history-057",
+    "question": "Von welcher Stadt brach Ibn Battuta 1325 zu seiner großen Reise auf?",
+    "answers": [
+      "Kairo",
+      "Tanger",
+      "Damaskus",
+      "Samarkand"
+    ],
+    "correct": 1,
+    "explanation": "Der Reisende verließ seine Heimatstadt Tanger zunächst mit dem Ziel, nach Mekka zu pilgern."
+  },
+  {
+    "id": "history-058",
+    "question": "Welcher chinesische Admiral führte im frühen 15. Jahrhundert Expeditionen in den Indischen Ozean?",
+    "answers": [
+      "Zhang Qian",
+      "Zheng He",
+      "Kublai Khan",
+      "Zheng Chenggong"
+    ],
+    "correct": 1,
+    "explanation": "Die von Zheng He geleiteten Flottenfahrten standen im Auftrag der Ming-Herrscher."
+  },
+  {
+    "id": "history-059",
+    "question": "Zu welcher Stadt brach der malische Herrscher Mansa Musa 1324 auf Pilgerreise auf?",
+    "answers": [
+      "Mekka",
+      "Jerusalem",
+      "Bagdad",
+      "Konstantinopel"
+    ],
+    "correct": 0,
+    "explanation": "Mansa Musa unternahm die islamische Pilgerfahrt. Sein Aufenthalt in Kairo auf dem Weg dorthin machte großen Eindruck."
+  },
+  {
+    "id": "history-060",
+    "question": "Wie heißen die Angehörigen des traditionellen japanischen Kriegerstandes?",
+    "answers": [
+      "Janitscharen",
+      "Mamluken",
+      "Samurai",
+      "Mandarine"
+    ],
+    "correct": 2,
+    "explanation": "Samurai dienten japanischen Herrschern als Krieger und übernahmen auch Verwaltungsaufgaben."
+  },
+  {
+    "id": "history-061",
+    "question": "Welche Königin von Ndongo und Matamba widerstand im 17. Jahrhundert der portugiesischen Expansion?",
+    "answers": [
+      "Yaa Asantewaa",
+      "Amina von Zaria",
+      "Nzinga",
+      "Ranavalona I."
+    ],
+    "correct": 2,
+    "explanation": "Nzinga verband militärischen Widerstand mit Diplomatie. Ihre Herrschaftsgebiete lagen im Raum des heutigen Angola."
+  },
+  {
+    "id": "history-062",
+    "question": "Welcher Feldherr siegte 1600 in der Schlacht von Sekigahara?",
+    "answers": [
+      "Oda Nobunaga",
+      "Tokugawa Ieyasu",
+      "Toyotomi Hideyoshi",
+      "Takeda Shingen"
+    ],
+    "correct": 1,
+    "explanation": "Der Sieg verschaffte Tokugawa Ieyasu eine entscheidende Machtstellung in Japan."
+  },
+  {
+    "id": "history-063",
+    "question": "Welcher polnische König führte 1683 das Entsatzheer für das belagerte Wien an?",
+    "answers": [
+      "Sigismund III. Wasa",
+      "Johann III. Sobieski",
+      "August der Starke",
+      "Stephan Báthory"
+    ],
+    "correct": 1,
+    "explanation": "Sobieskis verbündetes Heer schlug die osmanischen Belagerer in der Schlacht am Kahlenberg."
+  },
+  {
+    "id": "history-064",
+    "question": "Unter welchem Beinamen ist der russische Zar Iwan IV. bekannt?",
+    "answers": [
+      "Der Weise",
+      "Der Befreier",
+      "Der Schweigsame",
+      "Der Schreckliche"
+    ],
+    "correct": 3,
+    "explanation": "Iwan IV. regierte im 16. Jahrhundert. Sein Beiname ist in der deutschen Geschichtsschreibung als „der Schreckliche“ gebräuchlich."
+  },
+  {
+    "id": "history-065",
+    "question": "Welcher russische Herrscher gründete 1703 Sankt Petersburg?",
+    "answers": [
+      "Iwan der Schreckliche",
+      "Alexander I.",
+      "Peter der Große",
+      "Nikolaus II."
+    ],
+    "correct": 2,
+    "explanation": "Peter ließ die neue Stadt an der Newa errichten. Sie wurde ein Zentrum seiner auf Europa ausgerichteten Politik."
+  },
+  {
+    "id": "history-066",
+    "question": "Welcher ehemalige Versklavte wurde zu einem führenden General der Haitianischen Revolution?",
+    "answers": [
+      "Simón Bolívar",
+      "Toussaint Louverture",
+      "José de San Martín",
+      "Miguel Hidalgo"
+    ],
+    "correct": 1,
+    "explanation": "Louverture spielte eine zentrale Rolle im Kampf gegen die Sklaverei in der französischen Kolonie Saint-Domingue."
+  },
+  {
+    "id": "history-067",
+    "question": "Welcher südamerikanische Unabhängigkeitskämpfer trägt den Beinamen „El Libertador“?",
+    "answers": [
+      "Francisco Pizarro",
+      "Simón Bolívar",
+      "Hernán Cortés",
+      "Pedro Álvares Cabral"
+    ],
+    "correct": 1,
+    "explanation": "Bolívar führte Feldzüge gegen die spanische Kolonialherrschaft und prägte die Unabhängigkeitsbewegungen Südamerikas."
+  },
+  {
+    "id": "history-068",
+    "question": "Welcher äthiopische Kaiser führte 1896 das siegreiche Heer in der Schlacht von Adwa?",
+    "answers": [
+      "Haile Selassie",
+      "Menelik II.",
+      "Tewodros II.",
+      "Johannes IV."
+    ],
+    "correct": 1,
+    "explanation": "Das äthiopische Heer besiegte die italienischen Invasionstruppen und bewahrte die Unabhängigkeit des Landes."
+  },
+  {
+    "id": "history-069",
+    "question": "Wer weigerte sich 1955 in Montgomery, ihren Busplatz für einen weißen Fahrgast zu räumen?",
+    "answers": [
+      "Ella Baker",
+      "Rosa Parks",
+      "Harriet Tubman",
+      "Sojourner Truth"
+    ],
+    "correct": 1,
+    "explanation": "Parks’ Festnahme wurde zum Auslöser des Busboykotts von Montgomery gegen die Rassentrennung."
+  },
+  {
+    "id": "history-070",
+    "question": "Welcher Gegner der Apartheid wurde im Februar 1990 nach jahrzehntelanger Haft freigelassen?",
+    "answers": [
+      "Desmond Tutu",
+      "Steve Biko",
+      "Nelson Mandela",
+      "Oliver Tambo"
+    ],
+    "correct": 2,
+    "explanation": "Mandelas Freilassung wurde zu einem wichtigen Schritt auf dem Weg zum Ende der Apartheid in Südafrika."
+  },
+  {
+    "id": "history-071",
+    "question": "Wer war während des Amerikanischen Bürgerkriegs von 1861 bis 1865 US-Präsident?",
+    "answers": [
+      "Abraham Lincoln",
+      "Andrew Jackson",
+      "Ulysses S. Grant",
+      "Theodore Roosevelt"
+    ],
+    "correct": 0,
+    "explanation": "Lincoln führte die Union während des Bürgerkriegs. Er wurde im April 1865 ermordet."
+  },
+  {
+    "id": "history-072",
+    "question": "Wer hielt 1963 in Washington die Rede „I Have a Dream“?",
+    "answers": [
+      "Malcolm X",
+      "Frederick Douglass",
+      "Martin Luther King Jr.",
+      "W. E. B. Du Bois"
+    ],
+    "correct": 2,
+    "explanation": "King sprach beim Marsch auf Washington und forderte ein Ende der rassistischen Diskriminierung."
+  },
+  {
+    "id": "history-073",
+    "question": "Wer führte in den 1850er-Jahren versklavte Menschen aus Maryland in die Freiheit?",
+    "answers": [
+      "Jane Addams",
+      "Eleanor Roosevelt",
+      "Susan B. Anthony",
+      "Harriet Tubman"
+    ],
+    "correct": 3,
+    "explanation": "Tubman war selbst aus der Sklaverei geflohen und kehrte wiederholt zurück, um auch andere Menschen zu befreien."
+  },
+  {
+    "id": "history-074",
+    "question": "In welcher französischen Region landeten die Alliierten am 6. Juni 1944?",
+    "answers": [
+      "Bretagne",
+      "Normandie",
+      "Provence",
+      "Elsass"
+    ],
+    "correct": 1,
+    "explanation": "Die Landungen am D-Day eröffneten eine neue Front im besetzten Westeuropa."
+  },
+  {
+    "id": "history-075",
+    "question": "Wie hieß die Evakuierungsoperation der Alliierten bei Dünkirchen 1940?",
+    "answers": [
+      "Operation Torch",
+      "Operation Market Garden",
+      "Operation Overlord",
+      "Operation Dynamo"
+    ],
+    "correct": 3,
+    "explanation": "Bei Operation Dynamo brachten Militärschiffe und zivile Boote eingeschlossene Soldaten über den Ärmelkanal in Sicherheit."
+  },
+  {
+    "id": "history-076",
+    "question": "Bei welcher Seeschlacht verlor Japan im Juni 1942 vier Flugzeugträger?",
+    "answers": [
+      "Korallenmeer",
+      "Leyte",
+      "Midway",
+      "Guadalcanal"
+    ],
+    "correct": 2,
+    "explanation": "Bei Midway sanken die japanischen Träger Akagi, Kaga, Sōryū und Hiryū."
+  },
+  {
+    "id": "history-077",
+    "question": "Wo verübte Claus von Stauffenberg am 20. Juli 1944 sein Bombenattentat auf Hitler?",
+    "answers": [
+      "Im Bendlerblock",
+      "In der Reichskanzlei",
+      "In der Wolfsschanze",
+      "Auf dem Berghof"
+    ],
+    "correct": 2,
+    "explanation": "Stauffenberg legte eine Bombe in einem Besprechungsraum des Hauptquartiers ab. Hitler überlebte die Explosion."
+  },
+  {
+    "id": "history-078",
+    "question": "Welchen Lagerkomplex befreite die Rote Armee am 27. Januar 1945?",
+    "answers": [
+      "Dachau",
+      "Buchenwald",
+      "Auschwitz",
+      "Bergen-Belsen"
+    ],
+    "correct": 2,
+    "explanation": "Sowjetische Soldaten befreiten die zurückgebliebenen Häftlinge. Zuvor hatte die SS viele Gefangene auf Todesmärsche gezwungen."
+  },
+  {
+    "id": "history-079",
+    "question": "Welche Kosmonautin flog 1963 mit Wostok 6 ins All?",
+    "answers": [
+      "Swetlana Sawizkaja",
+      "Sally Ride",
+      "Walentina Tereschkowa",
+      "Jelena Kondakowa"
+    ],
+    "correct": 2,
+    "explanation": "Tereschkowa absolvierte bei diesem Flug zahlreiche Erdumrundungen und wurde damit zur ersten Frau im Weltraum."
+  },
+  {
+    "id": "history-080",
+    "question": "Welcher Kosmonaut verließ 1965 bei Woschod 2 sein Raumschiff für einen Weltraumausstieg?",
+    "answers": [
+      "Pawel Beljajew",
+      "German Titow",
+      "Waleri Bykowski",
+      "Alexei Leonow"
+    ],
+    "correct": 3,
+    "explanation": "Leonow führte den ersten Außenbordeinsatz eines Menschen durch. Dabei blieb er über eine Leine mit dem Raumschiff verbunden."
+  },
+  {
+    "id": "history-081",
+    "question": "Welche Apollo-Mission musste 1970 nach der Explosion eines Sauerstofftanks ihre Mondlandung abbrechen?",
+    "answers": [
+      "Apollo 13",
+      "Apollo 9",
+      "Apollo 12",
+      "Apollo 15"
+    ],
+    "correct": 0,
+    "explanation": "Die Besatzung nutzte die Mondlandefähre als Rettungsraum und kehrte sicher zur Erde zurück."
+  },
+  {
+    "id": "history-082",
+    "question": "Welcher deutsche Raumfahrer startete 1978 mit Sojus 31?",
+    "answers": [
+      "Ulf Merbold",
+      "Sigmund Jähn",
+      "Klaus-Dietrich Flade",
+      "Reinhold Ewald"
+    ],
+    "correct": 1,
+    "explanation": "Jähn flog gemeinsam mit Waleri Bykowski zur Raumstation Saljut 6 und führte dort Experimente durch."
+  },
+  {
+    "id": "history-083",
+    "question": "Welche Apollo-Mission umkreiste im Dezember 1968 mit einer Besatzung den Mond?",
+    "answers": [
+      "Apollo 7",
+      "Apollo 9",
+      "Apollo 10",
+      "Apollo 8"
+    ],
+    "correct": 3,
+    "explanation": "Frank Borman, James Lovell und William Anders erreichten mit Apollo 8 die Mondumlaufbahn."
+  },
+  {
+    "id": "history-084",
+    "question": "Wer kommandierte die Mondmission Apollo 17 im Jahr 1972?",
+    "answers": [
+      "David Scott",
+      "John Young",
+      "Eugene Cernan",
+      "Alan Shepard"
+    ],
+    "correct": 2,
+    "explanation": "Cernan erkundete gemeinsam mit Harrison Schmitt die Mondoberfläche, während Ronald Evans im Mondorbit blieb."
+  },
+  {
+    "id": "history-085",
+    "question": "Welcher norwegische Polarforscher erreichte im Dezember 1911 mit seinem Team den Südpol?",
+    "answers": [
+      "Fridtjof Nansen",
+      "Robert Falcon Scott",
+      "Ernest Shackleton",
+      "Roald Amundsen"
+    ],
+    "correct": 3,
+    "explanation": "Amundsens Expedition erreichte den Südpol am 14. Dezember 1911 und kehrte anschließend zu ihrem Basislager zurück."
+  },
+  {
+    "id": "history-086",
+    "question": "Wer leitete die 1914 gestartete Antarktisexpedition mit der „Endurance“?",
+    "answers": [
+      "Robert Falcon Scott",
+      "Douglas Mawson",
+      "Fridtjof Nansen",
+      "Ernest Shackleton"
+    ],
+    "correct": 3,
+    "explanation": "Die Endurance wurde im Eis eingeschlossen und ging verloren. Shackleton organisierte die Rettung ihrer gesamten Besatzung."
+  },
+  {
+    "id": "history-087",
+    "question": "Welcher niederländische Seefahrer erreichte 1642 die Küste Neuseelands?",
+    "answers": [
+      "Abel Tasman",
+      "Willem Barents",
+      "Jacob Roggeveen",
+      "Cornelis de Houtman"
+    ],
+    "correct": 0,
+    "explanation": "Tasman sichtete die Südinsel Neuseelands auf einer Fahrt durch den Südpazifik. Er ging dort nicht an Land."
+  },
+  {
+    "id": "history-088",
+    "question": "Mit welchem Schiff brach James Cook 1768 zu seiner ersten Pazifikreise auf?",
+    "answers": [
+      "Resolution",
+      "Discovery",
+      "Beagle",
+      "Endeavour"
+    ],
+    "correct": 3,
+    "explanation": "Die Endeavour brachte Cook zunächst nach Tahiti. Später untersuchte die Expedition die Küsten Neuseelands und Ostaustraliens."
+  },
+  {
+    "id": "history-089",
+    "question": "Welche Shoshonin begleitete ab 1805 die Expedition von Lewis und Clark als Sprachmittlerin?",
+    "answers": [
+      "Pocahontas",
+      "Sacagawea",
+      "Sarah Winnemucca",
+      "Zitkala-Ša"
+    ],
+    "correct": 1,
+    "explanation": "Sacagaweas Sprachkenntnisse halfen bei Gesprächen mit den Shoshonen während der Reise zum Pazifik."
+  },
+  {
+    "id": "history-090",
+    "question": "Wer begann 1871 mit regulären Ausgrabungen am Hügel Hisarlik, dem Fundort von Troja?",
+    "answers": [
+      "Heinrich Schliemann",
+      "Arthur Evans",
+      "Robert Koldewey",
+      "Leonard Woolley"
+    ],
+    "correct": 0,
+    "explanation": "Schliemann vermutete dort die Überreste Trojas. Seine tiefen Grabungsschnitte zerstörten allerdings wichtige Fundschichten."
+  },
+  {
+    "id": "history-091",
+    "question": "In welcher Stadt wurden 2012 die sterblichen Überreste Richards III. ausgegraben?",
+    "answers": [
+      "Leicester",
+      "York",
+      "Canterbury",
+      "Winchester"
+    ],
+    "correct": 0,
+    "explanation": "Die Überreste lagen auf dem Gelände des ehemaligen Greyfriars-Klosters, das später als Parkplatz genutzt wurde."
+  },
+  {
+    "id": "history-092",
+    "question": "Für welche Tätigkeit wurde Florence Nightingale im Krimkrieg bekannt?",
+    "answers": [
+      "Krankenpflege",
+      "Kriegsfotografie",
+      "Friedensverhandlungen",
+      "Archäologische Ausgrabungen"
+    ],
+    "correct": 0,
+    "explanation": "Nightingale organisierte die Pflege britischer Soldaten und setzte sich für bessere hygienische Bedingungen ein."
+  },
+  {
+    "id": "history-093",
+    "question": "Gegen welche religiöse Gruppe richteten sich die Massaker der Bartholomäusnacht 1572?",
+    "answers": [
+      "Katharer",
+      "Templer",
+      "Jansenisten",
+      "Hugenotten"
+    ],
+    "correct": 3,
+    "explanation": "In Paris und weiteren französischen Städten wurden protestantische Hugenotten ermordet."
+  },
+  {
+    "id": "history-094",
+    "question": "Wer führte 1860 den als „Zug der Tausend“ bekannten Feldzug nach Sizilien an?",
+    "answers": [
+      "Camillo Cavour",
+      "Giuseppe Garibaldi",
+      "Giuseppe Mazzini",
+      "Viktor Emanuel II."
+    ],
+    "correct": 1,
+    "explanation": "Garibaldis Freiwillige eroberten Sizilien und weitere Gebiete des Königreichs beider Sizilien."
+  },
+  {
+    "id": "history-095",
+    "question": "Welche Stadt wurde 1666 durch einen berühmten Großbrand verwüstet?",
+    "answers": [
+      "Dublin",
+      "Edinburgh",
+      "London",
+      "Manchester"
+    ],
+    "correct": 2,
+    "explanation": "Das Feuer breitete sich über große Teile der City of London aus und zerstörte zahlreiche Häuser."
+  },
+  {
+    "id": "history-096",
+    "question": "In welchem Land fand um 1900 der Boxeraufstand statt?",
+    "answers": [
+      "Japan",
+      "Indien",
+      "China",
+      "Persien"
+    ],
+    "correct": 2,
+    "explanation": "Der Aufstand richtete sich gegen ausländischen Einfluss und Christen. Truppen mehrerer Staaten schlugen ihn nieder."
+  },
+  {
+    "id": "history-097",
+    "question": "Welche Kolonialmacht verübte 1904 bis 1908 den Völkermord an den Herero und Nama?",
+    "answers": [
+      "Das Deutsche Reich",
+      "Belgien",
+      "Frankreich",
+      "Portugal"
+    ],
+    "correct": 0,
+    "explanation": "Die Verbrechen geschahen in der Kolonie Deutsch-Südwestafrika. Die deutsche Kriegführung zielte auf die Vernichtung der betroffenen Bevölkerungsgruppen."
+  },
+  {
+    "id": "history-098",
+    "question": "Welcher kongolesische Unabhängigkeitsführer wurde 1961 ermordet?",
+    "answers": [
+      "Joseph Kasavubu",
+      "Mobutu Sese Seko",
+      "Moïse Tschombé",
+      "Patrice Lumumba"
+    ],
+    "correct": 3,
+    "explanation": "Lumumba hatte nach der Unabhängigkeit des Kongo 1960 als Ministerpräsident amtiert. Er wurde in Katanga ermordet."
+  },
+  {
+    "id": "history-099",
+    "question": "Welcher spanische Eroberer nahm den Inka-Herrscher Atahualpa 1532 in Cajamarca gefangen?",
+    "answers": [
+      "Francisco Pizarro",
+      "Hernán Cortés",
+      "Pedro de Alvarado",
+      "Vasco Núñez de Balboa"
+    ],
+    "correct": 0,
+    "explanation": "Pizarros Männer überwältigten Atahualpas Gefolge bei einer Begegnung in Cajamarca und nahmen den Herrscher als Geisel."
+  },
+  {
+    "id": "history-100",
+    "question": "Welche Herrscherin von Jhansi kämpfte im Indischen Aufstand von 1857/58 gegen die Briten?",
+    "answers": [
+      "Nur Jahan",
+      "Lakshmibai",
+      "Razia Sultana",
+      "Ahilyabai Holkar"
+    ],
+    "correct": 1,
+    "explanation": "Lakshmibai gehörte zu den militärischen Anführerinnen des Widerstands gegen die britische Kolonialmacht."
   }
 ]

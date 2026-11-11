@@ -478,5 +478,692 @@
     ],
     "correct": 2,
     "explanation": "Düsseldorf ist seit der Gründung des Landes 1946 Hauptstadt, obwohl Köln die größere Stadt ist."
+  },
+  {
+    "id": "geography-041",
+    "question": "Welche gedachte Linie teilt die Erde in Nord- und Südhalbkugel?",
+    "answers": [
+      "Nullmeridian",
+      "Äquator",
+      "Nördlicher Wendekreis",
+      "Südlicher Polarkreis"
+    ],
+    "correct": 1,
+    "explanation": "Der Äquator verläuft genau zwischen den beiden geografischen Polen und hat die geografische Breite 0°."
+  },
+  {
+    "id": "geography-042",
+    "question": "Welcher Ozean liegt zwischen Afrika und Australien?",
+    "answers": [
+      "Atlantischer Ozean",
+      "Pazifischer Ozean",
+      "Arktischer Ozean",
+      "Indischer Ozean"
+    ],
+    "correct": 3,
+    "explanation": "Der Indische Ozean liegt östlich von Afrika und westlich von Australien."
+  },
+  {
+    "id": "geography-043",
+    "question": "Welche Insel liegt unmittelbar südöstlich der Südspitze Indiens?",
+    "answers": [
+      "Madagaskar",
+      "Sri Lanka",
+      "Sumatra",
+      "Borneo"
+    ],
+    "correct": 1,
+    "explanation": "Sri Lanka liegt vor der Südostküste des indischen Subkontinents."
+  },
+  {
+    "id": "geography-044",
+    "question": "Welches Gebirge erstreckt sich entlang der Westseite Südamerikas?",
+    "answers": [
+      "Anden",
+      "Appalachen",
+      "Atlas",
+      "Ural"
+    ],
+    "correct": 0,
+    "explanation": "Die Anden ziehen sich am westlichen Rand Südamerikas entlang der Pazifikseite des Kontinents."
+  },
+  {
+    "id": "geography-045",
+    "question": "Welcher Fluss fließt durch London?",
+    "answers": [
+      "Severn",
+      "Themse",
+      "Trent",
+      "Mersey"
+    ],
+    "correct": 1,
+    "explanation": "London liegt an der Themse, die östlich der Stadt zur Nordsee fließt."
+  },
+  {
+    "id": "geography-046",
+    "question": "In welchem Meer liegt die Insel Mallorca?",
+    "answers": [
+      "Schwarzes Meer",
+      "Ostsee",
+      "Mittelmeer",
+      "Rotes Meer"
+    ],
+    "correct": 2,
+    "explanation": "Mallorca liegt im westlichen Mittelmeer östlich des spanischen Festlands."
+  },
+  {
+    "id": "geography-047",
+    "question": "Welche Halbinsel liegt zwischen Schwarzem Meer und Mittelmeer?",
+    "answers": [
+      "Arabische Halbinsel",
+      "Iberische Halbinsel",
+      "Anatolien",
+      "Jütland"
+    ],
+    "correct": 2,
+    "explanation": "Anatolien wird im Norden vom Schwarzen Meer und im Süden vom Mittelmeer begrenzt."
+  },
+  {
+    "id": "geography-048",
+    "question": "Welcher Ozean liegt an der Westküste des portugiesischen Festlands?",
+    "answers": [
+      "Indischer Ozean",
+      "Pazifischer Ozean",
+      "Arktischer Ozean",
+      "Atlantischer Ozean"
+    ],
+    "correct": 3,
+    "explanation": "Die Westküste des portugiesischen Festlands gehört zur Atlantikküste der Iberischen Halbinsel."
+  },
+  {
+    "id": "geography-049",
+    "question": "Auf welchem Kontinent liegen die Rocky Mountains?",
+    "answers": [
+      "Nordamerika",
+      "Südamerika",
+      "Asien",
+      "Europa"
+    ],
+    "correct": 0,
+    "explanation": "Die Rocky Mountains erstrecken sich durch den Westen Nordamerikas."
+  },
+  {
+    "id": "geography-050",
+    "question": "Welcher Fluss fließt durch Kairo?",
+    "answers": [
+      "Nil",
+      "Niger",
+      "Kongo",
+      "Sambesi"
+    ],
+    "correct": 0,
+    "explanation": "Kairo liegt am Nil nahe dem südlichen Beginn seines Deltas."
+  },
+  {
+    "id": "geography-051",
+    "question": "Welches Gewässer trennt Südengland von Nordfrankreich?",
+    "answers": [
+      "Ärmelkanal",
+      "Irische See",
+      "Skagerrak",
+      "Biskaya"
+    ],
+    "correct": 0,
+    "explanation": "Der Ärmelkanal liegt zwischen der Südküste Englands und der Nordküste Frankreichs."
+  },
+  {"id":"geography-052","question":"Welche große Insel ist durch die Irische See von Großbritannien getrennt?","answers":["Island","Seeland","Irland","Gotland"],"correct":2,"explanation":"Irland liegt westlich von Großbritannien; zwischen beiden Inseln liegt unter anderem die Irische See."},
+  {
+    "id": "geography-053",
+    "question": "Welches Meer liegt direkt östlich der Apenninhalbinsel?",
+    "answers": [
+      "Adriatisches Meer",
+      "Tyrrhenisches Meer",
+      "Ligurisches Meer",
+      "Balearisches Meer"
+    ],
+    "correct": 0,
+    "explanation": "Die Adria erstreckt sich zwischen der Apenninhalbinsel und der Balkanhalbinsel."
+  },
+  {
+    "id": "geography-054",
+    "question": "Zu welcher Inselgruppe gehören Teneriffa und Lanzarote?",
+    "answers": [
+      "Azoren",
+      "Balearen",
+      "Kanaren",
+      "Kapverden"
+    ],
+    "correct": 2,
+    "explanation": "Teneriffa und Lanzarote gehören zu den Kanarischen Inseln im Atlantik vor Nordwestafrika."
+  },
+  {
+    "id": "geography-055",
+    "question": "Auf welchem Kontinent liegt das Kap der Guten Hoffnung?",
+    "answers": [
+      "Südamerika",
+      "Afrika",
+      "Australien",
+      "Asien"
+    ],
+    "correct": 1,
+    "explanation": "Das Kap der Guten Hoffnung liegt auf der Kaphalbinsel im Südwesten Afrikas."
+  },
+  {
+    "id": "geography-056",
+    "question": "Was erklärt die Legende einer Landkarte?",
+    "answers": [
+      "Das Alter der Landschaft",
+      "Die Entstehung der Ortsnamen",
+      "Die Genauigkeit des Kompasses",
+      "Die Bedeutung der Kartenzeichen"
+    ],
+    "correct": 3,
+    "explanation": "Die Legende erläutert die auf der Karte verwendeten Symbole, Farben und Linien."
+  },
+  {
+    "id": "geography-057",
+    "question": "Wie heißt eine Landfläche, die ringsum von Wasser umgeben ist?",
+    "answers": [
+      "Halbinsel",
+      "Landenge",
+      "Insel",
+      "Kap"
+    ],
+    "correct": 2,
+    "explanation": "Eine Insel ist vollständig von Wasser umgeben; eine Halbinsel besitzt dagegen eine Verbindung zum Festland."
+  },
+  {
+    "id": "geography-058",
+    "question": "Welche Himmelsrichtung liegt genau zwischen Norden und Osten?",
+    "answers": [
+      "Nordwesten",
+      "Nordosten",
+      "Südosten",
+      "Südwesten"
+    ],
+    "correct": 1,
+    "explanation": "Nordosten liegt in der Mitte zwischen den beiden Haupthimmelsrichtungen Norden und Osten."
+  },
+  {
+    "id": "geography-059",
+    "question": "Welcher Fluss fließt durch Rom?",
+    "answers": [
+      "Po",
+      "Arno",
+      "Etsch",
+      "Tiber"
+    ],
+    "correct": 3,
+    "explanation": "Der Tiber durchfließt Rom und mündet westlich der Stadt ins Tyrrhenische Meer."
+  },
+  {
+    "id": "geography-060",
+    "question": "Auf welchem Kontinent liegt der geografische Südpol?",
+    "answers": [
+      "Australien",
+      "Antarktika",
+      "Südamerika",
+      "Afrika"
+    ],
+    "correct": 1,
+    "explanation": "Der geografische Südpol liegt im Inneren des antarktischen Kontinents."
+  },
+  {
+    "id": "geography-061",
+    "question": "Welche Meerenge liegt zwischen Alaska und der Tschuktschenhalbinsel?",
+    "answers": [
+      "Beringstraße",
+      "Davisstraße",
+      "Dänemarkstraße",
+      "Hudsonstraße"
+    ],
+    "correct": 0,
+    "explanation": "Die Beringstraße trennt Nordamerika von Asien und verbindet die Beringsee mit der Tschuktschensee."
+  },
+  {
+    "id": "geography-062",
+    "question": "Welche Meerenge trennt die Nord- und Südinsel Neuseelands?",
+    "answers": [
+      "Foveauxstraße",
+      "Bassstraße",
+      "Torresstraße",
+      "Cookstraße"
+    ],
+    "correct": 3,
+    "explanation": "Die Cookstraße liegt zwischen den beiden Hauptinseln Neuseelands."
+  },
+  {
+    "id": "geography-063",
+    "question": "Welche Meerenge trennt Tasmanien vom australischen Festland?",
+    "answers": [
+      "Cookstraße",
+      "Torresstraße",
+      "Sundastraße",
+      "Bassstraße"
+    ],
+    "correct": 3,
+    "explanation": "Die Bassstraße liegt zwischen der Nordküste Tasmaniens und der Südküste des australischen Festlands."
+  },
+  {
+    "id": "geography-064",
+    "question": "Welche Meerenge liegt zwischen der Malaiischen Halbinsel und Sumatra?",
+    "answers": [
+      "Sundastraße",
+      "Straße von Malakka",
+      "Lombokstraße",
+      "Makassarstraße"
+    ],
+    "correct": 1,
+    "explanation": "Die Straße von Malakka verläuft zwischen Sumatra im Südwesten und der Malaiischen Halbinsel im Nordosten."
+  },
+  {"id":"geography-065","question":"Über welchen Fluss erfolgt der natürliche Abfluss der Großen Seen Nordamerikas zum Atlantik?","answers":["Sankt-Lorenz-Strom","Mackenzie","Mississippi","Columbia"],"correct":0,"explanation":"Der Sankt-Lorenz-Strom führt Wasser aus dem Ontariosee und damit aus dem verbundenen System der Großen Seen zum Atlantik."},
+  {
+    "id": "geography-066",
+    "question": "In welches Gewässer mündet die Wolga?",
+    "answers": [
+      "Kaspisches Meer",
+      "Schwarzes Meer",
+      "Aralsee",
+      "Baikalsee"
+    ],
+    "correct": 0,
+    "explanation": "Die Wolga mündet mit einem verzweigten Delta in den nördlichen Teil des Kaspischen Meeres."
+  },
+  {
+    "id": "geography-067",
+    "question": "In welchem Gebirge liegt der K2?",
+    "answers": [
+      "Hindukusch",
+      "Tian Shan",
+      "Karakorum",
+      "Kunlun"
+    ],
+    "correct": 2,
+    "explanation": "Der K2 gehört zum Karakorum, einem Hochgebirge in Asien."
+  },
+  {
+    "id": "geography-068",
+    "question": "Welche Hochebene liegt zwischen den Westghats und den Ostghats?",
+    "answers": [
+      "Dekkan",
+      "Altiplano",
+      "Tibetisches Hochland",
+      "Mongolisches Plateau"
+    ],
+    "correct": 0,
+    "explanation": "Die Westghats und die Ostghats begrenzen die Hochebene Dekkan auf dem indischen Subkontinent."
+  },
+  {
+    "id": "geography-069",
+    "question": "Welchen See durchfließt der Rhein, bevor er Schaffhausen erreicht?",
+    "answers": [
+      "Bodensee",
+      "Genfersee",
+      "Zürichsee",
+      "Vierwaldstättersee"
+    ],
+    "correct": 0,
+    "explanation": "Der Rhein tritt als Alpenrhein in den Bodensee ein und verlässt ihn als Hochrhein."
+  },
+  {
+    "id": "geography-070",
+    "question": "Welche Halbinsel liegt zwischen dem Golf von Kalifornien und dem offenen Pazifik?",
+    "answers": [
+      "Yucatán",
+      "Baja California",
+      "Florida",
+      "Labrador"
+    ],
+    "correct": 1,
+    "explanation": "Baja California bildet die westliche Landbegrenzung des Golfs von Kalifornien."
+  },
+  {
+    "id": "geography-071",
+    "question": "Welche Wüste erstreckt sich entlang der Atlantikküste Namibias?",
+    "answers": [
+      "Namib",
+      "Kalahari",
+      "Danakil",
+      "Karakum"
+    ],
+    "correct": 0,
+    "explanation": "Die Namib begleitet die südwestafrikanische Atlantikküste; die Kalahari liegt weiter im Landesinneren."
+  },
+  {
+    "id": "geography-072",
+    "question": "An welchem Fluss liegen die Victoriafälle?",
+    "answers": [
+      "Sambesi",
+      "Niger",
+      "Limpopo",
+      "Orange"
+    ],
+    "correct": 0,
+    "explanation": "An den Victoriafällen stürzt der Sambesi in eine tiefe Schlucht."
+  },
+  {
+    "id": "geography-073",
+    "question": "Welcher Fluss fließt durch den Grand Canyon?",
+    "answers": [
+      "Rio Grande",
+      "Missouri",
+      "Colorado",
+      "Yukon"
+    ],
+    "correct": 2,
+    "explanation": "Der Colorado durchfließt den Grand Canyon im Südwesten Nordamerikas."
+  },
+  {
+    "id": "geography-074",
+    "question": "Auf welcher Hochebene liegt der Titicacasee?",
+    "answers": [
+      "Altiplano",
+      "Dekkan",
+      "Tibetisches Hochland",
+      "Hochland von Guayana"
+    ],
+    "correct": 0,
+    "explanation": "Der Titicacasee liegt auf dem Altiplano zwischen Gebirgsketten der Anden."
+  },
+  {
+    "id": "geography-075",
+    "question": "Welche Landenge verbindet Nordamerika mit Südamerika?",
+    "answers": [
+      "Landenge von Suez",
+      "Landenge von Kra",
+      "Landenge von Korinth",
+      "Landenge von Panama"
+    ],
+    "correct": 3,
+    "explanation": "Die Landenge von Panama bildet die schmale Landverbindung zwischen den beiden amerikanischen Kontinenten."
+  },
+  {
+    "id": "geography-076",
+    "question": "Welche Meeresstraße liegt zwischen Madagaskar und dem afrikanischen Festland?",
+    "answers": [
+      "Straße von Malakka",
+      "Straße von Hormus",
+      "Straße von Mosambik",
+      "Straße von Gibraltar"
+    ],
+    "correct": 2,
+    "explanation": "Die Straße von Mosambik ist ein Meeresarm des Indischen Ozeans westlich von Madagaskar."
+  },
+  {
+    "id": "geography-077",
+    "question": "Welche Halbinsel liegt zwischen dem Golf von Suez und dem Golf von Akaba?",
+    "answers": [
+      "Anatolien",
+      "Krim",
+      "Somali-Halbinsel",
+      "Sinai"
+    ],
+    "correct": 3,
+    "explanation": "Der Golf von Suez begrenzt die Sinai-Halbinsel im Westen, der Golf von Akaba im Osten."
+  },
+  {
+    "id": "geography-078",
+    "question": "Was verbinden Höhenlinien auf einer topografischen Karte?",
+    "answers": [
+      "Punkte gleicher Wassertemperatur",
+      "Orte gleicher Einwohnerzahl",
+      "Orte gleicher geografischer Länge",
+      "Punkte gleicher Höhe"
+    ],
+    "correct": 3,
+    "explanation": "Höhenlinien zeigen den Verlauf gleicher Geländehöhen. Eng beieinanderliegende Höhenlinien weisen gewöhnlich auf steiles Gelände hin."
+  },
+  {
+    "id": "geography-079",
+    "question": "Welche Lage beschreibt die geografische Länge eines Ortes?",
+    "answers": [
+      "Nördlich oder südlich des Äquators",
+      "Höhe über oder unter dem Meeresspiegel",
+      "Östlich oder westlich des Nullmeridians",
+      "Nahe oder fern der Küste"
+    ],
+    "correct": 2,
+    "explanation": "Die geografische Länge gibt den Winkelabstand zum Nullmeridian nach Osten oder Westen an."
+  },
+  {
+    "id": "geography-080",
+    "question": "Welches Meer liegt zwischen Australien und Neuseeland?",
+    "answers": [
+      "Korallensee",
+      "Arafurasee",
+      "Timorsee",
+      "Tasmansee"
+    ],
+    "correct": 3,
+    "explanation": "Die Tasmansee liegt im südwestlichen Pazifik zwischen Australien und Neuseeland."
+  },
+  {
+    "id": "geography-081",
+    "question": "Welche Meerenge verbindet das Marmarameer mit der Ägäis?",
+    "answers": [
+      "Bosporus",
+      "Straße von Messina",
+      "Straße von Otranto",
+      "Dardanellen"
+    ],
+    "correct": 3,
+    "explanation": "Die Dardanellen bilden die südwestliche Verbindung des Marmarameers zur Ägäis."
+  },
+  {
+    "id": "geography-082",
+    "question": "Welche Meerenge trennt Korsika von Sardinien?",
+    "answers": [
+      "Straße von Messina",
+      "Straße von Bonifacio",
+      "Straße von Otranto",
+      "Straße von Sizilien"
+    ],
+    "correct": 1,
+    "explanation": "Die Straße von Bonifacio liegt zwischen der Südküste Korsikas und der Nordküste Sardiniens."
+  },
+  {
+    "id": "geography-083",
+    "question": "Welche Meerenge liegt zwischen Neuguinea und der Kap-York-Halbinsel?",
+    "answers": [
+      "Bassstraße",
+      "Cookstraße",
+      "Sundastraße",
+      "Torresstraße"
+    ],
+    "correct": 3,
+    "explanation": "Die Torresstraße liegt nördlich der Kap-York-Halbinsel und südlich von Neuguinea."
+  },
+  {
+    "id": "geography-084",
+    "question": "Welche Meerenge trennt Hokkaidō von Honshū?",
+    "answers": [
+      "Tsushima-Straße",
+      "La-Pérouse-Straße",
+      "Tsugaru-Straße",
+      "Straße von Tartarei"
+    ],
+    "correct": 2,
+    "explanation": "Die Tsugaru-Straße verbindet zwischen den beiden Inseln das Japanische Meer mit dem Pazifik."
+  },
+  {
+    "id": "geography-085",
+    "question": "Welche Meerenge verbindet das Rote Meer mit dem Golf von Aden?",
+    "answers": [
+      "Straße von Hormus",
+      "Straße von Tiran",
+      "Bab al-Mandab",
+      "Straße von Malakka"
+    ],
+    "correct": 2,
+    "explanation": "Bab al-Mandab liegt am südlichen Ausgang des Roten Meeres zum Golf von Aden."
+  },
+  {
+    "id": "geography-086",
+    "question": "Welche Inselkette zieht sich von Alaska westwärts in Richtung Kamtschatka?",
+    "answers": [
+      "Kurilen",
+      "Ryūkyū-Inseln",
+      "Aleuten",
+      "Marianen"
+    ],
+    "correct": 2,
+    "explanation": "Die Aleuten bilden einen Inselbogen zwischen dem nördlichen Pazifik und der Beringsee."
+  },
+  {
+    "id": "geography-087",
+    "question": "Welche Halbinsel schließt südlich an die Landenge von Korinth an?",
+    "answers": [
+      "Chalkidiki",
+      "Peloponnes",
+      "Istrien",
+      "Gallipoli"
+    ],
+    "correct": 1,
+    "explanation": "Die Landenge von Korinth liegt zwischen dem griechischen Festland und der Peloponnes."
+  },
+  {
+    "id": "geography-088",
+    "question": "Welcher Fluss fließt durch Bagdad?",
+    "answers": [
+      "Euphrat",
+      "Jordan",
+      "Orontes",
+      "Tigris"
+    ],
+    "correct": 3,
+    "explanation": "Bagdad liegt beiderseits des Tigris in Mesopotamien."
+  },
+  {
+    "id": "geography-089",
+    "question": "In welchen Strom mündet der Irtysch?",
+    "answers": [
+      "Jenissei",
+      "Lena",
+      "Ob",
+      "Amur"
+    ],
+    "correct": 2,
+    "explanation": "Der Irtysch ist ein Nebenfluss des Ob im westlichen Sibirien."
+  },
+  {
+    "id": "geography-090",
+    "question": "An welchem Fluss liegen Vientiane und Phnom Penh?",
+    "answers": [
+      "Mekong",
+      "Irrawaddy",
+      "Saluen",
+      "Jangtse"
+    ],
+    "correct": 0,
+    "explanation": "Beide Städte liegen am Mekong, der durch das südostasiatische Festland fließt."
+  },
+  {
+    "id": "geography-091",
+    "question": "Welcher Fluss bildet den Abfluss des Baikalsees?",
+    "answers": [
+      "Angara",
+      "Selenga",
+      "Lena",
+      "Amur"
+    ],
+    "correct": 0,
+    "explanation": "Die Angara verlässt den Baikalsee nahe dessen südlichem Ende. Die Selenga ist dagegen ein Zufluss."
+  },
+  {
+    "id": "geography-092",
+    "question": "Welcher See speist den Blauen Nil?",
+    "answers": [
+      "Victoriasee",
+      "Tanganjikasee",
+      "Malawisee",
+      "Tanasee"
+    ],
+    "correct": 3,
+    "explanation": "Der Blaue Nil verlässt den Tanasee im äthiopischen Hochland."
+  },
+  {
+    "id": "geography-093",
+    "question": "Welches Gebirgssystem erstreckt sich entlang der Ostseite Australiens?",
+    "answers": [
+      "Flinderskette",
+      "Great Dividing Range",
+      "MacDonnell Ranges",
+      "Hamersley Range"
+    ],
+    "correct": 1,
+    "explanation": "Die Great Dividing Range zieht sich durch den Osten Australiens von Queensland bis Victoria."
+  },
+  {"id":"geography-094","question":"Welcher Golf grenzt an die Westküste der Kap-York-Halbinsel?","answers":["Spencer-Golf","Golf von Carpentaria","Joseph-Bonaparte-Golf","Golf Saint Vincent"],"correct":1,"explanation":"Die Kap-York-Halbinsel liegt zwischen dem Golf von Carpentaria im Westen und dem Korallenmeer im Osten."},
+  {
+    "id": "geography-095",
+    "question": "Welche Meeresstraße liegt zwischen der Halbinsel Yucatán und Kuba?",
+    "answers": [
+      "Floridastraße",
+      "Windward-Passage",
+      "Mona-Passage",
+      "Yucatánstraße"
+    ],
+    "correct": 3,
+    "explanation": "Die Yucatánstraße liegt zwischen der Nordostspitze Yucatáns und der Westspitze Kubas."
+  },
+  {
+    "id": "geography-096",
+    "question": "Was beschreibt der kartografische Begriff „Loxodrome“?",
+    "answers": [
+      "Eine Linie gleicher Geländehöhe",
+      "Eine Linie konstanten Kurswinkels",
+      "Eine Linie gleicher Wassertiefe",
+      "Eine Linie gleichen Luftdrucks"
+    ],
+    "correct": 1,
+    "explanation": "Eine Loxodrome schneidet die Meridiane unter demselben Winkel und beschreibt einen konstanten rechtweisenden Kurs."
+  },
+  {
+    "id": "geography-097",
+    "question": "Welche Eigenschaft bleibt bei der Mercator-Projektion lokal erhalten?",
+    "answers": [
+      "Flächenverhältnisse",
+      "Alle Entfernungen",
+      "Winkel",
+      "Ein überall gleicher Maßstab"
+    ],
+    "correct": 2,
+    "explanation": "Die Mercator-Projektion ist winkeltreu. Flächen und Entfernungen werden abhängig von der geografischen Breite verzerrt."
+  },
+  {
+    "id": "geography-098",
+    "question": "Welches arktische Meer liegt zwischen der Taimyr-Halbinsel und den Neusibirischen Inseln?",
+    "answers": [
+      "Karasee",
+      "Barentssee",
+      "Laptewsee",
+      "Tschuktschensee"
+    ],
+    "correct": 2,
+    "explanation": "Die Laptewsee grenzt im Westen an die Taimyr-Halbinsel und im Osten an die Neusibirischen Inseln."
+  },
+  {
+    "id": "geography-099",
+    "question": "Wie heißt der Amazonas in Brasilien oberhalb seines Zusammenflusses mit dem Rio Negro?",
+    "answers": [
+      "Madeira",
+      "Solimões",
+      "Tapajós",
+      "Xingu"
+    ],
+    "correct": 1,
+    "explanation": "Der Solimões vereinigt sich bei Manaus mit dem Rio Negro; unterhalb des Zusammenflusses trägt der Strom in Brasilien den Namen Amazonas."
+  },
+  {
+    "id": "geography-100",
+    "question": "Wie heißt ein Einzugsgebiet ohne natürlichen oberirdischen Abfluss zum Weltmeer?",
+    "answers": [
+      "Flussdelta",
+      "Endorheisches Becken",
+      "Ästuar",
+      "Kontinentalschelf"
+    ],
+    "correct": 1,
+    "explanation": "Ein endorheisches Becken entwässert nach innen. Sein Wasser erreicht über die oberirdischen Abflusswege kein Weltmeer."
   }
 ]

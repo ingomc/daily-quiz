@@ -1,6 +1,6 @@
 # Daily Quiz
 
-Tägliches Quiz als PWA: jeden Tag 10 Multiple-Choice-Fragen aus einem Pool von 400 Fragen (Allgemeinwissen, Formel 1, Star Trek, Technik). Läuft komplett im Browser, speichert lokal, funktioniert offline.
+Tägliches Quiz als PWA: jeden Tag 10 Multiple-Choice-Fragen zufällig aus einem Pool von 1400 Fragen in 14 Kategorien; falsch beantwortete Fragen kommen frühestens nach 7 Tagen wieder. Läuft komplett im Browser, speichert lokal, funktioniert offline.
 
 ```bash
 npm install
