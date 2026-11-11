@@ -1,0 +1,482 @@
+[
+  {
+    "id": "history-001",
+    "question": "In welchem Jahr fiel die Berliner Mauer?",
+    "answers": [
+      "1961",
+      "1989",
+      "1987",
+      "1990"
+    ],
+    "correct": 1,
+    "explanation": "Am 9. November 1989 öffnete die DDR ihre Grenzen; ein Jahr später folgte die deutsche Wiedervereinigung."
+  },
+  {
+    "id": "history-002",
+    "question": "Wer war der Lehrer Alexanders des Großen?",
+    "answers": [
+      "Platon",
+      "Sokrates",
+      "Aristoteles",
+      "Pythagoras"
+    ],
+    "correct": 2,
+    "explanation": "Der Philosoph Aristoteles unterrichtete den jungen Alexander am makedonischen Königshof."
+  },
+  {
+    "id": "history-003",
+    "question": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+    "answers": [
+      "Konrad Adenauer",
+      "Willy Brandt",
+      "Ludwig Erhard",
+      "Theodor Heuss"
+    ],
+    "correct": 0,
+    "explanation": "Konrad Adenauer regierte von 1949 bis 1963; Theodor Heuss war in dieser Zeit der erste Bundespräsident."
+  },
+  {
+    "id": "history-004",
+    "question": "Welcher Seefahrer erreichte 1492 im Auftrag Spaniens Amerika?",
+    "answers": [
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "Amerigo Vespucci",
+      "Christoph Kolumbus"
+    ],
+    "correct": 3,
+    "explanation": "Kolumbus suchte eigentlich einen westlichen Seeweg nach Indien und landete in der Karibik."
+  },
+  {
+    "id": "history-005",
+    "question": "In welchem Jahr eroberten die Osmanen Konstantinopel?",
+    "answers": [
+      "1204",
+      "1492",
+      "1529",
+      "1453"
+    ],
+    "correct": 3,
+    "explanation": "Mit der Eroberung durch Sultan Mehmed II. endete das Byzantinische Reich."
+  },
+  {
+    "id": "history-006",
+    "question": "In welchem Jahr begann der Erste Weltkrieg?",
+    "answers": [
+      "1914",
+      "1912",
+      "1916",
+      "1918"
+    ],
+    "correct": 0,
+    "explanation": "Auslöser war das Attentat von Sarajevo auf den österreichischen Thronfolger Franz Ferdinand im Juni 1914."
+  },
+  {
+    "id": "history-007",
+    "question": "Wer erfand um 1450 in Mainz den Buchdruck mit beweglichen Metalllettern?",
+    "answers": [
+      "Albrecht Dürer",
+      "Martin Luther",
+      "Johannes Gutenberg",
+      "Johannes Kepler"
+    ],
+    "correct": 2,
+    "explanation": "Gutenbergs Erfindung machte Bücher erschwinglich; sein berühmtestes Werk ist die Gutenberg-Bibel."
+  },
+  {
+    "id": "history-008",
+    "question": "Welcher Friedensschluss beendete 1648 den Dreißigjährigen Krieg?",
+    "answers": [
+      "Augsburger Religionsfriede",
+      "Westfälischer Friede",
+      "Wiener Kongress",
+      "Friede von Utrecht"
+    ],
+    "correct": 1,
+    "explanation": "Der Westfälische Friede wurde in Münster und Osnabrück ausgehandelt."
+  },
+  {
+    "id": "history-009",
+    "question": "In welchem Jahr endete der Zweite Weltkrieg?",
+    "answers": [
+      "1943",
+      "1945",
+      "1944",
+      "1946"
+    ],
+    "correct": 1,
+    "explanation": "In Europa endete der Krieg im Mai 1945 mit der deutschen Kapitulation, in Asien im September mit der Kapitulation Japans."
+  },
+  {
+    "id": "history-010",
+    "question": "Welche Stadt wurde 79 n. Chr. beim Ausbruch des Vesuvs verschüttet?",
+    "answers": [
+      "Troja",
+      "Ephesos",
+      "Syrakus",
+      "Pompeji"
+    ],
+    "correct": 3,
+    "explanation": "Die Asche konservierte Pompeji so gut, dass die Stadt heute einen einzigartigen Einblick in den römischen Alltag bietet."
+  },
+  {
+    "id": "history-011",
+    "question": "Wer leitete die Expedition, die 1519 zur ersten Weltumsegelung aufbrach?",
+    "answers": [
+      "Ferdinand Magellan",
+      "Francis Drake",
+      "James Cook",
+      "Vasco da Gama"
+    ],
+    "correct": 0,
+    "explanation": "Magellan selbst starb 1521 auf den Philippinen; nur eines seiner fünf Schiffe kehrte 1522 nach Spanien zurück."
+  },
+  {
+    "id": "history-012",
+    "question": "Wer betrat 1969 als erster Mensch den Mond?",
+    "answers": [
+      "Buzz Aldrin",
+      "Michael Collins",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "correct": 2,
+    "explanation": "Armstrong betrat den Mond im Rahmen der Mission Apollo 11; Buzz Aldrin folgte ihm wenige Minuten später."
+  },
+  {
+    "id": "history-013",
+    "question": "In welchem Jahr begann die Französische Revolution?",
+    "answers": [
+      "1776",
+      "1799",
+      "1789",
+      "1815"
+    ],
+    "correct": 2,
+    "explanation": "Als symbolischer Beginn gilt der Sturm auf die Bastille am 14. Juli 1789."
+  },
+  {
+    "id": "history-014",
+    "question": "Welche englische Urkunde von 1215 beschränkte die Macht des Königs?",
+    "answers": [
+      "Magna Carta",
+      "Bill of Rights",
+      "Habeas-Corpus-Akte",
+      "Domesday Book"
+    ],
+    "correct": 0,
+    "explanation": "Die Magna Carta wurde König Johann Ohneland von aufständischen Baronen abgerungen."
+  },
+  {
+    "id": "history-015",
+    "question": "Wer veröffentlichte 1517 die 95 Thesen gegen den Ablasshandel?",
+    "answers": [
+      "Johannes Calvin",
+      "Ulrich Zwingli",
+      "Philipp Melanchthon",
+      "Martin Luther"
+    ],
+    "correct": 3,
+    "explanation": "Luthers Thesen gelten als Beginn der Reformation."
+  },
+  {
+    "id": "history-016",
+    "question": "Welcher römische Staatsmann wurde an den Iden des März 44 v. Chr. ermordet?",
+    "answers": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Cicero"
+    ],
+    "correct": 1,
+    "explanation": "Caesar wurde von einer Gruppe von Senatoren um Brutus und Cassius erstochen."
+  },
+  {
+    "id": "history-017",
+    "question": "In welchem Schloss wurde 1871 das Deutsche Kaiserreich ausgerufen?",
+    "answers": [
+      "Schloss Versailles",
+      "Schloss Sanssouci",
+      "Schloss Schönbrunn",
+      "Schloss Charlottenburg"
+    ],
+    "correct": 0,
+    "explanation": "Die Kaiserproklamation fand nach dem Sieg über Frankreich im Spiegelsaal von Versailles statt."
+  },
+  {
+    "id": "history-018",
+    "question": "Wer entdeckte 1895 die später nach ihm benannten Strahlen?",
+    "answers": [
+      "Heinrich Hertz",
+      "Wilhelm Conrad Röntgen",
+      "Max Planck",
+      "Otto Hahn"
+    ],
+    "correct": 1,
+    "explanation": "Röntgen erhielt für die Entdeckung 1901 den ersten Nobelpreis für Physik."
+  },
+  {
+    "id": "history-019",
+    "question": "Wer war der erste Reichskanzler des Deutschen Kaiserreichs?",
+    "answers": [
+      "Leo von Caprivi",
+      "Bernhard von Bülow",
+      "Paul von Hindenburg",
+      "Otto von Bismarck"
+    ],
+    "correct": 3,
+    "explanation": "Bismarck amtierte von 1871 bis 1890 und wird auch der Eiserne Kanzler genannt."
+  },
+  {
+    "id": "history-020",
+    "question": "Wer wurde im Jahr 800 in Rom zum Kaiser gekrönt?",
+    "answers": [
+      "Otto der Große",
+      "Friedrich Barbarossa",
+      "Karl der Große",
+      "Chlodwig I."
+    ],
+    "correct": 2,
+    "explanation": "Papst Leo III. krönte den Frankenkönig Karl am Weihnachtstag des Jahres 800."
+  },
+  {
+    "id": "history-021",
+    "question": "Welches Passagierschiff sank 1912 auf seiner Jungfernfahrt?",
+    "answers": [
+      "Lusitania",
+      "Britannic",
+      "Olympic",
+      "Titanic"
+    ],
+    "correct": 3,
+    "explanation": "Die Titanic kollidierte im Nordatlantik mit einem Eisberg; rund 1500 Menschen kamen ums Leben."
+  },
+  {
+    "id": "history-022",
+    "question": "In welchem Jahr endete nach gängiger Zählung das Weströmische Reich?",
+    "answers": [
+      "395",
+      "410",
+      "476",
+      "527"
+    ],
+    "correct": 2,
+    "explanation": "476 setzte der germanische Heerführer Odoaker den letzten weströmischen Kaiser Romulus Augustulus ab."
+  },
+  {
+    "id": "history-023",
+    "question": "Wer erhielt 1876 in den USA das Patent für das Telefon?",
+    "answers": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Samuel Morse",
+      "Guglielmo Marconi"
+    ],
+    "correct": 1,
+    "explanation": "Bell reichte seinen Antrag am 14. Februar 1876 ein, nur Stunden vor seinem Konkurrenten Elisha Gray."
+  },
+  {
+    "id": "history-024",
+    "question": "In welchem Jahr wurden die Bundesrepublik Deutschland und die DDR gegründet?",
+    "answers": [
+      "1949",
+      "1945",
+      "1955",
+      "1961"
+    ],
+    "correct": 0,
+    "explanation": "Im Mai 1949 trat das Grundgesetz in Kraft, im Oktober desselben Jahres wurde die DDR gegründet."
+  },
+  {
+    "id": "history-025",
+    "question": "Welche Königin war die letzte Herrscherin des ptolemäischen Ägypten?",
+    "answers": [
+      "Nofretete",
+      "Hatschepsut",
+      "Kleopatra",
+      "Nefertari"
+    ],
+    "correct": 2,
+    "explanation": "Nach Kleopatras Tod im Jahr 30 v. Chr. wurde Ägypten römische Provinz."
+  },
+  {
+    "id": "history-026",
+    "question": "Wer meldete 1886 das Patent für seinen Motorwagen an?",
+    "answers": [
+      "Gottlieb Daimler",
+      "Rudolf Diesel",
+      "Nikolaus Otto",
+      "Carl Benz"
+    ],
+    "correct": 3,
+    "explanation": "Der Benz Patent-Motorwagen Nummer 1 gilt als erstes praxistaugliches Automobil."
+  },
+  {
+    "id": "history-027",
+    "question": "Welche Schlacht besiegelte 1815 Napoleons endgültige Niederlage?",
+    "answers": [
+      "Waterloo",
+      "Austerlitz",
+      "Leipzig",
+      "Trafalgar"
+    ],
+    "correct": 0,
+    "explanation": "Bei Waterloo im heutigen Belgien unterlag Napoleon den Truppen Wellingtons und Blüchers."
+  },
+  {
+    "id": "history-028",
+    "question": "Wer fand 1498 den Seeweg von Europa nach Indien?",
+    "answers": [
+      "Bartolomeu Dias",
+      "Vasco da Gama",
+      "Christoph Kolumbus",
+      "Heinrich der Seefahrer"
+    ],
+    "correct": 1,
+    "explanation": "Der Portugiese Vasco da Gama umsegelte das Kap der Guten Hoffnung und erreichte Calicut an der indischen Westküste."
+  },
+  {
+    "id": "history-029",
+    "question": "Welches Reich gründete Dschingis Khan?",
+    "answers": [
+      "Osmanisches Reich",
+      "Mongolisches Reich",
+      "Persisches Reich",
+      "Mogulreich"
+    ],
+    "correct": 1,
+    "explanation": "Dschingis Khan einte 1206 die mongolischen Stämme; sein Reich wurde zum größten zusammenhängenden Landreich der Geschichte."
+  },
+  {
+    "id": "history-030",
+    "question": "Wer entdeckte 1928 das Penicillin?",
+    "answers": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Robert Koch",
+      "Paul Ehrlich"
+    ],
+    "correct": 0,
+    "explanation": "Fleming bemerkte zufällig, dass ein Schimmelpilz in einer Kulturschale Bakterien abtötete."
+  },
+  {
+    "id": "history-031",
+    "question": "Welcher US-Präsident wurde 1963 in Dallas ermordet?",
+    "answers": [
+      "Dwight D. Eisenhower",
+      "Lyndon B. Johnson",
+      "John F. Kennedy",
+      "Richard Nixon"
+    ],
+    "correct": 2,
+    "explanation": "Kennedy wurde am 22. November 1963 während einer Fahrt im offenen Wagen erschossen."
+  },
+  {
+    "id": "history-032",
+    "question": "Wer war der erste Präsident der USA?",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "correct": 3,
+    "explanation": "Washington führte zuvor die Kontinentalarmee im Unabhängigkeitskrieg und amtierte von 1789 bis 1797."
+  },
+  {
+    "id": "history-033",
+    "question": "In welchem Jahr wurde die Unabhängigkeitserklärung der USA verabschiedet?",
+    "answers": [
+      "1776",
+      "1765",
+      "1789",
+      "1812"
+    ],
+    "correct": 0,
+    "explanation": "Die Erklärung wurde am 4. Juli 1776 angenommen, der bis heute Nationalfeiertag der USA ist."
+  },
+  {
+    "id": "history-034",
+    "question": "Wer flog 1961 als erster Mensch in den Weltraum?",
+    "answers": [
+      "Alan Shepard",
+      "German Titow",
+      "Neil Armstrong",
+      "Juri Gagarin"
+    ],
+    "correct": 3,
+    "explanation": "Der sowjetische Kosmonaut umrundete am 12. April 1961 mit der Kapsel Wostok 1 einmal die Erde."
+  },
+  {
+    "id": "history-035",
+    "question": "Welche Stadt war in den Punischen Kriegen die große Gegnerin Roms?",
+    "answers": [
+      "Athen",
+      "Karthago",
+      "Sparta",
+      "Alexandria"
+    ],
+    "correct": 1,
+    "explanation": "Karthago im heutigen Tunesien wurde 146 v. Chr. am Ende des Dritten Punischen Krieges zerstört."
+  },
+  {
+    "id": "history-036",
+    "question": "Welche Seuche tötete Mitte des 14. Jahrhunderts einen großen Teil der Bevölkerung Europas?",
+    "answers": [
+      "Cholera",
+      "Pocken",
+      "Pest",
+      "Typhus"
+    ],
+    "correct": 2,
+    "explanation": "Der sogenannte Schwarze Tod wütete ab 1347 in Europa und kostete Millionen Menschen das Leben."
+  },
+  {
+    "id": "history-037",
+    "question": "Wer erhielt als erste Frau einen Nobelpreis?",
+    "answers": [
+      "Lise Meitner",
+      "Bertha von Suttner",
+      "Rosalind Franklin",
+      "Marie Curie"
+    ],
+    "correct": 3,
+    "explanation": "Marie Curie erhielt 1903 den Nobelpreis für Physik und 1911 zusätzlich den für Chemie."
+  },
+  {
+    "id": "history-038",
+    "question": "In welchem Jahr fand die russische Oktoberrevolution statt?",
+    "answers": [
+      "1905",
+      "1917",
+      "1914",
+      "1922"
+    ],
+    "correct": 1,
+    "explanation": "Die Bolschewiki unter Lenin stürzten 1917 die Provisorische Regierung in Petrograd."
+  },
+  {
+    "id": "history-039",
+    "question": "Wer führte Indien mit gewaltfreiem Widerstand in die Unabhängigkeit?",
+    "answers": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Muhammad Ali Jinnah",
+      "Rabindranath Tagore"
+    ],
+    "correct": 0,
+    "explanation": "Gandhis Salzmarsch von 1930 wurde zum Symbol des gewaltfreien Widerstands gegen die britische Kolonialherrschaft."
+  },
+  {
+    "id": "history-040",
+    "question": "Auf welcher Insel starb Napoleon 1821 in der Verbannung?",
+    "answers": [
+      "Elba",
+      "Korsika",
+      "St. Helena",
+      "Sardinien"
+    ],
+    "correct": 2,
+    "explanation": "Nach Waterloo verbannten die Briten Napoleon auf die abgelegene Atlantikinsel St. Helena."
+  }
+]

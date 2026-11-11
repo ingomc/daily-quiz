@@ -1,0 +1,482 @@
+[
+  {
+    "id": "geography-001",
+    "question": "Wie heißt die Hauptstadt von Australien?",
+    "answers": [
+      "Sydney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correct": 1,
+    "explanation": "Canberra wurde 1913 als Kompromiss zwischen den Rivalen Sydney und Melbourne als Hauptstadt gegründet."
+  },
+  {
+    "id": "geography-002",
+    "question": "Welcher Fluss fließt durch Köln?",
+    "answers": [
+      "Elbe",
+      "Donau",
+      "Rhein",
+      "Main"
+    ],
+    "correct": 2,
+    "explanation": "Köln liegt am Rhein, der die Stadt in einen links- und einen rechtsrheinischen Teil trennt."
+  },
+  {
+    "id": "geography-003",
+    "question": "In welchem Land liegt der Kilimandscharo?",
+    "answers": [
+      "Tansania",
+      "Kenia",
+      "Uganda",
+      "Äthiopien"
+    ],
+    "correct": 0,
+    "explanation": "Der Kilimandscharo liegt im Nordosten Tansanias nahe der Grenze zu Kenia und ist der höchste Berg Afrikas."
+  },
+  {
+    "id": "geography-004",
+    "question": "Wie heißt der höchste Berg Deutschlands?",
+    "answers": [
+      "Watzmann",
+      "Feldberg",
+      "Brocken",
+      "Zugspitze"
+    ],
+    "correct": 3,
+    "explanation": "Die Zugspitze im Wettersteingebirge ist 2962 Meter hoch und liegt an der Grenze zu Österreich."
+  },
+  {
+    "id": "geography-005",
+    "question": "Welcher See ist der tiefste der Erde?",
+    "answers": [
+      "Tanganjikasee",
+      "Kaspisches Meer",
+      "Oberer See",
+      "Baikalsee"
+    ],
+    "correct": 3,
+    "explanation": "Der Baikalsee in Sibirien ist über 1600 Meter tief und zugleich der älteste Süßwassersee der Erde."
+  },
+  {
+    "id": "geography-006",
+    "question": "Wie heißt die Hauptstadt von Kanada?",
+    "answers": [
+      "Ottawa",
+      "Toronto",
+      "Vancouver",
+      "Montreal"
+    ],
+    "correct": 0,
+    "explanation": "Ottawa liegt in der Provinz Ontario an der Grenze zu Québec und wurde 1857 von Königin Victoria als Hauptstadt ausgewählt."
+  },
+  {
+    "id": "geography-007",
+    "question": "Welcher ist der größte Ozean der Erde?",
+    "answers": [
+      "Atlantischer Ozean",
+      "Indischer Ozean",
+      "Pazifischer Ozean",
+      "Arktischer Ozean"
+    ],
+    "correct": 2,
+    "explanation": "Der Pazifik bedeckt rund ein Drittel der Erdoberfläche und ist größer als alle Landmassen zusammen."
+  },
+  {
+    "id": "geography-008",
+    "question": "Welches Land ist vollständig von Südafrika umschlossen?",
+    "answers": [
+      "Eswatini",
+      "Lesotho",
+      "Botswana",
+      "Namibia"
+    ],
+    "correct": 1,
+    "explanation": "Das Königreich Lesotho ist eine Enklave und grenzt ausschließlich an Südafrika."
+  },
+  {
+    "id": "geography-009",
+    "question": "Auf welchem Kontinent liegt die Sahara?",
+    "answers": [
+      "Asien",
+      "Afrika",
+      "Australien",
+      "Südamerika"
+    ],
+    "correct": 1,
+    "explanation": "Die Sahara erstreckt sich über den Norden Afrikas vom Atlantik bis zum Roten Meer."
+  },
+  {
+    "id": "geography-010",
+    "question": "Welche Meerenge trennt das südamerikanische Festland von Feuerland?",
+    "answers": [
+      "Beringstraße",
+      "Straße von Malakka",
+      "Straße von Hormus",
+      "Magellanstraße"
+    ],
+    "correct": 3,
+    "explanation": "Die Meerenge ist nach Ferdinand Magellan benannt, der sie 1520 als erster Europäer durchfuhr."
+  },
+  {
+    "id": "geography-011",
+    "question": "Wie heißt die Hauptstadt von Spanien?",
+    "answers": [
+      "Madrid",
+      "Barcelona",
+      "Sevilla",
+      "Valencia"
+    ],
+    "correct": 0,
+    "explanation": "Madrid liegt im Zentrum der Iberischen Halbinsel und ist seit dem 16. Jahrhundert Sitz des spanischen Hofes."
+  },
+  {
+    "id": "geography-012",
+    "question": "Welcher ist der größte See, der vollständig in Deutschland liegt?",
+    "answers": [
+      "Bodensee",
+      "Chiemsee",
+      "Müritz",
+      "Starnberger See"
+    ],
+    "correct": 2,
+    "explanation": "Die Müritz in Mecklenburg-Vorpommern ist der größte rein deutsche See; den Bodensee teilt sich Deutschland mit Österreich und der Schweiz."
+  },
+  {
+    "id": "geography-013",
+    "question": "Welches Meer liegt zwischen Europa und Afrika?",
+    "answers": [
+      "Schwarzes Meer",
+      "Rotes Meer",
+      "Mittelmeer",
+      "Kaspisches Meer"
+    ],
+    "correct": 2,
+    "explanation": "Das Mittelmeer ist über die Straße von Gibraltar mit dem Atlantik verbunden."
+  },
+  {
+    "id": "geography-014",
+    "question": "Wie heißt der höchste Berg Südamerikas?",
+    "answers": [
+      "Aconcagua",
+      "Chimborazo",
+      "Cotopaxi",
+      "Huascarán"
+    ],
+    "correct": 0,
+    "explanation": "Der Aconcagua in den argentinischen Anden ist fast 7000 Meter hoch und der höchste Berg außerhalb Asiens."
+  },
+  {
+    "id": "geography-015",
+    "question": "Wie heißt der höchste Berg der Erde?",
+    "answers": [
+      "K2",
+      "Kangchendzönga",
+      "Mont Blanc",
+      "Mount Everest"
+    ],
+    "correct": 3,
+    "explanation": "Der Mount Everest im Himalaya ist rund 8849 Meter hoch und liegt an der Grenze zwischen Nepal und China."
+  },
+  {
+    "id": "geography-016",
+    "question": "Wie heißt die Hauptstadt von Marokko?",
+    "answers": [
+      "Casablanca",
+      "Rabat",
+      "Marrakesch",
+      "Fès"
+    ],
+    "correct": 1,
+    "explanation": "Rabat liegt an der Atlantikküste; die bekanntere Stadt Casablanca ist zwar größer, aber nicht Hauptstadt."
+  },
+  {
+    "id": "geography-017",
+    "question": "In welches Meer mündet die Elbe?",
+    "answers": [
+      "Nordsee",
+      "Ostsee",
+      "Schwarzes Meer",
+      "Mittelmeer"
+    ],
+    "correct": 0,
+    "explanation": "Die Elbe entspringt im Riesengebirge in Tschechien und mündet bei Cuxhaven in die Nordsee."
+  },
+  {
+    "id": "geography-018",
+    "question": "Welche Wüste erstreckt sich über Teile der Mongolei und Chinas?",
+    "answers": [
+      "Kalahari",
+      "Gobi",
+      "Atacama",
+      "Namib"
+    ],
+    "correct": 1,
+    "explanation": "Die Gobi ist eine der größten Wüsten Asiens und für extreme Temperaturunterschiede bekannt."
+  },
+  {
+    "id": "geography-019",
+    "question": "Wie heißt die Hauptstadt der Türkei?",
+    "answers": [
+      "Istanbul",
+      "Izmir",
+      "Antalya",
+      "Ankara"
+    ],
+    "correct": 3,
+    "explanation": "Ankara wurde 1923 unter Mustafa Kemal Atatürk zur Hauptstadt der neu gegründeten Republik erklärt."
+  },
+  {
+    "id": "geography-020",
+    "question": "Welches ist das flächenmäßig größte Land der Erde?",
+    "answers": [
+      "Kanada",
+      "China",
+      "Russland",
+      "USA"
+    ],
+    "correct": 2,
+    "explanation": "Russland erstreckt sich über elf Zeitzonen und liegt sowohl in Europa als auch in Asien."
+  },
+  {
+    "id": "geography-021",
+    "question": "In welchem Land entspringt die Donau?",
+    "answers": [
+      "Österreich",
+      "Schweiz",
+      "Tschechien",
+      "Deutschland"
+    ],
+    "correct": 3,
+    "explanation": "Die Donau entsteht im Schwarzwald bei Donaueschingen aus dem Zusammenfluss von Brigach und Breg."
+  },
+  {
+    "id": "geography-022",
+    "question": "Welcher ist der kleinste Staat der Erde?",
+    "answers": [
+      "Monaco",
+      "San Marino",
+      "Vatikanstadt",
+      "Liechtenstein"
+    ],
+    "correct": 2,
+    "explanation": "Die Vatikanstadt liegt mitten in Rom und ist weniger als einen halben Quadratkilometer groß."
+  },
+  {
+    "id": "geography-023",
+    "question": "Welcher Fluss fließt durch Paris?",
+    "answers": [
+      "Loire",
+      "Seine",
+      "Rhône",
+      "Garonne"
+    ],
+    "correct": 1,
+    "explanation": "Die Seine teilt Paris in das rechte und das linke Ufer; auf einer ihrer Inseln steht die Kathedrale Notre-Dame."
+  },
+  {
+    "id": "geography-024",
+    "question": "Welcher Fluss bildet einen großen Teil der Grenze zwischen den USA und Mexiko?",
+    "answers": [
+      "Rio Grande",
+      "Colorado",
+      "Mississippi",
+      "Missouri"
+    ],
+    "correct": 0,
+    "explanation": "Der Rio Grande, in Mexiko Río Bravo genannt, bildet die Grenze zwischen Texas und Mexiko."
+  },
+  {
+    "id": "geography-025",
+    "question": "Welche Meerenge trennt Europa von Afrika?",
+    "answers": [
+      "Bosporus",
+      "Ärmelkanal",
+      "Straße von Gibraltar",
+      "Straße von Messina"
+    ],
+    "correct": 2,
+    "explanation": "An ihrer engsten Stelle ist die Straße von Gibraltar nur etwa 14 Kilometer breit."
+  },
+  {
+    "id": "geography-026",
+    "question": "Wie heißt die Hauptstadt von Vietnam?",
+    "answers": [
+      "Ho-Chi-Minh-Stadt",
+      "Da Nang",
+      "Hue",
+      "Hanoi"
+    ],
+    "correct": 3,
+    "explanation": "Hanoi liegt im Norden des Landes am Roten Fluss; Ho-Chi-Minh-Stadt im Süden ist die größere Stadt."
+  },
+  {
+    "id": "geography-027",
+    "question": "Wie heißt die Hauptstadt von Brasilien?",
+    "answers": [
+      "Brasília",
+      "Rio de Janeiro",
+      "São Paulo",
+      "Salvador"
+    ],
+    "correct": 0,
+    "explanation": "Brasília wurde als Planstadt im Landesinneren erbaut und löste 1960 Rio de Janeiro als Hauptstadt ab."
+  },
+  {
+    "id": "geography-028",
+    "question": "In welchem Gebirge liegt der Mont Blanc?",
+    "answers": [
+      "Pyrenäen",
+      "Alpen",
+      "Karpaten",
+      "Apennin"
+    ],
+    "correct": 1,
+    "explanation": "Der Mont Blanc an der Grenze zwischen Frankreich und Italien ist der höchste Berg der Alpen."
+  },
+  {
+    "id": "geography-029",
+    "question": "Welche ist die größte Insel der Erde?",
+    "answers": [
+      "Madagaskar",
+      "Grönland",
+      "Borneo",
+      "Neuguinea"
+    ],
+    "correct": 1,
+    "explanation": "Grönland gehört politisch zum Königreich Dänemark und ist größtenteils von Eis bedeckt."
+  },
+  {
+    "id": "geography-030",
+    "question": "Welches deutsche Bundesland hat die größte Fläche?",
+    "answers": [
+      "Bayern",
+      "Niedersachsen",
+      "Baden-Württemberg",
+      "Nordrhein-Westfalen"
+    ],
+    "correct": 0,
+    "explanation": "Bayern nimmt rund ein Fünftel der Fläche Deutschlands ein, gefolgt von Niedersachsen."
+  },
+  {
+    "id": "geography-031",
+    "question": "Welche Stadt liegt am Bosporus?",
+    "answers": [
+      "Athen",
+      "Odessa",
+      "Istanbul",
+      "Beirut"
+    ],
+    "correct": 2,
+    "explanation": "Istanbul erstreckt sich beiderseits des Bosporus und liegt damit auf zwei Kontinenten, Europa und Asien."
+  },
+  {
+    "id": "geography-032",
+    "question": "Wie heißt die Hauptstadt von Neuseeland?",
+    "answers": [
+      "Auckland",
+      "Christchurch",
+      "Hamilton",
+      "Wellington"
+    ],
+    "correct": 3,
+    "explanation": "Wellington liegt an der Südspitze der Nordinsel; die größte Stadt des Landes ist jedoch Auckland."
+  },
+  {
+    "id": "geography-033",
+    "question": "In welchem Tiefseegraben liegt die tiefste bekannte Stelle der Weltmeere?",
+    "answers": [
+      "Marianengraben",
+      "Puerto-Rico-Graben",
+      "Tongagraben",
+      "Sundagraben"
+    ],
+    "correct": 0,
+    "explanation": "Das Challengertief im Marianengraben im Westpazifik liegt rund 11 000 Meter unter dem Meeresspiegel."
+  },
+  {
+    "id": "geography-034",
+    "question": "Welcher Fluss fließt durch Wien, Budapest und Belgrad?",
+    "answers": [
+      "Rhein",
+      "Elbe",
+      "Moldau",
+      "Donau"
+    ],
+    "correct": 3,
+    "explanation": "Die Donau durchfließt oder berührt zehn Länder und mündet schließlich ins Schwarze Meer."
+  },
+  {
+    "id": "geography-035",
+    "question": "Auf welcher Insel liegt der Vulkan Ätna?",
+    "answers": [
+      "Sardinien",
+      "Sizilien",
+      "Korsika",
+      "Kreta"
+    ],
+    "correct": 1,
+    "explanation": "Der Ätna an der Ostküste Siziliens ist der höchste aktive Vulkan Europas."
+  },
+  {
+    "id": "geography-036",
+    "question": "Welches europäische Land ist für seine Stiefelform bekannt?",
+    "answers": [
+      "Griechenland",
+      "Portugal",
+      "Italien",
+      "Kroatien"
+    ],
+    "correct": 2,
+    "explanation": "Die Apenninhalbinsel ragt wie ein Stiefel ins Mittelmeer; die Region Kalabrien bildet die Stiefelspitze."
+  },
+  {
+    "id": "geography-037",
+    "question": "Welches Gebirge bildet die Grenze zwischen Frankreich und Spanien?",
+    "answers": [
+      "Alpen",
+      "Vogesen",
+      "Zentralmassiv",
+      "Pyrenäen"
+    ],
+    "correct": 3,
+    "explanation": "Die Pyrenäen erstrecken sich über rund 430 Kilometer vom Atlantik bis zum Mittelmeer."
+  },
+  {
+    "id": "geography-038",
+    "question": "Wie heißt die Hauptstadt von Island?",
+    "answers": [
+      "Oslo",
+      "Reykjavík",
+      "Helsinki",
+      "Tórshavn"
+    ],
+    "correct": 1,
+    "explanation": "Reykjavík ist die nördlichste Hauptstadt eines souveränen Staates."
+  },
+  {
+    "id": "geography-039",
+    "question": "Welcher Kanal verbindet das Mittelmeer mit dem Roten Meer?",
+    "answers": [
+      "Suezkanal",
+      "Panamakanal",
+      "Kanal von Korinth",
+      "Nord-Ostsee-Kanal"
+    ],
+    "correct": 0,
+    "explanation": "Der 1869 eröffnete Suezkanal in Ägypten erspart Schiffen den Umweg um Afrika."
+  },
+  {
+    "id": "geography-040",
+    "question": "Welche Stadt ist die Landeshauptstadt von Nordrhein-Westfalen?",
+    "answers": [
+      "Köln",
+      "Dortmund",
+      "Düsseldorf",
+      "Essen"
+    ],
+    "correct": 2,
+    "explanation": "Düsseldorf ist seit der Gründung des Landes 1946 Hauptstadt, obwohl Köln die größere Stadt ist."
+  }
+]
