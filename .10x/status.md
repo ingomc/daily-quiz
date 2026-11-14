@@ -42,5 +42,5 @@ Offen: inhaltliche Prüfung der Fragen nur als Stichprobe; Test auf echtem Gerä
 - [x] Spec-Nachtrag + ADR-003
 - [x] Worker gebaut, getestet und bei Cloudflare deployt
 - [x] App: Schalter, Test, Meldung „erledigt“
-- [ ] App-Teil pushen und ausliefern (wartet auf Entscheidung zur Worker-Adresse)
+- [x] App-Teil gepusht und ausgeliefert (2026-11-14, Worker-Adresse vom Nutzer freigegeben)
 - [ ] Zustellung auf echtem Gerät prüfen
