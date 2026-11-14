@@ -3,6 +3,7 @@ import { CATEGORIES, POOL } from '../data/questions';
 import { ensureRound, isFinished } from '../game';
 import { streakLabel, type App } from './app';
 import { formatDate, h } from './dom';
+import { renderReminder } from './reminder';
 
 export function renderHome(app: App): HTMLElement {
   const { today, data } = app;
@@ -64,6 +65,7 @@ export function renderHome(app: App): HTMLElement {
           'Dein Browser erlaubt kein Speichern. Der Fortschritt geht beim Schließen verloren.',
         ),
     h('button', { class: 'btn', type: 'button', onclick: () => app.go('stats') }, 'Statistik'),
+    renderReminder(app),
     h(
       'ul',
       { class: 'topics', 'aria-label': 'Themen' },

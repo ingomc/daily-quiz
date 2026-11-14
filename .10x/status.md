@@ -37,3 +37,10 @@
 - [x] Deployment über Push auf `main`
 
 Offen: inhaltliche Prüfung der Fragen nur als Stichprobe; Test auf echtem Gerät.
+
+## Feature `push-reminder` (2026-11-14)
+- [x] Spec-Nachtrag + ADR-003
+- [x] Worker gebaut, getestet und bei Cloudflare deployt
+- [x] App: Schalter, Test, Meldung „erledigt“
+- [ ] App-Teil pushen und ausliefern (wartet auf Entscheidung zur Worker-Adresse)
+- [ ] Zustellung auf echtem Gerät prüfen

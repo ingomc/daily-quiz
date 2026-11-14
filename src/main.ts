@@ -2,6 +2,7 @@ import './style.css';
 import { dateKey } from './core/date';
 import { POOL } from './data/questions';
 import { isFinished } from './game';
+import { reportDone, syncPush } from './push';
 import { browserStorage, createStore } from './storage';
 import type { SaveData } from './types';
 import type { App, ScreenName } from './ui/app';
@@ -30,6 +31,8 @@ const app: App = {
   commit(next) {
     data = next;
     store.save(next);
+    const round = next.current;
+    if (round && isFinished(round) && next.history[round.date]) void reportDone(round.date);
   },
   go(name, options) {
     show(name, options?.celebrate ?? false);
@@ -71,3 +74,4 @@ document.addEventListener('visibilitychange', () => {
 });
 
 show('home');
+void syncPush(data.history[today] ? today : null);

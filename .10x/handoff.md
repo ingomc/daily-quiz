@@ -11,3 +11,7 @@
 ## Nachtrag 2026-11-11
 - Auswahl ist jetzt zufällig und historienbasiert (ADR-002); falsche Fragen kommen nach 7 Tagen wieder.
 - Pool: 1400 Fragen in 14 Kategorien. Details: `.10x/decisions/*/review-and-pool-expansion.md`.
+
+## Nachtrag 2026-11-14 — push-reminder
+- Worker live, App-Teil lokal committet, noch nicht gepusht.
+- Runbook: `.10x/decisions/sre/push-reminder.md`, Deploy: `.10x/decisions/devops/push-reminder.md`.

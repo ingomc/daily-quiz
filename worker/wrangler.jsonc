@@ -1,0 +1,19 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "daily-quiz-push",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  // 22:00 in Germany is 20:00 UTC in summer and 21:00 UTC in winter;
+  // the worker sends only at the one that matches.
+  "triggers": { "crons": ["0 20 * * *", "0 21 * * *"] },
+  "kv_namespaces": [{ "binding": "SUBS", "id": "aba2d74ca11846bd852d96f51a9bfa1f" }],
+  "vars": {
+    "VAPID_PUBLIC_KEY": "BAtmZg9FYNEXEZmYGRGesHGbG491ZzOsgnAYKeU2foXeBBxbidnsVQiSnuL9Ub-70EPl2YQarUls8AobqorsLec",
+    "VAPID_SUBJECT": "https://ingomc.github.io/daily-quiz/",
+    "ALLOWED_ORIGINS": "https://ingomc.github.io,http://localhost:5173,http://localhost:4173"
+  },
+  // VAPID_PRIVATE_JWK is a secret: `wrangler secret put VAPID_PRIVATE_JWK`.
+  "observability": { "enabled": true }
+}

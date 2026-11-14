@@ -15,3 +15,7 @@ npm run preview  # Build lokal ansehen
 Die Fragen liegen in `src/data/questions/<kategorie>.json`. Neue Fragen mit fortlaufender ID anhängen, bestehende IDs nie ändern, danach `npm test` ausführen.
 
 Design, Entscheidungen und Reviews stehen unter `.10x/`.
+
+## Erinnerung per Push
+
+Der Ordner `worker/` enthält einen Cloudflare Worker, der um 22 Uhr deutscher Zeit eine Benachrichtigung schickt, wenn die Runde des Tages noch offen ist. Deploy mit `npm run deploy:worker` (vorher `npx wrangler login`).

@@ -1,12 +1,14 @@
 import type { Plugin } from 'vite';
 import { defineConfig } from 'vitest/config';
 import { VitePWA } from 'vite-plugin-pwa';
+import { PUSH_API } from './src/push-config';
 
 const CSP = [
   "default-src 'self'",
   "script-src 'self'",
   "style-src 'self'",
   "img-src 'self' data:",
+  `connect-src 'self' ${PUSH_API}`,
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'none'",
@@ -61,11 +63,12 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+        importScripts: ['push-sw.js'],
       },
     }),
   ],
   test: {
     environment: 'node',
-    include: ['src/**/*.test.ts'],
+    include: ['src/**/*.test.ts', 'worker/src/**/*.test.ts'],
   },
 });

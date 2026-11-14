@@ -343,6 +343,83 @@ h2 {
   margin-top: 6px;
 }
 
+/* ---------- reminder ---------- */
+
+.reminder {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 18px;
+}
+
+.reminder[aria-busy='true'] {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.reminder-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.reminder-title {
+  font-weight: 800;
+}
+
+.reminder .muted {
+  font-size: 0.92rem;
+}
+
+.reminder-note {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.reminder-note:empty {
+  display: none;
+}
+
+.btn-small {
+  align-self: flex-start;
+  width: auto;
+  min-height: 44px;
+  padding: 8px 18px;
+  font-size: 0.95rem;
+  box-shadow: 0 3px 0 var(--outline);
+}
+
+.switch {
+  flex: none;
+  width: 60px;
+  height: 36px;
+  padding: 3px;
+  border: var(--border);
+  border-radius: 999px;
+  background: var(--track);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.switch[aria-checked='true'] {
+  background: #2fc27a;
+}
+
+.switch-knob {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid var(--outline);
+  border-radius: 50%;
+  background: #ffffff;
+  transition: transform 0.2s var(--spring);
+}
+
+.switch[aria-checked='true'] .switch-knob {
+  transform: translateX(24px);
+}
+
 /* ---------- question ---------- */
 
 .q-top {
