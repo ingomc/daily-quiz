@@ -253,15 +253,15 @@
   },
   {
     "id": "history-022",
-    "question": "In welchem Jahr endete nach gängiger Zählung das Weströmische Reich?",
+    "question": "Wer war der erste römische Kaiser?",
     "answers": [
-      "395",
-      "410",
-      "476",
-      "527"
+      "Nero",
+      "Augustus",
+      "Caligula",
+      "Trajan"
     ],
-    "correct": 2,
-    "explanation": "476 setzte der germanische Heerführer Odoaker den letzten weströmischen Kaiser Romulus Augustulus ab."
+    "correct": 1,
+    "explanation": "Augustus begründete ab 27 v. Chr. die Kaiserherrschaft in Rom und regierte bis zu seinem Tod im Jahr 14 n. Chr."
   },
   {
     "id": "history-023",
@@ -301,15 +301,15 @@
   },
   {
     "id": "history-026",
-    "question": "Wer meldete 1886 das Patent für seinen Motorwagen an?",
+    "question": "Welcher US-Erfinder gilt als Erfinder der Glühbirne?",
     "answers": [
-      "Gottlieb Daimler",
-      "Rudolf Diesel",
-      "Nikolaus Otto",
-      "Carl Benz"
+      "Nikola Tesla",
+      "Benjamin Franklin",
+      "Thomas Alva Edison",
+      "Alexander Graham Bell"
     ],
-    "correct": 3,
-    "explanation": "Der Benz Patent-Motorwagen Nummer 1 gilt als erstes praxistaugliches Automobil."
+    "correct": 2,
+    "explanation": "Edison entwickelte eine langlebige, praxistaugliche Glühlampe. Vorläufer gab es aber schon vor ihm."
   },
   {
     "id": "history-027",
@@ -505,15 +505,15 @@
   },
   {
     "id": "history-043",
-    "question": "In welcher Epoche lebte die Gletschermumie Ötzi?",
+    "question": "Welches der sieben Weltwunder der Antike ist bis heute erhalten?",
     "answers": [
-      "Kupferzeit",
-      "Eisenzeit",
-      "Völkerwanderungszeit",
-      "Frühes Mittelalter"
+      "Die Pyramiden von Gizeh",
+      "Der Koloss von Rhodos",
+      "Die Hängenden Gärten von Babylon",
+      "Der Leuchtturm von Alexandria"
     ],
     "correct": 0,
-    "explanation": "Ötzi lebte im vierten Jahrtausend vor Christus. Seine Mumie und Ausrüstung geben Einblicke in das Leben der Kupferzeit."
+    "explanation": "Die Pyramiden von Gizeh in Ägypten stehen noch; die anderen sechs Weltwunder sind zerstört oder verschollen."
   },
   {
     "id": "history-044",
@@ -599,18 +599,18 @@
     "correct": 0,
     "explanation": "Vespasian und seine beiden Söhne Titus und Domitian bildeten die flavische Kaiserdynastie."
   },
-  {"id":"history-051","question":"Welcher Kultur wird das frühmittelalterliche Schiffsgrab von Sutton Hoo zugeordnet?","answers":["Der byzantinischen","Der awarischen","Der langobardischen","Der angelsächsischen"],"correct":3,"explanation":"Das Schiffsgrab stammt aus dem 7. Jahrhundert. Seine Beigaben bezeugen die weitreichenden Kontakte der angelsächsischen Elite."},
+  {"id":"history-051","question":"Welche Stadt war die Hauptstadt des Inkareichs?","answers":["Lima","Quito","Cusco","Bogotá"],"correct":2,"explanation":"Cusco war das politische und religiöse Zentrum des Inkareichs in den Anden."},
   {
     "id": "history-052",
-    "question": "Welche Seefahrer hinterließen um das Jahr 1000 die Siedlungsspuren von L’Anse aux Meadows auf Neufundland?",
+    "question": "Welches Land schenkte den Vereinigten Staaten die Freiheitsstatue?",
     "answers": [
-      "Nordische Seefahrer",
-      "Phönizische Seefahrer",
-      "Portugiesische Seefahrer",
-      "Chinesische Seefahrer"
+      "Großbritannien",
+      "Frankreich",
+      "Spanien",
+      "Italien"
     ],
-    "correct": 0,
-    "explanation": "Die archäologischen Funde belegen die Anwesenheit von Nordleuten in Nordamerika lange vor der Neuzeit."
+    "correct": 1,
+    "explanation": "Die Statue im New Yorker Hafen wurde als Geschenk der Franzosen an die USA errichtet."
   },
   {
     "id": "history-053",
@@ -662,15 +662,15 @@
   },
   {
     "id": "history-057",
-    "question": "Von welcher Stadt brach Ibn Battuta 1325 zu seiner großen Reise auf?",
+    "question": "Welches gewaltige Bauwerk in Nordchina sollte Angriffe von Steppenvölkern abwehren?",
     "answers": [
-      "Kairo",
-      "Tanger",
-      "Damaskus",
-      "Samarkand"
+      "Der Hadrianswall",
+      "Der Limes",
+      "Die Mauer von Konstantinopel",
+      "Die Chinesische Mauer"
     ],
-    "correct": 1,
-    "explanation": "Der Reisende verließ seine Heimatstadt Tanger zunächst mit dem Ziel, nach Mekka zu pilgern."
+    "correct": 3,
+    "explanation": "Die Befestigung wurde über Jahrhunderte gebaut und schützte das Reich vor Überfällen aus dem Norden."
   },
   {
     "id": "history-058",
@@ -938,15 +938,15 @@
   },
   {
     "id": "history-080",
-    "question": "Welcher Kosmonaut verließ 1965 bei Woschod 2 sein Raumschiff für einen Weltraumausstieg?",
+    "question": "Welches Lebewesen umkreiste 1957 als erstes die Erde an Bord von Sputnik 2?",
     "answers": [
-      "Pawel Beljajew",
-      "German Titow",
-      "Waleri Bykowski",
-      "Alexei Leonow"
+      "Ein Affe namens Ham",
+      "Eine Hündin namens Laika",
+      "Eine Maus namens Fritz",
+      "Eine Katze namens Felix"
     ],
-    "correct": 3,
-    "explanation": "Leonow führte den ersten Außenbordeinsatz eines Menschen durch. Dabei blieb er über eine Leine mit dem Raumschiff verbunden."
+    "correct": 1,
+    "explanation": "Die Hündin Laika war das erste Lebewesen im Erdorbit; sie starb während des Fluges."
   },
   {
     "id": "history-081",
@@ -1022,15 +1022,15 @@
   },
   {
     "id": "history-087",
-    "question": "Welcher niederländische Seefahrer erreichte 1642 die Küste Neuseelands?",
+    "question": "Welches Volk besiedelte Neuseeland als Erstes, lange vor den Europäern?",
     "answers": [
-      "Abel Tasman",
-      "Willem Barents",
-      "Jacob Roggeveen",
-      "Cornelis de Houtman"
+      "Die Azteken",
+      "Die Inuit",
+      "Die Maori",
+      "Die Hunnen"
     ],
-    "correct": 0,
-    "explanation": "Tasman sichtete die Südinsel Neuseelands auf einer Fahrt durch den Südpazifik. Er ging dort nicht an Land."
+    "correct": 2,
+    "explanation": "Die Vorfahren der Maori kamen als Seefahrer aus Polynesien und besiedelten Neuseeland lange vor den Europäern."
   },
   {
     "id": "history-088",
@@ -1070,15 +1070,15 @@
   },
   {
     "id": "history-091",
-    "question": "In welcher Stadt wurden 2012 die sterblichen Überreste Richards III. ausgegraben?",
+    "question": "Welches Passagierschiff sank 1912 auf seiner Jungfernfahrt nach der Kollision mit einem Eisberg?",
     "answers": [
-      "Leicester",
-      "York",
-      "Canterbury",
-      "Winchester"
+      "Lusitania",
+      "Bismarck",
+      "Queen Mary",
+      "Titanic"
     ],
-    "correct": 0,
-    "explanation": "Die Überreste lagen auf dem Gelände des ehemaligen Greyfriars-Klosters, das später als Parkplatz genutzt wurde."
+    "correct": 3,
+    "explanation": "Die Titanic ging im April 1912 im Nordatlantik unter; rund 1500 Menschen starben."
   },
   {
     "id": "history-092",
@@ -1178,14 +1178,14 @@
   },
   {
     "id": "history-100",
-    "question": "Welche Herrscherin von Jhansi kämpfte im Indischen Aufstand von 1857/58 gegen die Briten?",
+    "question": "Welche Kolonialmacht herrschte bis 1947 über Indien?",
     "answers": [
-      "Nur Jahan",
-      "Lakshmibai",
-      "Razia Sultana",
-      "Ahilyabai Holkar"
+      "Frankreich",
+      "Portugal",
+      "Großbritannien",
+      "Niederlande"
     ],
-    "correct": 1,
-    "explanation": "Lakshmibai gehörte zu den militärischen Anführerinnen des Widerstands gegen die britische Kolonialmacht."
+    "correct": 2,
+    "explanation": "Britisch-Indien war der wichtigste Teil des britischen Empires, bis das Land 1947 unabhängig wurde."
   }
 ]

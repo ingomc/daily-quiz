@@ -734,15 +734,15 @@
   },
   {
     "id": "geography-063",
-    "question": "Welche Meerenge trennt Tasmanien vom australischen Festland?",
+    "question": "Welche ist die größte Stadt Australiens?",
     "answers": [
-      "Cookstraße",
-      "Torresstraße",
-      "Sundastraße",
-      "Bassstraße"
+      "Melbourne",
+      "Sydney",
+      "Brisbane",
+      "Perth"
     ],
-    "correct": 3,
-    "explanation": "Die Bassstraße liegt zwischen der Nordküste Tasmaniens und der Südküste des australischen Festlands."
+    "correct": 1,
+    "explanation": "Sydney ist die bevölkerungsreichste Stadt Australiens und Sitz des Bundesstaates New South Wales."
   },
   {
     "id": "geography-064",
@@ -975,27 +975,27 @@
   },
   {
     "id": "geography-084",
-    "question": "Welche Meerenge trennt Hokkaidō von Honshū?",
+    "question": "Welche ist die größte Insel Japans?",
     "answers": [
-      "Tsushima-Straße",
-      "La-Pérouse-Straße",
-      "Tsugaru-Straße",
-      "Straße von Tartarei"
+      "Honshū",
+      "Hokkaidō",
+      "Kyūshū",
+      "Shikoku"
     ],
-    "correct": 2,
-    "explanation": "Die Tsugaru-Straße verbindet zwischen den beiden Inseln das Japanische Meer mit dem Pazifik."
+    "correct": 0,
+    "explanation": "Honshū ist die größte Insel Japans und trägt dort den Großteil der Bevölkerung und die großen Städte wie Tokio."
   },
   {
     "id": "geography-085",
-    "question": "Welche Meerenge verbindet das Rote Meer mit dem Golf von Aden?",
+    "question": "Welches Land hat die Hauptstadt Riad?",
     "answers": [
-      "Straße von Hormus",
-      "Straße von Tiran",
-      "Bab al-Mandab",
-      "Straße von Malakka"
+      "Katar",
+      "Oman",
+      "Saudi-Arabien",
+      "Jordanien"
     ],
     "correct": 2,
-    "explanation": "Bab al-Mandab liegt am südlichen Ausgang des Roten Meeres zum Golf von Aden."
+    "explanation": "Riad ist die Hauptstadt Saudi-Arabiens, des größten Staates der Arabischen Halbinsel."
   },
   {
     "id": "geography-086",
@@ -1035,15 +1035,15 @@
   },
   {
     "id": "geography-089",
-    "question": "In welchen Strom mündet der Irtysch?",
+    "question": "Wie heißt der längste Fluss Frankreichs?",
     "answers": [
-      "Jenissei",
-      "Lena",
-      "Ob",
-      "Amur"
+      "Seine",
+      "Rhône",
+      "Garonne",
+      "Loire"
     ],
-    "correct": 2,
-    "explanation": "Der Irtysch ist ein Nebenfluss des Ob im westlichen Sibirien."
+    "correct": 3,
+    "explanation": "Die Loire ist mit rund 1000 Kilometern der längste Fluss Frankreichs."
   },
   {
     "id": "geography-090",
@@ -1059,27 +1059,27 @@
   },
   {
     "id": "geography-091",
-    "question": "Welcher Fluss bildet den Abfluss des Baikalsees?",
+    "question": "Welches Land hat die Hauptstadt Nairobi?",
     "answers": [
-      "Angara",
-      "Selenga",
-      "Lena",
-      "Amur"
+      "Uganda",
+      "Tansania",
+      "Kenia",
+      "Somalia"
     ],
-    "correct": 0,
-    "explanation": "Die Angara verlässt den Baikalsee nahe dessen südlichem Ende. Die Selenga ist dagegen ein Zufluss."
+    "correct": 2,
+    "explanation": "Nairobi ist die Hauptstadt Kenias und liegt im Hochland des Landes."
   },
   {
     "id": "geography-092",
-    "question": "Welcher See speist den Blauen Nil?",
+    "question": "Welches Land hat die Hauptstadt Lima?",
     "answers": [
-      "Victoriasee",
-      "Tanganjikasee",
-      "Malawisee",
-      "Tanasee"
+      "Peru",
+      "Chile",
+      "Bolivien",
+      "Ecuador"
     ],
-    "correct": 3,
-    "explanation": "Der Blaue Nil verlässt den Tanasee im äthiopischen Hochland."
+    "correct": 0,
+    "explanation": "Lima ist die Hauptstadt Perus und liegt an der Pazifikküste."
   },
   {
     "id": "geography-093",
@@ -1093,18 +1093,18 @@
     "correct": 1,
     "explanation": "Die Great Dividing Range zieht sich durch den Osten Australiens von Queensland bis Victoria."
   },
-  {"id":"geography-094","question":"Welcher Golf grenzt an die Westküste der Kap-York-Halbinsel?","answers":["Spencer-Golf","Golf von Carpentaria","Joseph-Bonaparte-Golf","Golf Saint Vincent"],"correct":1,"explanation":"Die Kap-York-Halbinsel liegt zwischen dem Golf von Carpentaria im Westen und dem Korallenmeer im Osten."},
+  {"id":"geography-094","question":"Welcher Kontinent ist der flächenmäßig kleinste der Erde?","answers":["Europa","Australien","Antarktika","Südamerika"],"correct":1,"explanation":"Australien ist der kleinste Kontinent und besteht im Wesentlichen aus einem einzigen Staat."},
   {
     "id": "geography-095",
-    "question": "Welche Meeresstraße liegt zwischen der Halbinsel Yucatán und Kuba?",
+    "question": "Welche ist die größte Insel der Karibik?",
     "answers": [
-      "Floridastraße",
-      "Windward-Passage",
-      "Mona-Passage",
-      "Yucatánstraße"
+      "Hispaniola",
+      "Jamaika",
+      "Puerto Rico",
+      "Kuba"
     ],
     "correct": 3,
-    "explanation": "Die Yucatánstraße liegt zwischen der Nordostspitze Yucatáns und der Westspitze Kubas."
+    "explanation": "Kuba ist die größte Insel der Karibik und liegt südlich der Vereinigten Staaten."
   },
   {
     "id": "geography-096",
@@ -1132,27 +1132,27 @@
   },
   {
     "id": "geography-098",
-    "question": "Welches arktische Meer liegt zwischen der Taimyr-Halbinsel und den Neusibirischen Inseln?",
+    "question": "Welche Stadt ist die Hauptstadt von Schottland?",
     "answers": [
-      "Karasee",
-      "Barentssee",
-      "Laptewsee",
-      "Tschuktschensee"
+      "Glasgow",
+      "Aberdeen",
+      "Inverness",
+      "Edinburgh"
     ],
-    "correct": 2,
-    "explanation": "Die Laptewsee grenzt im Westen an die Taimyr-Halbinsel und im Osten an die Neusibirischen Inseln."
+    "correct": 3,
+    "explanation": "Edinburgh liegt an der Ostküste Schottlands und ist Sitz des schottischen Parlaments."
   },
   {
     "id": "geography-099",
-    "question": "Wie heißt der Amazonas in Brasilien oberhalb seines Zusammenflusses mit dem Rio Negro?",
+    "question": "Welches ist das flächenmäßig größte Land Südamerikas?",
     "answers": [
-      "Madeira",
-      "Solimões",
-      "Tapajós",
-      "Xingu"
+      "Argentinien",
+      "Brasilien",
+      "Peru",
+      "Kolumbien"
     ],
     "correct": 1,
-    "explanation": "Der Solimões vereinigt sich bei Manaus mit dem Rio Negro; unterhalb des Zusammenflusses trägt der Strom in Brasilien den Namen Amazonas."
+    "explanation": "Brasilien nimmt fast die Hälfte der Fläche Südamerikas ein."
   },
   {
     "id": "geography-100",

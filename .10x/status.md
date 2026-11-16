@@ -44,3 +44,8 @@ Offen: inhaltliche Prüfung der Fragen nur als Stichprobe; Test auf echtem Gerä
 - [x] App: Schalter, Test, Meldung „erledigt“
 - [x] App-Teil gepusht und ausgeliefert (2026-11-14, Worker-Adresse vom Nutzer freigegeben)
 - [ ] Zustellung auf echtem Gerät prüfen
+
+## Fragen entschärft (2026-11-16)
+
+- [x] 134 besonders schwere Fragen in allen 14 Kategorien durch leichtere ersetzt (ids unverändert), per Haiku-Subagenten, danach gegengelesen
+- Offen: Die Agenten nennen rund 280 weitere Fragen als zu schwer (vor allem Politik & Wirtschaft, Star Trek, Essen & Trinken, Kunst & Musik)
