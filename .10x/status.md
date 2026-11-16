@@ -54,3 +54,8 @@ Offen: inhaltliche Prüfung der Fragen nur als Stichprobe; Test auf echtem Gerä
 
 - [x] 641 weitere Fragen per Codex CLI (gpt-6.1-terra, low) durch leichtere ersetzt; alle gegengelesen, 3 falsche Lösungsindizes (food-015/016/018), 1 Beinahe-Dopplung (sports-085) und 1 Tippfehler korrigiert
 - Stand: 775 von 1400 Fragen seit dem 14.11. ersetzt; Technik, Formel 1, Star Trek und Sport sind jetzt überwiegend Begriffs- und Grundlagenfragen
+
+## Technik und Formel 1 wieder angehoben (2026-11-16)
+
+- [x] 60 Technik- und 48 Formel-1-Fragen auf die ursprünglichen mittelschweren Fassungen zurückgesetzt; obskure Originale (8 Technik, 21 Formel 1) bleiben leicht
+- Zielniveau: Technik und Formel 1 mittelschwer (Nutzer ist dort Profi), alle anderen Kategorien leicht
