@@ -1,9 +1,8 @@
 import { currentStreak } from '../core/stats';
-import { CATEGORIES, POOL } from '../data/questions';
+import { POOL } from '../data/questions';
 import { ensureRound, isFinished } from '../game';
 import { streakLabel, type App } from './app';
 import { formatDate, h } from './dom';
-import { renderReminder } from './reminder';
 
 export function renderHome(app: App): HTMLElement {
   const { today, data } = app;
@@ -64,14 +63,11 @@ export function renderHome(app: App): HTMLElement {
           { class: 'notice', role: 'status' },
           'Dein Browser erlaubt kein Speichern. Der Fortschritt geht beim Schließen verloren.',
         ),
-    h('button', { class: 'btn', type: 'button', onclick: () => app.go('stats') }, 'Statistik'),
-    renderReminder(app),
     h(
-      'ul',
-      { class: 'topics', 'aria-label': 'Themen' },
-      ...CATEGORIES.map((c) =>
-        h('li', { class: 'chip', 'data-category': c.id }, h('span', { 'aria-hidden': 'true' }, c.emoji), ' ', c.name),
-      ),
+      'div',
+      { class: 'home-actions' },
+      h('button', { class: 'btn', type: 'button', onclick: () => app.go('stats') }, 'Statistik'),
+      h('button', { class: 'btn', type: 'button', onclick: () => app.go('settings') }, 'Einstellungen'),
     ),
   );
 }

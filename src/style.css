@@ -340,6 +340,12 @@ h2 {
   color: var(--muted);
 }
 
+.home-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
 .topics {
   display: flex;
   flex-wrap: wrap;

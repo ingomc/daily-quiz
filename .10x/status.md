@@ -64,3 +64,7 @@ Offen: inhaltliche Prüfung der Fragen nur als Stichprobe; Test auf echtem Gerä
 
 - [x] Pop & Rock, Videospiele, Autos & Verkehr, Weltraum, Gesundheit & Körper mit je 50 mittelleichten Fragen (Codex CLI, gpt-6.1-terra, low); alle 250 gegengelesen, 4 ersetzt (1 Dopplung mit science-060, 1 Beinahe-Dopplung mit f1-005, 2 Fragen, die ihre Antwort verrieten)
 - Stand: 1650 Fragen in 19 Kategorien; neue Kategorien haben 50 statt 100 Fragen und kommen deshalb seltener dran
+
+## Startseite aufgeräumt (2026-11-16)
+
+- [x] Themenliste und Erinnerungs-Schalter von der Startseite auf einen neuen Bildschirm „Einstellungen“ verschoben; Startseite zeigt nur noch Runde, Serie, Statistik und Einstellungen

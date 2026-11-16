@@ -1,6 +1,6 @@
 import type { SaveData } from '../types';
 
-export type ScreenName = 'home' | 'question' | 'result' | 'stats';
+export type ScreenName = 'home' | 'question' | 'result' | 'stats' | 'settings';
 
 /** What a screen may read and do; implemented in main.ts. */
 export interface App {

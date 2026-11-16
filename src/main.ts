@@ -9,6 +9,7 @@ import type { App, ScreenName } from './ui/app';
 import { renderHome } from './ui/home';
 import { renderQuestion } from './ui/question';
 import { renderResult } from './ui/result';
+import { renderSettings } from './ui/settings';
 import { renderStats } from './ui/stats';
 
 const root = document.getElementById('app')!;
@@ -60,7 +61,9 @@ function show(name: ScreenName, celebrate = false): void {
         ? renderResult(app, celebrate)
         : screen === 'stats'
           ? renderStats(app)
-          : renderHome(app);
+          : screen === 'settings'
+            ? renderSettings(app)
+            : renderHome(app);
   root.replaceChildren(view);
   window.scrollTo(0, 0);
   view.querySelector<HTMLElement>('h1')?.focus({ preventScroll: true });
