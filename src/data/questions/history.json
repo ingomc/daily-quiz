@@ -13,15 +13,15 @@
   },
   {
     "id": "history-002",
-    "question": "Wer war der Lehrer Alexanders des Großen?",
+    "question": "Wie hießen die Bildzeichen der alten Ägypter?",
     "answers": [
-      "Platon",
-      "Sokrates",
-      "Aristoteles",
-      "Pythagoras"
+      "Hieroglyphen",
+      "Keilschrift",
+      "Runen",
+      "Lateinische Buchstaben"
     ],
-    "correct": 2,
-    "explanation": "Der Philosoph Aristoteles unterrichtete den jungen Alexander am makedonischen Königshof."
+    "correct": 0,
+    "explanation": "Hieroglyphen wurden im alten Ägypten unter anderem auf Tempelwände und Gräber geschrieben."
   },
   {
     "id": "history-003",
@@ -49,15 +49,15 @@
   },
   {
     "id": "history-005",
-    "question": "In welchem Jahr eroberten die Osmanen Konstantinopel?",
+    "question": "Wie heißt die frühere Hauptstadt des Oströmischen Reiches heute?",
     "answers": [
-      "1204",
-      "1492",
-      "1529",
-      "1453"
+      "Ankara",
+      "Istanbul",
+      "Athen",
+      "Rom"
     ],
-    "correct": 3,
-    "explanation": "Mit der Eroberung durch Sultan Mehmed II. endete das Byzantinische Reich."
+    "correct": 1,
+    "explanation": "Konstantinopel trägt heute den Namen Istanbul."
   },
   {
     "id": "history-006",
@@ -85,15 +85,15 @@
   },
   {
     "id": "history-008",
-    "question": "Welcher Friedensschluss beendete 1648 den Dreißigjährigen Krieg?",
+    "question": "Welcher Konflikt verwüstete im 17. Jahrhundert weite Teile Mitteleuropas?",
     "answers": [
-      "Augsburger Religionsfriede",
-      "Westfälischer Friede",
-      "Wiener Kongress",
-      "Friede von Utrecht"
+      "Der Hundertjährige Krieg",
+      "Der Siebenjährige Krieg",
+      "Der Dreißigjährige Krieg",
+      "Der Krimkrieg"
     ],
-    "correct": 1,
-    "explanation": "Der Westfälische Friede wurde in Münster und Osnabrück ausgehandelt."
+    "correct": 2,
+    "explanation": "Der Dreißigjährige Krieg endete 1648 mit dem Westfälischen Frieden."
   },
   {
     "id": "history-009",
@@ -205,15 +205,15 @@
   },
   {
     "id": "history-018",
-    "question": "Wer entdeckte 1895 die später nach ihm benannten Strahlen?",
+    "question": "Wozu dienten römische Aquädukte hauptsächlich?",
     "answers": [
-      "Heinrich Hertz",
-      "Wilhelm Conrad Röntgen",
-      "Max Planck",
-      "Otto Hahn"
+      "Zur Verteidigung der Grenzen",
+      "Für Wagenrennen",
+      "Als Grabstätten",
+      "Zur Versorgung mit Wasser"
     ],
-    "correct": 1,
-    "explanation": "Röntgen erhielt für die Entdeckung 1901 den ersten Nobelpreis für Physik."
+    "correct": 3,
+    "explanation": "Aquädukte transportierten Wasser über große Strecken zu Städten und Siedlungen."
   },
   {
     "id": "history-019",
@@ -409,15 +409,15 @@
   },
   {
     "id": "history-035",
-    "question": "Welche Stadt war in den Punischen Kriegen die große Gegnerin Roms?",
+    "question": "Welche Stadt gilt als wichtiger Ursprungsort der antiken Demokratie?",
     "answers": [
       "Athen",
-      "Karthago",
-      "Sparta",
-      "Alexandria"
+      "Rom",
+      "Alexandria",
+      "Karthago"
     ],
-    "correct": 1,
-    "explanation": "Karthago im heutigen Tunesien wurde 146 v. Chr. am Ende des Dritten Punischen Krieges zerstört."
+    "correct": 0,
+    "explanation": "In Athen konnten männliche Bürger unmittelbar über politische Fragen abstimmen. Frauen und versklavte Menschen waren ausgeschlossen."
   },
   {
     "id": "history-036",
@@ -445,15 +445,15 @@
   },
   {
     "id": "history-038",
-    "question": "In welchem Jahr fand die russische Oktoberrevolution statt?",
+    "question": "Welche politische Bewegung übernahm bei der Oktoberrevolution in Russland die Macht?",
     "answers": [
-      "1905",
-      "1917",
-      "1914",
-      "1922"
+      "Die Jakobiner",
+      "Die Bolschewiki",
+      "Die Nationalsozialisten",
+      "Die Royalisten"
     ],
     "correct": 1,
-    "explanation": "Die Bolschewiki unter Lenin stürzten 1917 die Provisorische Regierung in Petrograd."
+    "explanation": "Die Bolschewiki unter Lenin stürzten die provisorische Regierung Russlands."
   },
   {
     "id": "history-039",
@@ -469,39 +469,39 @@
   },
   {
     "id": "history-040",
-    "question": "Auf welcher Insel starb Napoleon 1821 in der Verbannung?",
+    "question": "Welche Insel war Napoleons erste Verbannungsinsel nach seiner Abdankung 1814?",
     "answers": [
-      "Elba",
       "Korsika",
-      "St. Helena",
-      "Sardinien"
+      "Sardinien",
+      "Elba",
+      "Sizilien"
     ],
     "correct": 2,
-    "explanation": "Nach Waterloo verbannten die Briten Napoleon auf die abgelegene Atlantikinsel St. Helena."
+    "explanation": "Napoleon wurde zunächst nach Elba verbannt, bevor er nach Frankreich zurückkehrte."
   },
   {
     "id": "history-041",
-    "question": "Wer leitete 1922 die Entdeckung des Grabes von Tutanchamun?",
+    "question": "Wie nennt man im alten Ägypten durch besondere Verfahren haltbar gemachte Tote?",
     "answers": [
-      "Heinrich Schliemann",
-      "Arthur Evans",
-      "Jean-François Champollion",
-      "Howard Carter"
+      "Gladiatoren",
+      "Pharaonen",
+      "Hieroglyphen",
+      "Mumien"
     ],
     "correct": 3,
-    "explanation": "Carter und sein Grabungsteam fanden das Grab im Tal der Könige. Es war mit zahlreichen Grabbeigaben erhalten geblieben."
+    "explanation": "Durch Mumifizierung sollten Körper für das Leben nach dem Tod erhalten bleiben."
   },
   {
     "id": "history-042",
-    "question": "Für welchen Herrscher wurde die 1974 entdeckte Terrakottaarmee angefertigt?",
+    "question": "Aus welchem Material bestehen die Figuren der chinesischen Terrakottaarmee?",
     "answers": [
-      "Qin Shihuangdi",
-      "Han Wudi",
-      "Tang Taizong",
-      "Kaiser Yongle"
+      "Gebranntem Ton",
+      "Bronze",
+      "Marmor",
+      "Holz"
     ],
     "correct": 0,
-    "explanation": "Die Figuren gehören zur Grabanlage des Qin-Herrschers in der Nähe von Xi’an."
+    "explanation": "Die lebensgroßen Tonfiguren gehören zur Grabanlage des ersten Kaisers von China."
   },
   {
     "id": "history-043",
@@ -541,15 +541,15 @@
   },
   {
     "id": "history-046",
-    "question": "Welche Königin der Icener führte um 60 n. Chr. einen Aufstand gegen Rom an?",
+    "question": "Aus welcher Region Europas kamen die Wikinger ursprünglich?",
     "answers": [
-      "Zenobia",
-      "Artemisia I.",
-      "Kleopatra VII.",
-      "Boudicca"
+      "Vom Balkan",
+      "Aus Skandinavien",
+      "Von der Iberischen Halbinsel",
+      "Aus den Alpen"
     ],
-    "correct": 3,
-    "explanation": "Boudiccas Aufständische griffen mehrere römische Städte in Britannien an, darunter Londinium."
+    "correct": 1,
+    "explanation": "Wikinger kamen vor allem aus Gebieten des heutigen Norwegens, Schwedens und Dänemarks."
   },
   {
     "id": "history-047",
@@ -565,39 +565,39 @@
   },
   {
     "id": "history-048",
-    "question": "Welcher persische König führte 480 v. Chr. den Feldzug gegen Griechenland an?",
+    "question": "Wie hieß das große Amphitheater im antiken Rom, in dem Gladiatoren kämpften?",
     "answers": [
-      "Kyros II.",
-      "Kambyses II.",
-      "Dareios I.",
-      "Xerxes I."
+      "Das Pantheon",
+      "Der Circus Maximus",
+      "Das Kolosseum",
+      "Die Akropolis"
     ],
-    "correct": 3,
-    "explanation": "Unter Xerxes kämpfte das persische Heer an den Thermopylen. Seine Flotte erlitt anschließend bei Salamis eine Niederlage."
+    "correct": 2,
+    "explanation": "Im Kolosseum fanden unter anderem Gladiatorenkämpfe und Tierhetzen statt."
   },
   {
     "id": "history-049",
-    "question": "Welche Herrscherin von Palmyra stellte sich im 3. Jahrhundert gegen die römische Herrschaft?",
+    "question": "Welche Funktion hatte ein Burggraben im Mittelalter vor allem?",
     "answers": [
-      "Hatschepsut",
-      "Artemisia II.",
-      "Zenobia",
-      "Nofretete"
+      "Er diente als Marktplatz",
+      "Er versorgte die Burg mit Trinkwasser",
+      "Er war eine Rennbahn",
+      "Er erschwerte Angreifern den Zugang"
     ],
-    "correct": 2,
-    "explanation": "Zenobia dehnte ihre Macht über Teile des römischen Ostens aus. Kaiser Aurelian besiegte ihre Truppen 272."
+    "correct": 3,
+    "explanation": "Ein Graben um die Burg war ein Hindernis für Angreifer und konnte mit Wasser gefüllt sein."
   },
   {
     "id": "history-050",
-    "question": "Zu welcher römischen Kaiserdynastie gehörten Vespasian, Titus und Domitian?",
+    "question": "Wie nennt man den Zusammenschluss mittelalterlicher Handwerker desselben Berufs?",
     "answers": [
-      "Flavier",
-      "Julisch-claudische Dynastie",
-      "Severer",
-      "Antoninen"
+      "Zunft",
+      "Senat",
+      "Legion",
+      "Parlament"
     ],
     "correct": 0,
-    "explanation": "Vespasian und seine beiden Söhne Titus und Domitian bildeten die flavische Kaiserdynastie."
+    "explanation": "Zünfte regelten unter anderem Ausbildung und Berufsausübung ihrer Mitglieder."
   },
   {"id":"history-051","question":"Welche Stadt war die Hauptstadt des Inkareichs?","answers":["Lima","Quito","Cusco","Bogotá"],"correct":2,"explanation":"Cusco war das politische und religiöse Zentrum des Inkareichs in den Anden."},
   {
@@ -614,15 +614,15 @@
   },
   {
     "id": "history-053",
-    "question": "Wer gewann 1066 die Schlacht bei Hastings?",
+    "question": "Was war die Hanse im Mittelalter?",
     "answers": [
-      "Wilhelm der Eroberer",
-      "Harald Godwinson",
-      "Richard Löwenherz",
-      "Alfred der Große"
+      "Ein Ritterorden",
+      "Ein Bund von Kaufleuten und Städten",
+      "Eine Bauernarmee",
+      "Ein Klosterverband"
     ],
-    "correct": 0,
-    "explanation": "Wilhelms normannisches Heer besiegte König Harald. Der Sieg leitete die normannische Eroberung Englands ein."
+    "correct": 1,
+    "explanation": "Die Hanse förderte und schützte den Handel vor allem im Nord- und Ostseeraum."
   },
   {
     "id": "history-054",
@@ -638,27 +638,27 @@
   },
   {
     "id": "history-055",
-    "question": "Welcher muslimische Herrscher eroberte Jerusalem 1187 von den Kreuzfahrern zurück?",
+    "question": "Wie nennt man die religiös begründeten Kriegszüge, die im Mittelalter unter anderem nach Jerusalem führten?",
     "answers": [
-      "Süleyman der Prächtige",
-      "Saladin",
-      "Mehmed II.",
-      "Timur"
+      "Pilgerfahrten",
+      "Völkerwanderungen",
+      "Kreuzzüge",
+      "Koalitionskriege"
     ],
-    "correct": 1,
-    "explanation": "Saladin besiegte zuvor das Kreuzfahrerheer bei Hattin und nahm anschließend Jerusalem ein."
+    "correct": 2,
+    "explanation": "Mehrere Kreuzzüge hatten die Kontrolle über Jerusalem und andere Gebiete im östlichen Mittelmeerraum zum Ziel."
   },
   {
     "id": "history-056",
-    "question": "Welche beiden englischen Adelshäuser standen sich in den Rosenkriegen gegenüber?",
+    "question": "Welche Erfindung aus China verbreitete sich später auch als Kriegswaffe in Europa?",
     "answers": [
-      "Tudor und Stuart",
-      "Plantagenet und Windsor",
-      "Hannover und Bourbon",
-      "Lancaster und York"
+      "Der Buchstabendruck",
+      "Das Fernrohr",
+      "Die Dampfmaschine",
+      "Das Schießpulver"
     ],
     "correct": 3,
-    "explanation": "Die rivalisierenden Häuser Lancaster und York kämpften im 15. Jahrhundert um den englischen Thron."
+    "explanation": "Schießpulver wurde in China entwickelt und später unter anderem in Feuerwaffen eingesetzt."
   },
   {
     "id": "history-057",
@@ -674,27 +674,27 @@
   },
   {
     "id": "history-058",
-    "question": "Welcher chinesische Admiral führte im frühen 15. Jahrhundert Expeditionen in den Indischen Ozean?",
+    "question": "Wie nennt man das historische Netz von Handelswegen zwischen Ostasien und Europa?",
     "answers": [
-      "Zhang Qian",
-      "Zheng He",
-      "Kublai Khan",
-      "Zheng Chenggong"
+      "Seidenstraße",
+      "Bernsteinstraße",
+      "Gewürzstraße",
+      "Königsweg"
     ],
-    "correct": 1,
-    "explanation": "Die von Zheng He geleiteten Flottenfahrten standen im Auftrag der Ming-Herrscher."
+    "correct": 0,
+    "explanation": "Auf der Seidenstraße wurden Waren, Ideen und Techniken über weite Entfernungen ausgetauscht."
   },
   {
     "id": "history-059",
-    "question": "Zu welcher Stadt brach der malische Herrscher Mansa Musa 1324 auf Pilgerreise auf?",
+    "question": "Welche historische Kultur errichtete die Stadt Machu Picchu in den Anden?",
     "answers": [
-      "Mekka",
-      "Jerusalem",
-      "Bagdad",
-      "Konstantinopel"
+      "Die Maya",
+      "Die Inka",
+      "Die Azteken",
+      "Die Römer"
     ],
-    "correct": 0,
-    "explanation": "Mansa Musa unternahm die islamische Pilgerfahrt. Sein Aufenthalt in Kairo auf dem Weg dorthin machte großen Eindruck."
+    "correct": 1,
+    "explanation": "Machu Picchu entstand im Reich der Inka im heutigen Peru."
   },
   {
     "id": "history-060",
@@ -710,39 +710,39 @@
   },
   {
     "id": "history-061",
-    "question": "Welche Königin von Ndongo und Matamba widerstand im 17. Jahrhundert der portugiesischen Expansion?",
+    "question": "Welche Hochkultur Mittelamerikas ist unter anderem für ihre Schrift und Kalender bekannt?",
     "answers": [
-      "Yaa Asantewaa",
-      "Amina von Zaria",
-      "Nzinga",
-      "Ranavalona I."
+      "Die Wikinger",
+      "Die Phönizier",
+      "Die Maya",
+      "Die Mongolen"
     ],
     "correct": 2,
-    "explanation": "Nzinga verband militärischen Widerstand mit Diplomatie. Ihre Herrschaftsgebiete lagen im Raum des heutigen Angola."
+    "explanation": "Die Maya entwickelten eine Schrift und komplexe Kalendersysteme."
   },
   {
     "id": "history-062",
-    "question": "Welcher Feldherr siegte 1600 in der Schlacht von Sekigahara?",
+    "question": "Wie hieß die Hauptstadt des Aztekenreiches, auf deren Gebiet heute Mexiko-Stadt liegt?",
     "answers": [
-      "Oda Nobunaga",
-      "Tokugawa Ieyasu",
-      "Toyotomi Hideyoshi",
-      "Takeda Shingen"
+      "Cusco",
+      "Machu Picchu",
+      "Chichén Itzá",
+      "Tenochtitlán"
     ],
-    "correct": 1,
-    "explanation": "Der Sieg verschaffte Tokugawa Ieyasu eine entscheidende Machtstellung in Japan."
+    "correct": 3,
+    "explanation": "Tenochtitlán lag auf einer Insel im Texcoco-See und wurde von den Spaniern erobert."
   },
   {
     "id": "history-063",
-    "question": "Welcher polnische König führte 1683 das Entsatzheer für das belagerte Wien an?",
+    "question": "Was bezeichnet der Begriff Kolonie im historischen Zusammenhang?",
     "answers": [
-      "Sigismund III. Wasa",
-      "Johann III. Sobieski",
-      "August der Starke",
-      "Stephan Báthory"
+      "Ein von einer fremden Macht beherrschtes Gebiet",
+      "Einen freiwilligen Handelsbund gleichberechtigter Staaten",
+      "Einen mittelalterlichen Handwerksbetrieb",
+      "Eine unabhängige Stadt mit eigenem König"
     ],
-    "correct": 1,
-    "explanation": "Sobieskis verbündetes Heer schlug die osmanischen Belagerer in der Schlacht am Kahlenberg."
+    "correct": 0,
+    "explanation": "Europäische Mächte beherrschten über lange Zeit Kolonien in Afrika, Asien und Amerika."
   },
   {
     "id": "history-064",
@@ -758,27 +758,27 @@
   },
   {
     "id": "history-065",
-    "question": "Welcher russische Herrscher gründete 1703 Sankt Petersburg?",
+    "question": "Welche Gruppe kämpfte bei der Französischen Revolution gegen die Vorrechte des Adels?",
     "answers": [
-      "Iwan der Schreckliche",
-      "Alexander I.",
-      "Peter der Große",
-      "Nikolaus II."
+      "Römische Senatoren",
+      "Französische Revolutionäre",
+      "Mongolische Reiter",
+      "Preußische Kreuzritter"
     ],
-    "correct": 2,
-    "explanation": "Peter ließ die neue Stadt an der Newa errichten. Sie wurde ein Zentrum seiner auf Europa ausgerichteten Politik."
+    "correct": 1,
+    "explanation": "Die Revolutionäre stellten die ständische Ordnung und die Vorrechte des Adels infrage."
   },
   {
     "id": "history-066",
-    "question": "Welcher ehemalige Versklavte wurde zu einem führenden General der Haitianischen Revolution?",
+    "question": "Welches Bauwerk wurde zu Beginn der Französischen Revolution in Paris gestürmt?",
     "answers": [
-      "Simón Bolívar",
-      "Toussaint Louverture",
-      "José de San Martín",
-      "Miguel Hidalgo"
+      "Der Louvre",
+      "Das Schloss Versailles",
+      "Die Bastille",
+      "Der Eiffelturm"
     ],
-    "correct": 1,
-    "explanation": "Louverture spielte eine zentrale Rolle im Kampf gegen die Sklaverei in der französischen Kolonie Saint-Domingue."
+    "correct": 2,
+    "explanation": "Der Sturm auf das als Gefängnis genutzte Bauwerk wurde zu einem Symbol der Revolution."
   },
   {
     "id": "history-067",
@@ -794,15 +794,15 @@
   },
   {
     "id": "history-068",
-    "question": "Welcher äthiopische Kaiser führte 1896 das siegreiche Heer in der Schlacht von Adwa?",
+    "question": "Welche Maschine wurde zum wichtigen Antrieb der frühen Industrialisierung?",
     "answers": [
-      "Haile Selassie",
-      "Menelik II.",
-      "Tewodros II.",
-      "Johannes IV."
+      "Die Schreibmaschine",
+      "Die Nähmaschine",
+      "Die Rechenmaschine",
+      "Die Dampfmaschine"
     ],
-    "correct": 1,
-    "explanation": "Das äthiopische Heer besiegte die italienischen Invasionstruppen und bewahrte die Unabhängigkeit des Landes."
+    "correct": 3,
+    "explanation": "Dampfmaschinen trieben unter anderem Fabrikmaschinen und Lokomotiven an."
   },
   {
     "id": "history-069",
@@ -854,15 +854,15 @@
   },
   {
     "id": "history-073",
-    "question": "Wer führte in den 1850er-Jahren versklavte Menschen aus Maryland in die Freiheit?",
+    "question": "Wofür setzten sich die Suffragetten vor allem ein?",
     "answers": [
-      "Jane Addams",
-      "Eleanor Roosevelt",
-      "Susan B. Anthony",
-      "Harriet Tubman"
+      "Für das Wahlrecht der Frauen",
+      "Für die Rückkehr der Monarchie",
+      "Für die Abschaffung der Eisenbahn",
+      "Für die Wiedereinführung von Zünften"
     ],
-    "correct": 3,
-    "explanation": "Tubman war selbst aus der Sklaverei geflohen und kehrte wiederholt zurück, um auch andere Menschen zu befreien."
+    "correct": 0,
+    "explanation": "Die Suffragetten kämpften besonders in Großbritannien für das politische Wahlrecht von Frauen."
   },
   {
     "id": "history-074",
@@ -878,63 +878,63 @@
   },
   {
     "id": "history-075",
-    "question": "Wie hieß die Evakuierungsoperation der Alliierten bei Dünkirchen 1940?",
+    "question": "Welche Republik bestand in Deutschland unmittelbar vor der nationalsozialistischen Diktatur?",
     "answers": [
-      "Operation Torch",
-      "Operation Market Garden",
-      "Operation Overlord",
-      "Operation Dynamo"
+      "Die Bonner Republik",
+      "Die Weimarer Republik",
+      "Die Räterepublik Bayern",
+      "Die DDR"
     ],
-    "correct": 3,
-    "explanation": "Bei Operation Dynamo brachten Militärschiffe und zivile Boote eingeschlossene Soldaten über den Ärmelkanal in Sicherheit."
+    "correct": 1,
+    "explanation": "Die Weimarer Republik war Deutschlands erste parlamentarische Demokratie auf nationaler Ebene."
   },
   {
     "id": "history-076",
-    "question": "Bei welcher Seeschlacht verlor Japan im Juni 1942 vier Flugzeugträger?",
+    "question": "Welches Symbol mussten viele Jüdinnen und Juden unter nationalsozialistischer Herrschaft sichtbar tragen?",
     "answers": [
-      "Korallenmeer",
-      "Leyte",
-      "Midway",
-      "Guadalcanal"
+      "Ein rotes Kreuz",
+      "Eine weiße Rose",
+      "Einen gelben Stern",
+      "Eine schwarze Schleife"
     ],
     "correct": 2,
-    "explanation": "Bei Midway sanken die japanischen Träger Akagi, Kaga, Sōryū und Hiryū."
+    "explanation": "Die Nationalsozialisten zwangen jüdische Menschen in vielen besetzten Gebieten, einen gelben Stern zu tragen."
   },
   {
     "id": "history-077",
-    "question": "Wo verübte Claus von Stauffenberg am 20. Juli 1944 sein Bombenattentat auf Hitler?",
+    "question": "Wie hieß die Widerstandsgruppe um Sophie und Hans Scholl?",
     "answers": [
-      "Im Bendlerblock",
-      "In der Reichskanzlei",
-      "In der Wolfsschanze",
-      "Auf dem Berghof"
+      "Rote Kapelle",
+      "Edelweißpiraten",
+      "Kreisauer Kreis",
+      "Weiße Rose"
     ],
-    "correct": 2,
-    "explanation": "Stauffenberg legte eine Bombe in einem Besprechungsraum des Hauptquartiers ab. Hitler überlebte die Explosion."
+    "correct": 3,
+    "explanation": "Die Weiße Rose verbreitete Flugblätter gegen die nationalsozialistische Diktatur."
   },
   {
     "id": "history-078",
-    "question": "Welchen Lagerkomplex befreite die Rote Armee am 27. Januar 1945?",
+    "question": "Wie heißt der systematische Völkermord an den europäischen Jüdinnen und Juden durch das nationalsozialistische Deutschland?",
     "answers": [
-      "Dachau",
-      "Buchenwald",
-      "Auschwitz",
-      "Bergen-Belsen"
+      "Holocaust",
+      "Kalter Krieg",
+      "Kulturkampf",
+      "Dreißigjähriger Krieg"
     ],
-    "correct": 2,
-    "explanation": "Sowjetische Soldaten befreiten die zurückgebliebenen Häftlinge. Zuvor hatte die SS viele Gefangene auf Todesmärsche gezwungen."
+    "correct": 0,
+    "explanation": "Millionen jüdischer Menschen wurden während der nationalsozialistischen Herrschaft verfolgt und ermordet."
   },
   {
     "id": "history-079",
-    "question": "Welche Kosmonautin flog 1963 mit Wostok 6 ins All?",
+    "question": "Welche jüdische Jugendliche schrieb während ihres Verstecks vor den Nationalsozialisten ein bekanntes Tagebuch?",
     "answers": [
-      "Swetlana Sawizkaja",
-      "Sally Ride",
-      "Walentina Tereschkowa",
-      "Jelena Kondakowa"
+      "Sophie Scholl",
+      "Anne Frank",
+      "Rosa Luxemburg",
+      "Hannah Arendt"
     ],
-    "correct": 2,
-    "explanation": "Tereschkowa absolvierte bei diesem Flug zahlreiche Erdumrundungen und wurde damit zur ersten Frau im Weltraum."
+    "correct": 1,
+    "explanation": "Anne Frank versteckte sich mit ihrer Familie in Amsterdam. Ihr Tagebuch wurde nach dem Krieg veröffentlicht."
   },
   {
     "id": "history-080",
@@ -962,39 +962,39 @@
   },
   {
     "id": "history-082",
-    "question": "Welcher deutsche Raumfahrer startete 1978 mit Sojus 31?",
+    "question": "Welche Stadt versorgten westliche Alliierte während einer sowjetischen Blockade aus der Luft?",
     "answers": [
-      "Ulf Merbold",
-      "Sigmund Jähn",
-      "Klaus-Dietrich Flade",
-      "Reinhold Ewald"
+      "Wien",
+      "Hamburg",
+      "West-Berlin",
+      "München"
     ],
-    "correct": 1,
-    "explanation": "Jähn flog gemeinsam mit Waleri Bykowski zur Raumstation Saljut 6 und führte dort Experimente durch."
+    "correct": 2,
+    "explanation": "Die Berliner Luftbrücke brachte Lebensmittel und andere Güter in die blockierten Westsektoren."
   },
   {
     "id": "history-083",
-    "question": "Welche Apollo-Mission umkreiste im Dezember 1968 mit einer Besatzung den Mond?",
+    "question": "Wie hieß der Geheimdienst der DDR, der die Bevölkerung umfassend überwachte?",
     "answers": [
-      "Apollo 7",
-      "Apollo 9",
-      "Apollo 10",
-      "Apollo 8"
+      "Gestapo",
+      "Bundesnachrichtendienst",
+      "KGB",
+      "Stasi"
     ],
     "correct": 3,
-    "explanation": "Frank Borman, James Lovell und William Anders erreichten mit Apollo 8 die Mondumlaufbahn."
+    "explanation": "Das Ministerium für Staatssicherheit wurde meist Stasi genannt und bespitzelte viele Menschen."
   },
   {
     "id": "history-084",
-    "question": "Wer kommandierte die Mondmission Apollo 17 im Jahr 1972?",
+    "question": "Wie wird der jahrzehntelange Konflikt zwischen den USA und der Sowjetunion nach dem Zweiten Weltkrieg genannt?",
     "answers": [
-      "David Scott",
-      "John Young",
-      "Eugene Cernan",
-      "Alan Shepard"
+      "Kalter Krieg",
+      "Krimkrieg",
+      "Siebenjähriger Krieg",
+      "Hundertjähriger Krieg"
     ],
-    "correct": 2,
-    "explanation": "Cernan erkundete gemeinsam mit Harrison Schmitt die Mondoberfläche, während Ronald Evans im Mondorbit blieb."
+    "correct": 0,
+    "explanation": "Die beiden Supermächte standen sich politisch und militärisch gegenüber, ohne direkt einen großen Krieg gegeneinander zu führen."
   },
   {
     "id": "history-085",
@@ -1010,15 +1010,15 @@
   },
   {
     "id": "history-086",
-    "question": "Wer leitete die 1914 gestartete Antarktisexpedition mit der „Endurance“?",
+    "question": "Welcher britische Premierminister prägte nach dem Zweiten Weltkrieg die Rede vom „Eisernen Vorhang“?",
     "answers": [
-      "Robert Falcon Scott",
-      "Douglas Mawson",
-      "Fridtjof Nansen",
-      "Ernest Shackleton"
+      "Neville Chamberlain",
+      "Winston Churchill",
+      "Margaret Thatcher",
+      "Clement Attlee"
     ],
-    "correct": 3,
-    "explanation": "Die Endurance wurde im Eis eingeschlossen und ging verloren. Shackleton organisierte die Rettung ihrer gesamten Besatzung."
+    "correct": 1,
+    "explanation": "Churchill verwendete den Ausdruck für die Teilung Europas in Einflussbereiche."
   },
   {
     "id": "history-087",
@@ -1034,39 +1034,39 @@
   },
   {
     "id": "history-088",
-    "question": "Mit welchem Schiff brach James Cook 1768 zu seiner ersten Pazifikreise auf?",
+    "question": "Welche japanische Stadt wurde im Zweiten Weltkrieg durch die erste im Krieg eingesetzte Atombombe zerstört?",
     "answers": [
-      "Resolution",
-      "Discovery",
-      "Beagle",
-      "Endeavour"
+      "Tokio",
+      "Kyoto",
+      "Hiroshima",
+      "Osaka"
     ],
-    "correct": 3,
-    "explanation": "Die Endeavour brachte Cook zunächst nach Tahiti. Später untersuchte die Expedition die Küsten Neuseelands und Ostaustraliens."
+    "correct": 2,
+    "explanation": "Die USA warfen im August 1945 eine Atombombe auf Hiroshima ab; eine weitere traf Nagasaki."
   },
   {
     "id": "history-089",
-    "question": "Welche Shoshonin begleitete ab 1805 die Expedition von Lewis und Clark als Sprachmittlerin?",
+    "question": "Welcher japanische Angriff führte zum Kriegseintritt der USA im Zweiten Weltkrieg?",
     "answers": [
-      "Pocahontas",
-      "Sacagawea",
-      "Sarah Winnemucca",
-      "Zitkala-Ša"
+      "Die Schlacht von Waterloo",
+      "Die Landung in der Normandie",
+      "Die Belagerung von Stalingrad",
+      "Der Angriff auf Pearl Harbor"
     ],
-    "correct": 1,
-    "explanation": "Sacagaweas Sprachkenntnisse halfen bei Gesprächen mit den Shoshonen während der Reise zum Pazifik."
+    "correct": 3,
+    "explanation": "Japan griff 1941 den US-Marinestützpunkt auf Hawaii an. Kurz darauf traten die USA in den Krieg ein."
   },
   {
     "id": "history-090",
-    "question": "Wer begann 1871 mit regulären Ausgrabungen am Hügel Hisarlik, dem Fundort von Troja?",
+    "question": "Welcher Friedensvertrag nach dem Ersten Weltkrieg legte Deutschland weitreichende Bedingungen auf?",
     "answers": [
-      "Heinrich Schliemann",
-      "Arthur Evans",
-      "Robert Koldewey",
-      "Leonard Woolley"
+      "Der Vertrag von Versailles",
+      "Der Westfälische Friede",
+      "Der Vertrag von Maastricht",
+      "Der Wiener Kongress"
     ],
     "correct": 0,
-    "explanation": "Schliemann vermutete dort die Überreste Trojas. Seine tiefen Grabungsschnitte zerstörten allerdings wichtige Fundschichten."
+    "explanation": "Der Vertrag von Versailles regelte unter anderem Gebietsverluste und Reparationszahlungen Deutschlands."
   },
   {
     "id": "history-091",
@@ -1094,27 +1094,27 @@
   },
   {
     "id": "history-093",
-    "question": "Gegen welche religiöse Gruppe richteten sich die Massaker der Bartholomäusnacht 1572?",
+    "question": "Welche Organisation wurde nach dem Zweiten Weltkrieg zur Förderung des Weltfriedens gegründet?",
     "answers": [
-      "Katharer",
-      "Templer",
-      "Jansenisten",
-      "Hugenotten"
+      "Der Völkerbund",
+      "Die Vereinten Nationen",
+      "Die Hanse",
+      "Der Warschauer Pakt"
     ],
-    "correct": 3,
-    "explanation": "In Paris und weiteren französischen Städten wurden protestantische Hugenotten ermordet."
+    "correct": 1,
+    "explanation": "Die Vereinten Nationen wurden 1945 gegründet und sollen die internationale Zusammenarbeit fördern."
   },
   {
     "id": "history-094",
-    "question": "Wer führte 1860 den als „Zug der Tausend“ bekannten Feldzug nach Sizilien an?",
+    "question": "Wie hieß die internationale Organisation, die nach dem Ersten Weltkrieg den Frieden sichern sollte?",
     "answers": [
-      "Camillo Cavour",
-      "Giuseppe Garibaldi",
-      "Giuseppe Mazzini",
-      "Viktor Emanuel II."
+      "Europäische Union",
+      "NATO",
+      "Völkerbund",
+      "Warschauer Pakt"
     ],
-    "correct": 1,
-    "explanation": "Garibaldis Freiwillige eroberten Sizilien und weitere Gebiete des Königreichs beider Sizilien."
+    "correct": 2,
+    "explanation": "Der Völkerbund wurde nach dem Ersten Weltkrieg gegründet und später durch die Vereinten Nationen abgelöst."
   },
   {
     "id": "history-095",
@@ -1130,15 +1130,15 @@
   },
   {
     "id": "history-096",
-    "question": "In welchem Land fand um 1900 der Boxeraufstand statt?",
+    "question": "Welche Prozesse gegen führende Vertreter des NS-Regimes fanden nach dem Zweiten Weltkrieg in Deutschland statt?",
     "answers": [
-      "Japan",
-      "Indien",
-      "China",
-      "Persien"
+      "Frankfurter Prozesse",
+      "Leipziger Prozesse",
+      "Berliner Prozesse",
+      "Nürnberger Prozesse"
     ],
-    "correct": 2,
-    "explanation": "Der Aufstand richtete sich gegen ausländischen Einfluss und Christen. Truppen mehrerer Staaten schlugen ihn nieder."
+    "correct": 3,
+    "explanation": "In Nürnberg wurden führende Nationalsozialisten unter anderem wegen Kriegsverbrechen angeklagt."
   },
   {
     "id": "history-097",
@@ -1154,27 +1154,27 @@
   },
   {
     "id": "history-098",
-    "question": "Welcher kongolesische Unabhängigkeitsführer wurde 1961 ermordet?",
+    "question": "Wie nennt man die erzwungene Verschleppung und den Verkauf von Menschen aus Afrika nach Amerika über den Atlantik?",
     "answers": [
-      "Joseph Kasavubu",
-      "Mobutu Sese Seko",
-      "Moïse Tschombé",
-      "Patrice Lumumba"
+      "Transatlantischer Sklavenhandel",
+      "Seidenhandel",
+      "Gewürzhandel",
+      "Binnenhandel"
     ],
-    "correct": 3,
-    "explanation": "Lumumba hatte nach der Unabhängigkeit des Kongo 1960 als Ministerpräsident amtiert. Er wurde in Katanga ermordet."
+    "correct": 0,
+    "explanation": "Über Jahrhunderte wurden Millionen Afrikanerinnen und Afrikaner über den Atlantik verschleppt und versklavt."
   },
   {
     "id": "history-099",
-    "question": "Welcher spanische Eroberer nahm den Inka-Herrscher Atahualpa 1532 in Cajamarca gefangen?",
+    "question": "Welche europäische Seemacht eroberte große Teile Mittel- und Südamerikas im 16. Jahrhundert?",
     "answers": [
-      "Francisco Pizarro",
-      "Hernán Cortés",
-      "Pedro de Alvarado",
-      "Vasco Núñez de Balboa"
+      "Schweden",
+      "Spanien",
+      "Russland",
+      "Preußen"
     ],
-    "correct": 0,
-    "explanation": "Pizarros Männer überwältigten Atahualpas Gefolge bei einer Begegnung in Cajamarca und nahmen den Herrscher als Geisel."
+    "correct": 1,
+    "explanation": "Spanische Eroberer unterwarfen unter anderem das Azteken- und das Inkareich."
   },
   {
     "id": "history-100",

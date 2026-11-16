@@ -109,15 +109,15 @@
   },
   {
     "id": "geography-010",
-    "question": "Welche Meerenge trennt das südamerikanische Festland von Feuerland?",
+    "question": "Welche Stadt ist für ihre Kanäle und Gondeln bekannt?",
     "answers": [
-      "Beringstraße",
-      "Straße von Malakka",
-      "Straße von Hormus",
-      "Magellanstraße"
+      "Venedig",
+      "Neapel",
+      "Madrid",
+      "Wien"
     ],
-    "correct": 3,
-    "explanation": "Die Meerenge ist nach Ferdinand Magellan benannt, der sie 1520 als erster Europäer durchfuhr."
+    "correct": 0,
+    "explanation": "Venedig liegt auf Inseln in einer Lagune. Viele Wege führen dort über Kanäle und Brücken."
   },
   {
     "id": "geography-011",
@@ -157,15 +157,15 @@
   },
   {
     "id": "geography-014",
-    "question": "Wie heißt der höchste Berg Südamerikas?",
+    "question": "In welchem Land liegt die Stadt Prag?",
     "answers": [
-      "Aconcagua",
-      "Chimborazo",
-      "Cotopaxi",
-      "Huascarán"
+      "Polen",
+      "Tschechien",
+      "Ungarn",
+      "Slowakei"
     ],
-    "correct": 0,
-    "explanation": "Der Aconcagua in den argentinischen Anden ist fast 7000 Meter hoch und der höchste Berg außerhalb Asiens."
+    "correct": 1,
+    "explanation": "Prag ist die Hauptstadt Tschechiens und liegt an der Moldau."
   },
   {
     "id": "geography-015",
@@ -553,15 +553,15 @@
   },
   {
     "id": "geography-047",
-    "question": "Welche Halbinsel liegt zwischen Schwarzem Meer und Mittelmeer?",
+    "question": "Wie nennt man einen langen, schmalen Meeresarm, der tief ins Land reicht und von Gletschern geformt wurde?",
     "answers": [
-      "Arabische Halbinsel",
-      "Iberische Halbinsel",
-      "Anatolien",
-      "Jütland"
+      "Delta",
+      "Lagune",
+      "Fjord",
+      "Düne"
     ],
     "correct": 2,
-    "explanation": "Anatolien wird im Norden vom Schwarzen Meer und im Süden vom Mittelmeer begrenzt."
+    "explanation": "Fjorde entstanden durch Gletscher und wurden später vom Meer überflutet. Besonders bekannt sind sie in Norwegen."
   },
   {
     "id": "geography-048",
@@ -614,15 +614,15 @@
   {"id":"geography-052","question":"Welche große Insel ist durch die Irische See von Großbritannien getrennt?","answers":["Island","Seeland","Irland","Gotland"],"correct":2,"explanation":"Irland liegt westlich von Großbritannien; zwischen beiden Inseln liegt unter anderem die Irische See."},
   {
     "id": "geography-053",
-    "question": "Welches Meer liegt direkt östlich der Apenninhalbinsel?",
+    "question": "Welches Land liegt auf der Iberischen Halbinsel neben Spanien?",
     "answers": [
-      "Adriatisches Meer",
-      "Tyrrhenisches Meer",
-      "Ligurisches Meer",
-      "Balearisches Meer"
+      "Italien",
+      "Griechenland",
+      "Kroatien",
+      "Portugal"
     ],
-    "correct": 0,
-    "explanation": "Die Adria erstreckt sich zwischen der Apenninhalbinsel und der Balkanhalbinsel."
+    "correct": 3,
+    "explanation": "Portugal liegt im Westen der Iberischen Halbinsel und grenzt an Spanien."
   },
   {
     "id": "geography-054",
@@ -710,27 +710,27 @@
   },
   {
     "id": "geography-061",
-    "question": "Welche Meerenge liegt zwischen Alaska und der Tschuktschenhalbinsel?",
+    "question": "Welcher Fluss fließt durch Hamburg?",
     "answers": [
-      "Beringstraße",
-      "Davisstraße",
-      "Dänemarkstraße",
-      "Hudsonstraße"
+      "Elbe",
+      "Weser",
+      "Oder",
+      "Neckar"
     ],
     "correct": 0,
-    "explanation": "Die Beringstraße trennt Nordamerika von Asien und verbindet die Beringsee mit der Tschuktschensee."
+    "explanation": "Hamburg liegt an der Elbe, die weiter westlich in die Nordsee mündet."
   },
   {
     "id": "geography-062",
-    "question": "Welche Meerenge trennt die Nord- und Südinsel Neuseelands?",
+    "question": "In welchem Bundesland liegt Dresden?",
     "answers": [
-      "Foveauxstraße",
-      "Bassstraße",
-      "Torresstraße",
-      "Cookstraße"
+      "Thüringen",
+      "Sachsen",
+      "Sachsen-Anhalt",
+      "Brandenburg"
     ],
-    "correct": 3,
-    "explanation": "Die Cookstraße liegt zwischen den beiden Hauptinseln Neuseelands."
+    "correct": 1,
+    "explanation": "Dresden liegt an der Elbe und ist die Landeshauptstadt Sachsens."
   },
   {
     "id": "geography-063",
@@ -746,17 +746,28 @@
   },
   {
     "id": "geography-064",
-    "question": "Welche Meerenge liegt zwischen der Malaiischen Halbinsel und Sumatra?",
+    "question": "Zu welchem Land gehört die Inselgruppe Hawaii?",
     "answers": [
-      "Sundastraße",
-      "Straße von Malakka",
-      "Lombokstraße",
-      "Makassarstraße"
+      "Japan",
+      "Kanada",
+      "USA",
+      "Mexiko"
     ],
-    "correct": 1,
-    "explanation": "Die Straße von Malakka verläuft zwischen Sumatra im Südwesten und der Malaiischen Halbinsel im Nordosten."
+    "correct": 2,
+    "explanation": "Hawaii ist ein Bundesstaat der USA und liegt im Pazifik."
   },
-  {"id":"geography-065","question":"Über welchen Fluss erfolgt der natürliche Abfluss der Großen Seen Nordamerikas zum Atlantik?","answers":["Sankt-Lorenz-Strom","Mackenzie","Mississippi","Columbia"],"correct":0,"explanation":"Der Sankt-Lorenz-Strom führt Wasser aus dem Ontariosee und damit aus dem verbundenen System der Großen Seen zum Atlantik."},
+  {
+    "id": "geography-065",
+    "question": "Was ist ein Gletscher?",
+    "answers": [
+      "Ein unterirdischer Fluss",
+      "Ein erloschener Vulkan",
+      "Eine Sandbank im Meer",
+      "Eine große, sich langsam bewegende Eismasse"
+    ],
+    "correct": 3,
+    "explanation": "Gletscher entstehen aus angesammeltem Schnee und fließen unter ihrem eigenen Gewicht langsam talwärts."
+  },
   {
     "id": "geography-066",
     "question": "In welches Gewässer mündet die Wolga?",
@@ -771,27 +782,27 @@
   },
   {
     "id": "geography-067",
-    "question": "In welchem Gebirge liegt der K2?",
+    "question": "In welchem Meer liegt die deutsche Insel Rügen?",
     "answers": [
-      "Hindukusch",
-      "Tian Shan",
-      "Karakorum",
-      "Kunlun"
+      "Ostsee",
+      "Nordsee",
+      "Mittelmeer",
+      "Schwarzes Meer"
     ],
-    "correct": 2,
-    "explanation": "Der K2 gehört zum Karakorum, einem Hochgebirge in Asien."
+    "correct": 0,
+    "explanation": "Rügen liegt vor der Küste Mecklenburg-Vorpommerns in der Ostsee."
   },
   {
     "id": "geography-068",
-    "question": "Welche Hochebene liegt zwischen den Westghats und den Ostghats?",
+    "question": "Welcher Fluss fließt durch München?",
     "answers": [
-      "Dekkan",
-      "Altiplano",
-      "Tibetisches Hochland",
-      "Mongolisches Plateau"
+      "Main",
+      "Isar",
+      "Mosel",
+      "Weser"
     ],
-    "correct": 0,
-    "explanation": "Die Westghats und die Ostghats begrenzen die Hochebene Dekkan auf dem indischen Subkontinent."
+    "correct": 1,
+    "explanation": "Die Isar entspringt in den Alpen und fließt durch München zur Donau."
   },
   {
     "id": "geography-069",
@@ -807,39 +818,39 @@
   },
   {
     "id": "geography-070",
-    "question": "Welche Halbinsel liegt zwischen dem Golf von Kalifornien und dem offenen Pazifik?",
+    "question": "Wie heißt die Hauptstadt von Irland?",
     "answers": [
-      "Yucatán",
-      "Baja California",
-      "Florida",
-      "Labrador"
+      "Belfast",
+      "Cardiff",
+      "Dublin",
+      "Glasgow"
     ],
-    "correct": 1,
-    "explanation": "Baja California bildet die westliche Landbegrenzung des Golfs von Kalifornien."
+    "correct": 2,
+    "explanation": "Dublin liegt an der Ostküste Irlands und ist die Hauptstadt des Landes."
   },
   {
     "id": "geography-071",
-    "question": "Welche Wüste erstreckt sich entlang der Atlantikküste Namibias?",
+    "question": "Was bezeichnet man als Wattenmeer?",
     "answers": [
-      "Namib",
-      "Kalahari",
-      "Danakil",
-      "Karakum"
+      "Einen tiefen See in den Alpen",
+      "Ein Meer ohne Gezeiten",
+      "Einen unterirdischen Salzsee",
+      "Eine Küstenlandschaft, die bei Ebbe teilweise trockenfällt"
     ],
-    "correct": 0,
-    "explanation": "Die Namib begleitet die südwestafrikanische Atlantikküste; die Kalahari liegt weiter im Landesinneren."
+    "correct": 3,
+    "explanation": "Im Wattenmeer wechseln sich überflutete und bei Ebbe trockene Flächen ab. Es liegt unter anderem an der Nordseeküste."
   },
   {
     "id": "geography-072",
-    "question": "An welchem Fluss liegen die Victoriafälle?",
+    "question": "In welchem Land liegt die Landschaft Toskana?",
     "answers": [
-      "Sambesi",
-      "Niger",
-      "Limpopo",
-      "Orange"
+      "Italien",
+      "Frankreich",
+      "Spanien",
+      "Griechenland"
     ],
     "correct": 0,
-    "explanation": "An den Victoriafällen stürzt der Sambesi in eine tiefe Schlucht."
+    "explanation": "Die Toskana liegt in Mittelitalien; zu ihren bekannten Städten gehört Florenz."
   },
   {
     "id": "geography-073",
@@ -855,15 +866,15 @@
   },
   {
     "id": "geography-074",
-    "question": "Auf welcher Hochebene liegt der Titicacasee?",
+    "question": "Wie heißt die Hauptstadt von Portugal?",
     "answers": [
-      "Altiplano",
-      "Dekkan",
-      "Tibetisches Hochland",
-      "Hochland von Guayana"
+      "Porto",
+      "Lissabon",
+      "Madrid",
+      "Barcelona"
     ],
-    "correct": 0,
-    "explanation": "Der Titicacasee liegt auf dem Altiplano zwischen Gebirgsketten der Anden."
+    "correct": 1,
+    "explanation": "Lissabon liegt am Fluss Tejo nahe der Atlantikküste."
   },
   {
     "id": "geography-075",
@@ -879,27 +890,27 @@
   },
   {
     "id": "geography-076",
-    "question": "Welche Meeresstraße liegt zwischen Madagaskar und dem afrikanischen Festland?",
+    "question": "Welches Gebirge verläuft unter anderem durch Nepal und Bhutan?",
     "answers": [
-      "Straße von Malakka",
-      "Straße von Hormus",
-      "Straße von Mosambik",
-      "Straße von Gibraltar"
+      "Alpen",
+      "Anden",
+      "Himalaya",
+      "Atlas"
     ],
     "correct": 2,
-    "explanation": "Die Straße von Mosambik ist ein Meeresarm des Indischen Ozeans westlich von Madagaskar."
+    "explanation": "Der Himalaya liegt in Asien und umfasst viele hohe Berge, darunter den Mount Everest."
   },
   {
     "id": "geography-077",
-    "question": "Welche Halbinsel liegt zwischen dem Golf von Suez und dem Golf von Akaba?",
+    "question": "Welche Stadt ist die Hauptstadt von Polen?",
     "answers": [
-      "Anatolien",
-      "Krim",
-      "Somali-Halbinsel",
-      "Sinai"
+      "Krakau",
+      "Danzig",
+      "Breslau",
+      "Warschau"
     ],
     "correct": 3,
-    "explanation": "Der Golf von Suez begrenzt die Sinai-Halbinsel im Westen, der Golf von Akaba im Osten."
+    "explanation": "Warschau liegt an der Weichsel und ist die Hauptstadt Polens."
   },
   {
     "id": "geography-078",
@@ -927,51 +938,51 @@
   },
   {
     "id": "geography-080",
-    "question": "Welches Meer liegt zwischen Australien und Neuseeland?",
+    "question": "Welches Land grenzt im Norden an die USA?",
     "answers": [
-      "Korallensee",
-      "Arafurasee",
-      "Timorsee",
-      "Tasmansee"
+      "Kanada",
+      "Mexiko",
+      "Brasilien",
+      "Kuba"
     ],
-    "correct": 3,
-    "explanation": "Die Tasmansee liegt im südwestlichen Pazifik zwischen Australien und Neuseeland."
+    "correct": 0,
+    "explanation": "Kanada liegt nördlich der zusammenhängenden US-Bundesstaaten und grenzt auch an Alaska."
   },
   {
     "id": "geography-081",
-    "question": "Welche Meerenge verbindet das Marmarameer mit der Ägäis?",
+    "question": "Welches deutsche Bundesland grenzt an Frankreich?",
     "answers": [
-      "Bosporus",
-      "Straße von Messina",
-      "Straße von Otranto",
-      "Dardanellen"
+      "Sachsen",
+      "Saarland",
+      "Thüringen",
+      "Brandenburg"
     ],
-    "correct": 3,
-    "explanation": "Die Dardanellen bilden die südwestliche Verbindung des Marmarameers zur Ägäis."
+    "correct": 1,
+    "explanation": "Das Saarland liegt im Südwesten Deutschlands und grenzt an Frankreich und Luxemburg."
   },
   {
     "id": "geography-082",
-    "question": "Welche Meerenge trennt Korsika von Sardinien?",
+    "question": "Welches Gewässer ist für seinen besonders hohen Salzgehalt bekannt und liegt zwischen Israel und Jordanien?",
     "answers": [
-      "Straße von Messina",
-      "Straße von Bonifacio",
-      "Straße von Otranto",
-      "Straße von Sizilien"
+      "Bodensee",
+      "Schwarzes Meer",
+      "Totes Meer",
+      "Ostsee"
     ],
-    "correct": 1,
-    "explanation": "Die Straße von Bonifacio liegt zwischen der Südküste Korsikas und der Nordküste Sardiniens."
+    "correct": 2,
+    "explanation": "Das Tote Meer ist ein stark salzhaltiger See. Sein Wasser trägt Badende besonders gut."
   },
   {
     "id": "geography-083",
-    "question": "Welche Meerenge liegt zwischen Neuguinea und der Kap-York-Halbinsel?",
+    "question": "In welchem Land liegt die Insel Kreta?",
     "answers": [
-      "Bassstraße",
-      "Cookstraße",
-      "Sundastraße",
-      "Torresstraße"
+      "Italien",
+      "Spanien",
+      "Türkei",
+      "Griechenland"
     ],
     "correct": 3,
-    "explanation": "Die Torresstraße liegt nördlich der Kap-York-Halbinsel und südlich von Neuguinea."
+    "explanation": "Kreta ist eine griechische Insel im östlichen Mittelmeer."
   },
   {
     "id": "geography-084",
@@ -999,39 +1010,39 @@
   },
   {
     "id": "geography-086",
-    "question": "Welche Inselkette zieht sich von Alaska westwärts in Richtung Kamtschatka?",
+    "question": "Welche Länder gehören beide zu Skandinavien?",
     "answers": [
-      "Kurilen",
-      "Ryūkyū-Inseln",
-      "Aleuten",
-      "Marianen"
+      "Norwegen und Schweden",
+      "Polen und Tschechien",
+      "Spanien und Portugal",
+      "Italien und Griechenland"
     ],
-    "correct": 2,
-    "explanation": "Die Aleuten bilden einen Inselbogen zwischen dem nördlichen Pazifik und der Beringsee."
+    "correct": 0,
+    "explanation": "Norwegen und Schweden liegen auf der Skandinavischen Halbinsel. Auch Dänemark wird zu Skandinavien gezählt."
   },
   {
     "id": "geography-087",
-    "question": "Welche Halbinsel schließt südlich an die Landenge von Korinth an?",
+    "question": "Wie heißt die Hauptstadt von Luxemburg?",
     "answers": [
-      "Chalkidiki",
-      "Peloponnes",
-      "Istrien",
-      "Gallipoli"
+      "Brüssel",
+      "Luxemburg",
+      "Straßburg",
+      "Metz"
     ],
     "correct": 1,
-    "explanation": "Die Landenge von Korinth liegt zwischen dem griechischen Festland und der Peloponnes."
+    "explanation": "Die Hauptstadt des Großherzogtums trägt denselben Namen wie das Land."
   },
   {
     "id": "geography-088",
-    "question": "Welcher Fluss fließt durch Bagdad?",
+    "question": "Was zeigt die Nadel eines gewöhnlichen Kompasses ungefähr an?",
     "answers": [
-      "Euphrat",
-      "Jordan",
-      "Orontes",
-      "Tigris"
+      "Die Richtung zum Äquator",
+      "Die Richtung zum Südpol",
+      "Die Nord-Süd-Richtung",
+      "Die Windrichtung"
     ],
-    "correct": 3,
-    "explanation": "Bagdad liegt beiderseits des Tigris in Mesopotamien."
+    "correct": 2,
+    "explanation": "Eine Kompassnadel richtet sich am Erdmagnetfeld aus. Ihr markiertes Ende weist ungefähr nach Norden."
   },
   {
     "id": "geography-089",
@@ -1047,15 +1058,15 @@
   },
   {
     "id": "geography-090",
-    "question": "An welchem Fluss liegen Vientiane und Phnom Penh?",
+    "question": "In welchem Bundesland liegt die Insel Sylt?",
     "answers": [
-      "Mekong",
-      "Irrawaddy",
-      "Saluen",
-      "Jangtse"
+      "Niedersachsen",
+      "Mecklenburg-Vorpommern",
+      "Hamburg",
+      "Schleswig-Holstein"
     ],
-    "correct": 0,
-    "explanation": "Beide Städte liegen am Mekong, der durch das südostasiatische Festland fließt."
+    "correct": 3,
+    "explanation": "Sylt gehört zu Schleswig-Holstein und liegt in der Nordsee."
   },
   {
     "id": "geography-091",
@@ -1083,15 +1094,15 @@
   },
   {
     "id": "geography-093",
-    "question": "Welches Gebirgssystem erstreckt sich entlang der Ostseite Australiens?",
+    "question": "In welchem Ozean liegen die Inseln Japans?",
     "answers": [
-      "Flinderskette",
-      "Great Dividing Range",
-      "MacDonnell Ranges",
-      "Hamersley Range"
+      "Pazifischer Ozean",
+      "Atlantischer Ozean",
+      "Indischer Ozean",
+      "Arktischer Ozean"
     ],
-    "correct": 1,
-    "explanation": "Die Great Dividing Range zieht sich durch den Osten Australiens von Queensland bis Victoria."
+    "correct": 0,
+    "explanation": "Japan ist ein Inselstaat im westlichen Pazifik vor der Ostküste Asiens."
   },
   {"id":"geography-094","question":"Welcher Kontinent ist der flächenmäßig kleinste der Erde?","answers":["Europa","Australien","Antarktika","Südamerika"],"correct":1,"explanation":"Australien ist der kleinste Kontinent und besteht im Wesentlichen aus einem einzigen Staat."},
   {
@@ -1108,27 +1119,27 @@
   },
   {
     "id": "geography-096",
-    "question": "Was beschreibt der kartografische Begriff „Loxodrome“?",
+    "question": "Welcher Fluss durchquert große Teile des tropischen Regenwaldes in Südamerika?",
     "answers": [
-      "Eine Linie gleicher Geländehöhe",
-      "Eine Linie konstanten Kurswinkels",
-      "Eine Linie gleicher Wassertiefe",
-      "Eine Linie gleichen Luftdrucks"
+      "Mississippi",
+      "Amazonas",
+      "Nil",
+      "Rhein"
     ],
     "correct": 1,
-    "explanation": "Eine Loxodrome schneidet die Meridiane unter demselben Winkel und beschreibt einen konstanten rechtweisenden Kurs."
+    "explanation": "Der Amazonas fließt durch das Amazonasbecken und mündet in den Atlantik."
   },
   {
     "id": "geography-097",
-    "question": "Welche Eigenschaft bleibt bei der Mercator-Projektion lokal erhalten?",
+    "question": "Welches Land umschließt die Vatikanstadt?",
     "answers": [
-      "Flächenverhältnisse",
-      "Alle Entfernungen",
-      "Winkel",
-      "Ein überall gleicher Maßstab"
+      "Spanien",
+      "Frankreich",
+      "Italien",
+      "Österreich"
     ],
     "correct": 2,
-    "explanation": "Die Mercator-Projektion ist winkeltreu. Flächen und Entfernungen werden abhängig von der geografischen Breite verzerrt."
+    "explanation": "Die Vatikanstadt liegt vollständig innerhalb der italienischen Hauptstadt Rom."
   },
   {
     "id": "geography-098",
@@ -1156,14 +1167,14 @@
   },
   {
     "id": "geography-100",
-    "question": "Wie heißt ein Einzugsgebiet ohne natürlichen oberirdischen Abfluss zum Weltmeer?",
+    "question": "Wie heißt die Hauptstadt von Dänemark?",
     "answers": [
-      "Flussdelta",
-      "Endorheisches Becken",
-      "Ästuar",
-      "Kontinentalschelf"
+      "Stockholm",
+      "Oslo",
+      "Helsinki",
+      "Kopenhagen"
     ],
-    "correct": 1,
-    "explanation": "Ein endorheisches Becken entwässert nach innen. Sein Wasser erreicht über die oberirdischen Abflusswege kein Weltmeer."
+    "correct": 3,
+    "explanation": "Kopenhagen liegt überwiegend auf der dänischen Insel Seeland."
   }
 ]

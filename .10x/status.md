@@ -49,3 +49,8 @@ Offen: inhaltliche Prüfung der Fragen nur als Stichprobe; Test auf echtem Gerä
 
 - [x] 134 besonders schwere Fragen in allen 14 Kategorien durch leichtere ersetzt (ids unverändert), per Haiku-Subagenten, danach gegengelesen
 - Offen: Die Agenten nennen rund 280 weitere Fragen als zu schwer (vor allem Politik & Wirtschaft, Star Trek, Essen & Trinken, Kunst & Musik)
+
+## Zweite Runde Fragen entschärft (2026-11-16)
+
+- [x] 641 weitere Fragen per Codex CLI (gpt-6.1-terra, low) durch leichtere ersetzt; alle gegengelesen, 3 falsche Lösungsindizes (food-015/016/018), 1 Beinahe-Dopplung (sports-085) und 1 Tippfehler korrigiert
+- Stand: 775 von 1400 Fragen seit dem 14.11. ersetzt; Technik, Formel 1, Star Trek und Sport sind jetzt überwiegend Begriffs- und Grundlagenfragen
