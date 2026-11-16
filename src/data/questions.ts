@@ -21,6 +21,11 @@ export const CATEGORIES: readonly Category[] = [
   { id: 'nature', name: 'Natur & Tiere', emoji: '🦊' },
   { id: 'food', name: 'Essen & Trinken', emoji: '🍝' },
   { id: 'society', name: 'Politik & Wirtschaft', emoji: '⚖️' },
+  { id: 'music', name: 'Pop & Rock', emoji: '🎸' },
+  { id: 'games', name: 'Videospiele', emoji: '🎮' },
+  { id: 'cars', name: 'Autos & Verkehr', emoji: '🚗' },
+  { id: 'space', name: 'Weltraum', emoji: '🚀' },
+  { id: 'health', name: 'Gesundheit & Körper', emoji: '🩺' },
 ];
 
 const FALLBACK: Category = { id: 'other', name: 'Sonstiges', emoji: '❓' };

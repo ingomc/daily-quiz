@@ -59,3 +59,8 @@ Offen: inhaltliche Prüfung der Fragen nur als Stichprobe; Test auf echtem Gerä
 
 - [x] 60 Technik- und 48 Formel-1-Fragen auf die ursprünglichen mittelschweren Fassungen zurückgesetzt; obskure Originale (8 Technik, 21 Formel 1) bleiben leicht
 - Zielniveau: Technik und Formel 1 mittelschwer (Nutzer ist dort Profi), alle anderen Kategorien leicht
+
+## Fünf neue Kategorien (2026-11-16)
+
+- [x] Pop & Rock, Videospiele, Autos & Verkehr, Weltraum, Gesundheit & Körper mit je 50 mittelleichten Fragen (Codex CLI, gpt-6.1-terra, low); alle 250 gegengelesen, 4 ersetzt (1 Dopplung mit science-060, 1 Beinahe-Dopplung mit f1-005, 2 Fragen, die ihre Antwort verrieten)
+- Stand: 1650 Fragen in 19 Kategorien; neue Kategorien haben 50 statt 100 Fragen und kommen deshalb seltener dran

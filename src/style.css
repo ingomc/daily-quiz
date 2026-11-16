@@ -245,6 +245,11 @@ h2 {
 [data-category='nature'] { --cat: #2e9e5b; }
 [data-category='food'] { --cat: #f2b01e; }
 [data-category='society'] { --cat: #6c7ae0; }
+[data-category='music'] { --cat: #f0528a; }
+[data-category='games'] { --cat: #8b6cf6; }
+[data-category='cars'] { --cat: #d98a3a; }
+[data-category='space'] { --cat: #5a8ef0; }
+[data-category='health'] { --cat: #3fbf9a; }
 
 .chip-review {
   --cat: var(--sun);
